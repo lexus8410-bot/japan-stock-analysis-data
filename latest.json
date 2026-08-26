@@ -2,107 +2,33 @@
   "schema_version": 1,
   "purpose": "ChatGPT machine-readable mirror for the Japanese stock dashboard",
   "analysis_policy_url": "https://raw.githubusercontent.com/lexus8410-bot/japan-stock-analysis-data/main/analysis_policy.md",
-  "updated_at": "2026-08-26T17:06:42+09:00",
-  "market_as_of": "2026-08-25",
+  "updated_at": "2026-08-26T23:35:47+09:00",
+  "market_as_of": "2026-08-26",
   "close_status": "confirmed daily close",
   "validation_status": "PASS",
   "watchlist_count": 8,
   "stocks": [
     {
-      "ticker": "5805",
-      "name": "SWCC",
-      "exchange": "TSE",
-      "price_as_of": "2026-08-25",
-      "close": 14210,
-      "ma": {
-        "ma5": 13846,
-        "ma25": 12569.6,
-        "ma75": 13349.3333
-      },
-      "ma_distance_percent": {
-        "ma5": 2.63,
-        "ma25": 13.05,
-        "ma75": 6.45
-      },
-      "rsi14": 59.55,
-      "macd": {
-        "line": 540.5769,
-        "signal": 436.1438,
-        "histogram": 104.4331,
-        "parameters": [
-          12,
-          26,
-          9
-        ]
-      },
-      "atr14": {
-        "value": 819.2218,
-        "percent": 5.77
-      },
-      "volume": {
-        "latest": 389400,
-        "average_20d": 556650,
-        "ratio_to_20d": 0.6995
-      },
-      "topix_relative_strength_percent": {
-        "one_month": 22.46
-      },
-      "return_20d_percent": 23.78,
-      "state": "OVERHEATED",
-      "pullback_assessment": {
-        "label": "まだ高い",
-        "derived_from_formal_state": true,
-        "basis": "複数の過熱条件が同時成立",
-        "is_trade_signal": false
-      },
-      "scores": {
-        "company_quality": {
-          "rank": "A",
-          "score": 35,
-          "maximum": 40
-        },
-        "investment_attractiveness": {
-          "rank": "C",
-          "score": 59,
-          "maximum": 100
-        },
-        "breakdown": {
-          "fundamental": 35,
-          "valuation": 9,
-          "trend_quality": 11,
-          "entry_timing": 4
-        }
-      },
-      "codex_comment": "企業品質は維持できるが複数の過熱条件が再成立しており、人間承認後の正式状態OVERHEATEDが整合する。",
-      "analysis_as_of": "2026-08-19",
-      "updated_at": "2026-08-26T17:06:42+09:00",
-      "chart_data": {
-        "path": "chart_data/5805.json",
-        "bars": 120,
-        "interval": "1d"
-      }
-    },
-    {
       "ticker": "6134",
       "name": "FUJI",
       "exchange": "TSE",
-      "price_as_of": "2026-08-25",
-      "close": 7219,
+      "price_as_of": "2026-08-26",
+      "close": 7275.0,
       "ma": {
-        "ma5": 7292,
-        "ma25": 7615.12,
-        "ma75": 7795.5867
+        "ma5": 7272.4,
+        "ma25": 7608.92,
+        "ma75": 7802.9733
       },
       "ma_distance_percent": {
-        "ma5": -1,
-        "ma25": -5.2,
-        "ma75": -7.4
+        "ma5": 0.04,
+        "ma25": -4.39,
+        "ma75": -6.77
       },
-      "rsi14": 42.48,
+      "rsi14": 43.49,
       "macd": {
-        "line": -88.7161,
-        "signal": -1.0535,
-        "histogram": -87.6626,
+        "line": -108.1316,
+        "signal": -22.4691,
+        "histogram": -85.6625,
         "parameters": [
           12,
           26,
@@ -110,46 +36,46 @@
         ]
       },
       "atr14": {
-        "value": 429.7393,
-        "percent": 5.95
+        "value": 414.6151,
+        "percent": 5.7
       },
       "volume": {
-        "latest": 718000,
-        "average_20d": 1108975,
-        "ratio_to_20d": 0.6474
+        "latest": 426700,
+        "average_20d": 1078805.0,
+        "ratio_to_20d": 0.3955
       },
       "topix_relative_strength_percent": {
-        "one_month": -4.77
+        "one_month": -4.63
       },
-      "return_20d_percent": -4.32,
+      "return_20d_percent": 6.89,
       "state": "APPROACHING",
       "pullback_assessment": {
-        "label": "押し目接近",
+        "label": "�����ڐڋ�",
         "derived_from_formal_state": true,
-        "basis": "監視参考価格まで1 ATR以内",
+        "basis": "�Ď��Q�l���i�܂�1 ATR�ȓ�",
         "is_trade_signal": false
       },
       "scores": {
         "company_quality": {
           "rank": "A+",
-          "score": 37,
+          "score": 37.0,
           "maximum": 40
         },
         "investment_attractiveness": {
           "rank": "C",
-          "score": 62,
+          "score": 62.0,
           "maximum": 100
         },
         "breakdown": {
-          "fundamental": 37,
-          "valuation": 11,
-          "trend_quality": 8,
-          "entry_timing": 6
+          "fundamental": 37.0,
+          "valuation": 11.0,
+          "trend_quality": 8.0,
+          "entry_timing": 6.0
         }
       },
-      "codex_comment": "監視参考上限まで0.16 ATRへ接近した最優先監視銘柄だが、価格条件は未達で反転確認群も0である。",
+      "codex_comment": "�Ď��Q�l����܂�0.30 ATR�̍ŗD��Ď����������A�I�l�͏��������A���]�m�F�����i��1�Q�����ł���B",
       "analysis_as_of": "2026-08-19",
-      "updated_at": "2026-08-26T17:06:42+09:00",
+      "updated_at": "2026-08-26T23:35:47+09:00",
       "chart_data": {
         "path": "chart_data/6134.json",
         "bars": 120,
@@ -157,26 +83,26 @@
       }
     },
     {
-      "ticker": "6508",
-      "name": "明電舎",
+      "ticker": "5805",
+      "name": "SWCC",
       "exchange": "TSE",
-      "price_as_of": "2026-08-25",
-      "close": 11580,
+      "price_as_of": "2026-08-26",
+      "close": 14490.0,
       "ma": {
-        "ma5": 11452,
-        "ma25": 10488.4,
-        "ma75": 10025.6
+        "ma5": 14016.0,
+        "ma25": 12719.2,
+        "ma75": 13312.8
       },
       "ma_distance_percent": {
-        "ma5": 1.12,
-        "ma25": 10.41,
-        "ma75": 15.5
+        "ma5": 3.38,
+        "ma25": 13.92,
+        "ma75": 8.84
       },
-      "rsi14": 58.97,
+      "rsi14": 61.38,
       "macd": {
-        "line": 588.2112,
-        "signal": 591.2975,
-        "histogram": -3.0863,
+        "line": 568.0188,
+        "signal": 462.5188,
+        "histogram": 105.4999,
         "parameters": [
           12,
           26,
@@ -184,46 +110,120 @@
         ]
       },
       "atr14": {
-        "value": 594.4726,
-        "percent": 5.13
+        "value": 802.8488,
+        "percent": 5.54
       },
       "volume": {
-        "latest": 267900,
-        "average_20d": 373850,
-        "ratio_to_20d": 0.7166
+        "latest": 308500,
+        "average_20d": 548430.0,
+        "ratio_to_20d": 0.5625
       },
       "topix_relative_strength_percent": {
-        "one_month": 25.8
+        "one_month": 24.84
       },
-      "return_20d_percent": 27.96,
+      "return_20d_percent": 34.42,
       "state": "OVERHEATED",
       "pullback_assessment": {
-        "label": "まだ高い",
+        "label": "�܂�����",
         "derived_from_formal_state": true,
-        "basis": "複数の過熱条件が同時成立",
+        "basis": "�����̉ߔM��������������",
+        "is_trade_signal": false
+      },
+      "scores": {
+        "company_quality": {
+          "rank": "A",
+          "score": 35.0,
+          "maximum": 40
+        },
+        "investment_attractiveness": {
+          "rank": "C",
+          "score": 59.0,
+          "maximum": 100
+        },
+        "breakdown": {
+          "fundamental": 35.0,
+          "valuation": 9.0,
+          "trend_quality": 11.0,
+          "entry_timing": 4.0
+        }
+      },
+      "codex_comment": "��ƕi���͈ێ��ł��邪�A25��������13.9%�E20���㏸��34.4%�ŕ����ߔM�����������A����OVERHEATED����������B",
+      "analysis_as_of": "2026-08-19",
+      "updated_at": "2026-08-26T23:35:47+09:00",
+      "chart_data": {
+        "path": "chart_data/5805.json",
+        "bars": 120,
+        "interval": "1d"
+      }
+    },
+    {
+      "ticker": "6508",
+      "name": "���d��",
+      "exchange": "TSE",
+      "price_as_of": "2026-08-26",
+      "close": 11750.0,
+      "ma": {
+        "ma5": 11540.0,
+        "ma25": 10608.0,
+        "ma75": 10057.6
+      },
+      "ma_distance_percent": {
+        "ma5": 1.82,
+        "ma25": 10.77,
+        "ma75": 16.83
+      },
+      "rsi14": 60.48,
+      "macd": {
+        "line": 572.2678,
+        "signal": 587.4916,
+        "histogram": -15.2238,
+        "parameters": [
+          12,
+          26,
+          9
+        ]
+      },
+      "atr14": {
+        "value": 579.8674,
+        "percent": 4.94
+      },
+      "volume": {
+        "latest": 214000,
+        "average_20d": 374165.0,
+        "ratio_to_20d": 0.5719
+      },
+      "topix_relative_strength_percent": {
+        "one_month": 28.41
+      },
+      "return_20d_percent": 40.38,
+      "state": "OVERHEATED",
+      "pullback_assessment": {
+        "label": "�܂�����",
+        "derived_from_formal_state": true,
+        "basis": "�����̉ߔM��������������",
         "is_trade_signal": false
       },
       "scores": {
         "company_quality": {
           "rank": "A+",
-          "score": 36,
+          "score": 36.0,
           "maximum": 40
         },
         "investment_attractiveness": {
           "rank": "C",
-          "score": 62,
+          "score": 62.0,
           "maximum": 100
         },
         "breakdown": {
-          "fundamental": 36,
-          "valuation": 10,
-          "trend_quality": 12,
-          "entry_timing": 4
+          "fundamental": 36.0,
+          "valuation": 10.0,
+          "trend_quality": 12.0,
+          "entry_timing": 4.0
         }
       },
-      "codex_comment": "企業品質と中長期トレンドは強いが、複数の過熱条件と価格の安全余裕不足が続くためOVERHEATEDを維持する。",
+      "codex_comment": "��ƕi���ƒ������g�����h�͋������A25��������10.8%�E20���㏸��40.4%�ŕ����ߔM��������������OVERHEATED���ێ�����B",
       "analysis_as_of": "2026-08-19",
-      "updated_at": "2026-08-26T17:06:42+09:00",
+      "updated_at": "2026-08-26T23:35:47+09:00",
       "chart_data": {
         "path": "chart_data/6508.json",
         "bars": 120,
@@ -232,25 +232,25 @@
     },
     {
       "ticker": "6622",
-      "name": "ダイヘン",
+      "name": "�_�C�w��",
       "exchange": "TSE",
-      "price_as_of": "2026-08-25",
-      "close": 12930,
+      "price_as_of": "2026-08-26",
+      "close": 13140.0,
       "ma": {
-        "ma5": 12994,
-        "ma25": 13796,
-        "ma75": 15602.4
+        "ma5": 13012.0,
+        "ma25": 13738.8,
+        "ma75": 15542.6667
       },
       "ma_distance_percent": {
-        "ma5": -0.49,
-        "ma25": -6.28,
-        "ma75": -17.13
+        "ma5": 0.98,
+        "ma25": -4.36,
+        "ma75": -15.46
       },
-      "rsi14": 41.09,
+      "rsi14": 43.06,
       "macd": {
-        "line": -532.2211,
-        "signal": -505.018,
-        "histogram": -27.2031,
+        "line": -517.2037,
+        "signal": -507.4551,
+        "histogram": -9.7485,
         "parameters": [
           12,
           26,
@@ -258,46 +258,46 @@
         ]
       },
       "atr14": {
-        "value": 811.972,
-        "percent": 6.28
+        "value": 780.4026,
+        "percent": 5.94
       },
       "volume": {
-        "latest": 125800,
-        "average_20d": 324325,
-        "ratio_to_20d": 0.3879
+        "latest": 144500,
+        "average_20d": 305895.0,
+        "ratio_to_20d": 0.4724
       },
       "topix_relative_strength_percent": {
-        "one_month": -13.52
+        "one_month": -11.11
       },
-      "return_20d_percent": -11.56,
+      "return_20d_percent": 0.23,
       "state": "WATCH",
       "pullback_assessment": {
-        "label": "押し待ち",
+        "label": "�����҂�",
         "derived_from_formal_state": true,
-        "basis": "監視参考価格が未達",
+        "basis": "�Ď��Q�l���i�����B",
         "is_trade_signal": false
       },
       "scores": {
         "company_quality": {
           "rank": "A",
-          "score": 34,
+          "score": 34.0,
           "maximum": 40
         },
         "investment_attractiveness": {
           "rank": "C",
-          "score": 53,
+          "score": 53.0,
           "maximum": 100
         },
         "breakdown": {
-          "fundamental": 34,
-          "valuation": 12,
-          "trend_quality": 2,
-          "entry_timing": 5
+          "fundamental": 34.0,
+          "valuation": 12.0,
+          "trend_quality": 2.0,
+          "entry_timing": 5.0
         }
       },
-      "codex_comment": "企業品質は高いが、価格条件が未達で下降トレンドとTOPIX劣後が続くため、正式WATCHを維持する。",
+      "codex_comment": "��ƕi���͍������A�Ď��Q�l�������2.34 ATR����A���~�g�����h��TOPIX��オ�������ߐ���WATCH���ێ�����B",
       "analysis_as_of": "2026-08-19",
-      "updated_at": "2026-08-26T17:06:42+09:00",
+      "updated_at": "2026-08-26T23:35:47+09:00",
       "chart_data": {
         "path": "chart_data/6622.json",
         "bars": 120,
@@ -306,25 +306,25 @@
     },
     {
       "ticker": "7729",
-      "name": "東京精密",
+      "name": "��������",
       "exchange": "TSE",
-      "price_as_of": "2026-08-25",
-      "close": 18010,
+      "price_as_of": "2026-08-26",
+      "close": 18100.0,
       "ma": {
-        "ma5": 17573,
-        "ma25": 17731,
-        "ma75": 18083.4667
+        "ma5": 17667.0,
+        "ma25": 17727.6,
+        "ma75": 18073.3333
       },
       "ma_distance_percent": {
-        "ma5": 2.49,
-        "ma25": 1.57,
-        "ma75": -0.41
+        "ma5": 2.45,
+        "ma25": 2.1,
+        "ma75": 0.15
       },
-      "rsi14": 50.28,
+      "rsi14": 50.88,
       "macd": {
-        "line": -45.6644,
-        "signal": -21.9007,
-        "histogram": -23.7637,
+        "line": -27.92,
+        "signal": -23.1046,
+        "histogram": -4.8154,
         "parameters": [
           12,
           26,
@@ -332,46 +332,46 @@
         ]
       },
       "atr14": {
-        "value": 1035.0871,
-        "percent": 5.75
+        "value": 1002.938,
+        "percent": 5.54
       },
       "volume": {
-        "latest": 328700,
-        "average_20d": 533225,
-        "ratio_to_20d": 0.6164
+        "latest": 296100,
+        "average_20d": 511695.0,
+        "ratio_to_20d": 0.5787
       },
       "topix_relative_strength_percent": {
-        "one_month": 0.73
+        "one_month": 0.21
       },
-      "return_20d_percent": 0.81,
+      "return_20d_percent": 12.28,
       "state": "WATCH",
       "pullback_assessment": {
-        "label": "押し待ち",
+        "label": "�����҂�",
         "derived_from_formal_state": true,
-        "basis": "監視参考価格が未達",
+        "basis": "�Ď��Q�l���i�����B",
         "is_trade_signal": false
       },
       "scores": {
         "company_quality": {
           "rank": "A+",
-          "score": 37,
+          "score": 37.0,
           "maximum": 40
         },
         "investment_attractiveness": {
           "rank": "C",
-          "score": 58,
+          "score": 58.0,
           "maximum": 100
         },
         "breakdown": {
-          "fundamental": 37,
-          "valuation": 7,
-          "trend_quality": 8,
-          "entry_timing": 6
+          "fundamental": 37.0,
+          "valuation": 7.0,
+          "trend_quality": 8.0,
+          "entry_timing": 6.0
         }
       },
-      "codex_comment": "半導体受注と財務は強いが、株価は監視参考上限から3.12 ATR離れ、安全余裕が不足するためWATCHを維持する。",
+      "codex_comment": "�����̎󒍂ƍ����͋������A�����͊Ď��Q�l�������3.31 ATR����A���S�]�T���s�����邽��WATCH���ێ�����B",
       "analysis_as_of": "2026-08-19",
-      "updated_at": "2026-08-26T17:06:42+09:00",
+      "updated_at": "2026-08-26T23:35:47+09:00",
       "chart_data": {
         "path": "chart_data/7729.json",
         "bars": 120,
@@ -379,100 +379,26 @@
       }
     },
     {
-      "ticker": "4203",
-      "name": "住友ベークライト",
-      "exchange": "TSE",
-      "price_as_of": "2026-08-25",
-      "close": 7378,
-      "ma": {
-        "ma5": 7263.8,
-        "ma25": 7213.92,
-        "ma75": 7026.64
-      },
-      "ma_distance_percent": {
-        "ma5": 1.57,
-        "ma25": 2.27,
-        "ma75": 5
-      },
-      "rsi14": 51.44,
-      "macd": {
-        "line": 81.9166,
-        "signal": 123.7503,
-        "histogram": -41.8337,
-        "parameters": [
-          12,
-          26,
-          9
-        ]
-      },
-      "atr14": {
-        "value": 328.8785,
-        "percent": 4.46
-      },
-      "volume": {
-        "latest": 1025500,
-        "average_20d": 955640,
-        "ratio_to_20d": 1.0731
-      },
-      "topix_relative_strength_percent": {
-        "one_month": 6.4
-      },
-      "return_20d_percent": 11.03,
-      "state": "WATCH",
-      "pullback_assessment": {
-        "label": "押し待ち",
-        "derived_from_formal_state": true,
-        "basis": "監視参考価格が未達",
-        "is_trade_signal": false
-      },
-      "scores": {
-        "company_quality": {
-          "rank": "A+",
-          "score": 36,
-          "maximum": 40
-        },
-        "investment_attractiveness": {
-          "rank": "C",
-          "score": 63,
-          "maximum": 100
-        },
-        "breakdown": {
-          "fundamental": 36,
-          "valuation": 8,
-          "trend_quality": 12,
-          "entry_timing": 7
-        }
-      },
-      "codex_comment": "半導体材料の競争力と利益寄与は高いが、監視参考上限から3.62 ATR離れ、価格条件を満たしていない。",
-      "analysis_as_of": "2026-08-19",
-      "updated_at": "2026-08-26T17:06:42+09:00",
-      "chart_data": {
-        "path": "chart_data/4203.json",
-        "bars": 120,
-        "interval": "1d"
-      }
-    },
-    {
       "ticker": "6383",
-      "name": "ダイフク",
+      "name": "�_�C�t�N",
       "exchange": "TSE",
-      "price_as_of": "2026-08-25",
-      "close": 5861,
+      "price_as_of": "2026-08-26",
+      "close": 5853.0,
       "ma": {
-        "ma5": 5861.8,
-        "ma25": 6088.24,
-        "ma75": 6701.2
+        "ma5": 5864.2,
+        "ma25": 6067.72,
+        "ma75": 6678.2
       },
       "ma_distance_percent": {
-        "ma5": -0.01,
-        "ma25": -3.73,
-        "ma75": -12.54
+        "ma5": -0.19,
+        "ma25": -3.54,
+        "ma75": -12.36
       },
-      "rsi14": 38.49,
+      "rsi14": 38.27,
       "macd": {
-        "line": -152.7753,
-        "signal": -146.2677,
-        "histogram": -6.5076,
+        "line": -154.4256,
+        "signal": -147.8993,
+        "histogram": -6.5263,
         "parameters": [
           12,
           26,
@@ -480,46 +406,46 @@
         ]
       },
       "atr14": {
-        "value": 210.8255,
-        "percent": 3.6
+        "value": 202.9094,
+        "percent": 3.47
       },
       "volume": {
-        "latest": 1573600,
-        "average_20d": 2170860,
-        "ratio_to_20d": 0.7249
+        "latest": 1782200,
+        "average_20d": 2158860.0,
+        "ratio_to_20d": 0.8255
       },
       "topix_relative_strength_percent": {
-        "one_month": -7.4
+        "one_month": -8.14
       },
-      "return_20d_percent": -7,
+      "return_20d_percent": -0.14,
       "state": "WATCH",
       "pullback_assessment": {
-        "label": "押し待ち",
+        "label": "�����҂�",
         "derived_from_formal_state": true,
-        "basis": "監視参考価格が未達",
+        "basis": "�Ď��Q�l���i�����B",
         "is_trade_signal": false
       },
       "scores": {
         "company_quality": {
           "rank": "A+",
-          "score": 37,
+          "score": 37.0,
           "maximum": 40
         },
         "investment_attractiveness": {
           "rank": "C",
-          "score": 58,
+          "score": 58.0,
           "maximum": 100
         },
         "breakdown": {
-          "fundamental": 37,
-          "valuation": 10,
-          "trend_quality": 5,
-          "entry_timing": 6
+          "fundamental": 37.0,
+          "valuation": 10.0,
+          "trend_quality": 5.0,
+          "entry_timing": 6.0
         }
       },
-      "codex_comment": "受注基盤と財務は強いが、価格条件が遠く、下降トレンドとTOPIX劣後が継続している。",
+      "codex_comment": "�󒍊�Ղƍ����͋������A�Ď��Q�l�������3.63 ATR����A���~�g�����h��TOPIX��オ�p�����Ă���B",
       "analysis_as_of": "2026-08-19",
-      "updated_at": "2026-08-26T17:06:42+09:00",
+      "updated_at": "2026-08-26T23:35:47+09:00",
       "chart_data": {
         "path": "chart_data/6383.json",
         "bars": 120,
@@ -527,26 +453,26 @@
       }
     },
     {
-      "ticker": "6504",
-      "name": "富士電機",
+      "ticker": "4203",
+      "name": "�Z�F�x�[�N���C�g",
       "exchange": "TSE",
-      "price_as_of": "2026-08-25",
-      "close": 14010,
+      "price_as_of": "2026-08-26",
+      "close": 7540.0,
       "ma": {
-        "ma5": 13820,
-        "ma25": 13828,
-        "ma75": 14174.2667
+        "ma5": 7322.4,
+        "ma25": 7232.48,
+        "ma75": 7044.0267
       },
       "ma_distance_percent": {
-        "ma5": 1.37,
-        "ma25": 1.32,
-        "ma75": -1.16
+        "ma5": 2.97,
+        "ma25": 4.25,
+        "ma75": 7.04
       },
-      "rsi14": 50.69,
+      "rsi14": 54.45,
       "macd": {
-        "line": 137.9971,
-        "signal": 206.8519,
-        "histogram": -68.8547,
+        "line": 87.3134,
+        "signal": 116.4629,
+        "histogram": -29.1495,
         "parameters": [
           12,
           26,
@@ -554,46 +480,120 @@
         ]
       },
       "atr14": {
-        "value": 662.6297,
-        "percent": 4.73
+        "value": 326.0301,
+        "percent": 4.32
       },
       "volume": {
-        "latest": 499000,
-        "average_20d": 1085585,
-        "ratio_to_20d": 0.4597
+        "latest": 754000,
+        "average_20d": 964975.0,
+        "ratio_to_20d": 0.7814
       },
       "topix_relative_strength_percent": {
-        "one_month": 6.21
+        "one_month": 12.23
       },
-      "return_20d_percent": 7.89,
+      "return_20d_percent": 19.74,
       "state": "WATCH",
       "pullback_assessment": {
-        "label": "押し待ち",
+        "label": "�����҂�",
         "derived_from_formal_state": true,
-        "basis": "監視参考価格が未達",
+        "basis": "�Ď��Q�l���i�����B",
         "is_trade_signal": false
       },
       "scores": {
         "company_quality": {
           "rank": "A+",
-          "score": 37,
+          "score": 36.0,
           "maximum": 40
         },
         "investment_attractiveness": {
           "rank": "C",
-          "score": 61,
+          "score": 63.0,
           "maximum": 100
         },
         "breakdown": {
-          "fundamental": 37,
-          "valuation": 9,
-          "trend_quality": 9,
-          "entry_timing": 6
+          "fundamental": 36.0,
+          "valuation": 8.0,
+          "trend_quality": 12.0,
+          "entry_timing": 7.0
         }
       },
-      "codex_comment": "エネルギーとパワーエレクトロニクスの成長力は高いが、価格条件が最も遠く、正常利益ベースの安全余裕が不足する。",
+      "codex_comment": "�����̍ޗ��̋����͂Ɨ��v��^�͍������A�Ď��Q�l�������4.15 ATR����A���i�����𖞂����Ă��Ȃ��B",
       "analysis_as_of": "2026-08-19",
-      "updated_at": "2026-08-26T17:06:42+09:00",
+      "updated_at": "2026-08-26T23:35:47+09:00",
+      "chart_data": {
+        "path": "chart_data/4203.json",
+        "bars": 120,
+        "interval": "1d"
+      }
+    },
+    {
+      "ticker": "6504",
+      "name": "�x�m�d�@",
+      "exchange": "TSE",
+      "price_as_of": "2026-08-26",
+      "close": 13965.0,
+      "ma": {
+        "ma5": 13912.0,
+        "ma25": 13883.6,
+        "ma75": 14160.4
+      },
+      "ma_distance_percent": {
+        "ma5": 0.38,
+        "ma25": 0.59,
+        "ma75": -1.38
+      },
+      "rsi14": 50.17,
+      "macd": {
+        "line": 117.3292,
+        "signal": 188.9473,
+        "histogram": -71.6182,
+        "parameters": [
+          12,
+          26,
+          9
+        ]
+      },
+      "atr14": {
+        "value": 634.2276,
+        "percent": 4.54
+      },
+      "volume": {
+        "latest": 453400,
+        "average_20d": 1043275.0,
+        "ratio_to_20d": 0.4346
+      },
+      "topix_relative_strength_percent": {
+        "one_month": 6.37
+      },
+      "return_20d_percent": 12.44,
+      "state": "WATCH",
+      "pullback_assessment": {
+        "label": "�����҂�",
+        "derived_from_formal_state": true,
+        "basis": "�Ď��Q�l���i�����B",
+        "is_trade_signal": false
+      },
+      "scores": {
+        "company_quality": {
+          "rank": "A+",
+          "score": 37.0,
+          "maximum": 40
+        },
+        "investment_attractiveness": {
+          "rank": "C",
+          "score": 61.0,
+          "maximum": 100
+        },
+        "breakdown": {
+          "fundamental": 37.0,
+          "valuation": 9.0,
+          "trend_quality": 9.0,
+          "entry_timing": 6.0
+        }
+      },
+      "codex_comment": "�G�l���M�[�ƃp���[�G���N�g���j�N�X�̐����͍͂������A�Ď��Q�l�������4.74 ATR�Ɖ��i�������S8�����ōł������B",
+      "analysis_as_of": "2026-08-19",
+      "updated_at": "2026-08-26T23:35:47+09:00",
       "chart_data": {
         "path": "chart_data/6504.json",
         "bars": 120,
@@ -611,3 +611,4 @@
   },
   "weekly_screening_url": "https://raw.githubusercontent.com/lexus8410-bot/japan-stock-analysis-data/main/weekly_screening.json"
 }
+
