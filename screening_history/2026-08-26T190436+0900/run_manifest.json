@@ -1,0 +1,326 @@
+{
+  "schema_version": 1,
+  "run_id": "2026-08-26T190436+0900",
+  "generated_at": "2026-08-26T19:04:36+09:00",
+  "screening_date": "2026-08-26",
+  "requested_date": "2026-08-26",
+  "source_commit": null,
+  "source_worktree_dirty": null,
+  "warnings": [
+    "GIT_METADATA_UNAVAILABLE"
+  ],
+  "universe_count": 3706,
+  "market_data_usable_count": 3625,
+  "passed_first_screen": 250,
+  "financial_data_usable_count": 56,
+  "published_slots": 30,
+  "unique_candidate_count": 24,
+  "category_overlap_count": 6,
+  "category_scores_are_cross_comparable": false,
+  "universe_source": {
+    "universe_source": "https://www.jpx.co.jp/markets/statistics-equities/misc/tvdivq0000001vg2-att/data_j.xls",
+    "universe_source_as_of": null,
+    "retrieved_at": "2026-08-26T19:02:05+09:00",
+    "source_file_sha256": "6e401867d9ddf2524e4752f08fd3e3e434cd308c6d423839ca6e24fc7b1e1653"
+  },
+  "financial_data_diagnostics": {
+    "requested": 250,
+    "usable": 56,
+    "usable_rate_percent": 22.4,
+    "failed": 194,
+    "failure_reasons": {
+      "PAGE_NOT_FOUND": 0,
+      "PARSING_FAILED": 0,
+      "REQUIRED_FIELDS_MISSING": 0,
+      "TIMEOUT": 0,
+      "OTHER": 0,
+      "UNKNOWN": 194
+    },
+    "failure_reason_count": 194
+  },
+  "score_diagnostics": {
+    "early_move": {
+      "rankable_count": 250,
+      "score": {
+        "count": 250,
+        "minimum": 8.85,
+        "maximum": 92.45,
+        "mean": 63.5061,
+        "median": 73.61,
+        "standard_deviation": 20.9924
+      },
+      "components": {
+        "constructive_5d_return": {
+          "count": 250,
+          "minimum": 0.0,
+          "maximum": 10.0,
+          "mean": 5.6925,
+          "median": 5.715,
+          "standard_deviation": 2.4454,
+          "observed_score_spread": 10.0
+        },
+        "macd_improvement": {
+          "count": 250,
+          "minimum": 0.0,
+          "maximum": 15.0,
+          "mean": 10.8685,
+          "median": 11.57,
+          "standard_deviation": 4.3768,
+          "observed_score_spread": 15.0
+        },
+        "multi_day_persistence": {
+          "count": 250,
+          "minimum": 2.5,
+          "maximum": 10.0,
+          "mean": 8.35,
+          "median": 10.0,
+          "standard_deviation": 3.1068,
+          "observed_score_spread": 7.5
+        },
+        "near_52w_high": {
+          "count": 250,
+          "minimum": 0.0,
+          "maximum": 10.0,
+          "mean": 4.9894,
+          "median": 6.085,
+          "standard_deviation": 3.9857,
+          "observed_score_spread": 10.0
+        },
+        "not_overheated": {
+          "count": 250,
+          "minimum": 0.0,
+          "maximum": 5.0,
+          "mean": 4.7,
+          "median": 5.0,
+          "standard_deviation": 1.1874,
+          "observed_score_spread": 5.0
+        },
+        "sma25_transition": {
+          "count": 250,
+          "minimum": 0.0,
+          "maximum": 15.0,
+          "mean": 12.2594,
+          "median": 15.0,
+          "standard_deviation": 5.3018,
+          "observed_score_spread": 15.0
+        },
+        "sma75_transition": {
+          "count": 250,
+          "minimum": 0.0,
+          "maximum": 10.0,
+          "mean": 8.605,
+          "median": 10.0,
+          "standard_deviation": 3.2984,
+          "observed_score_spread": 10.0
+        },
+        "topix_relative_strength": {
+          "count": 250,
+          "minimum": 0.0,
+          "maximum": 10.0,
+          "mean": 6.0668,
+          "median": 7.185,
+          "standard_deviation": 3.7417,
+          "observed_score_spread": 10.0
+        },
+        "volume_expansion": {
+          "count": 250,
+          "minimum": 0.0,
+          "maximum": 15.0,
+          "mean": 1.9744,
+          "median": 0.175,
+          "standard_deviation": 3.1693,
+          "observed_score_spread": 15.0
+        }
+      },
+      "coverage_distribution": {
+        "below_60": 0,
+        "60_to_79_99": 0,
+        "80_to_99_99": 0,
+        "100": 250
+      },
+      "score_gap_rank_10_vs_11": 1.17,
+      "used_for_automatic_weight_changes": false
+    },
+    "discovery": {
+      "rankable_count": 50,
+      "score": {
+        "count": 50,
+        "minimum": 28.22,
+        "maximum": 97.24,
+        "mean": 59.7268,
+        "median": 58.09,
+        "standard_deviation": 18.5803
+      },
+      "components": {
+        "forecast_operating_growth": {
+          "count": 50,
+          "minimum": 0.0,
+          "maximum": 25.0,
+          "mean": 15.539,
+          "median": 14.735,
+          "standard_deviation": 7.7104,
+          "observed_score_spread": 25.0
+        },
+        "forecast_operating_margin": {
+          "count": 50,
+          "minimum": 0.0,
+          "maximum": 10.0,
+          "mean": 5.5796,
+          "median": 4.98,
+          "standard_deviation": 3.6275,
+          "observed_score_spread": 10.0
+        },
+        "forecast_revenue_growth": {
+          "count": 50,
+          "minimum": 1.8,
+          "maximum": 20.0,
+          "mean": 13.4744,
+          "median": 12.615,
+          "standard_deviation": 5.5148,
+          "observed_score_spread": 18.2
+        },
+        "operating_margin_improvement": {
+          "count": 50,
+          "minimum": 0.0,
+          "maximum": 15.0,
+          "mean": 7.5738,
+          "median": 6.615,
+          "standard_deviation": 4.4998,
+          "observed_score_spread": 15.0
+        },
+        "price_not_overheated": {
+          "count": 50,
+          "minimum": 0.0,
+          "maximum": 15.0,
+          "mean": 8.6598,
+          "median": 8.7,
+          "standard_deviation": 3.5412,
+          "observed_score_spread": 15.0
+        },
+        "relative_strength_not_overheated": {
+          "count": 50,
+          "minimum": 0.0,
+          "maximum": 5.0,
+          "mean": 2.7048,
+          "median": 2.6,
+          "standard_deviation": 1.2658,
+          "observed_score_spread": 5.0
+        },
+        "roe": {
+          "count": 50,
+          "minimum": 0.0,
+          "maximum": 10.0,
+          "mean": 6.1966,
+          "median": 6.155,
+          "standard_deviation": 3.4082,
+          "observed_score_spread": 10.0
+        }
+      },
+      "coverage_distribution": {
+        "below_60": 200,
+        "60_to_79_99": 0,
+        "80_to_99_99": 0,
+        "100": 50
+      },
+      "score_gap_rank_10_vs_11": 0.4,
+      "used_for_automatic_weight_changes": false
+    },
+    "value_growth": {
+      "rankable_count": 53,
+      "score": {
+        "count": 53,
+        "minimum": 15.08,
+        "maximum": 84.05,
+        "mean": 59.2345,
+        "median": 60.96,
+        "standard_deviation": 13.8743
+      },
+      "components": {
+        "forecast_operating_growth": {
+          "count": 50,
+          "minimum": 0.0,
+          "maximum": 20.0,
+          "mean": 12.431,
+          "median": 11.785,
+          "standard_deviation": 6.1677,
+          "observed_score_spread": 20.0
+        },
+        "forecast_revenue_growth": {
+          "count": 53,
+          "minimum": 0.9,
+          "maximum": 10.0,
+          "mean": 6.7457,
+          "median": 6.49,
+          "standard_deviation": 2.7531,
+          "observed_score_spread": 9.1
+        },
+        "forward_per": {
+          "count": 53,
+          "minimum": 0.0,
+          "maximum": 20.0,
+          "mean": 12.9168,
+          "median": 14.14,
+          "standard_deviation": 5.5553,
+          "observed_score_spread": 20.0
+        },
+        "growth_adjusted_per": {
+          "count": 43,
+          "minimum": 0.0,
+          "maximum": 10.0,
+          "mean": 5.5602,
+          "median": 7.09,
+          "standard_deviation": 4.1699,
+          "observed_score_spread": 10.0
+        },
+        "operating_margin_improvement": {
+          "count": 50,
+          "minimum": 0.0,
+          "maximum": 10.0,
+          "mean": 5.0492,
+          "median": 4.41,
+          "standard_deviation": 2.9998,
+          "observed_score_spread": 10.0
+        },
+        "pbr": {
+          "count": 53,
+          "minimum": 0.0,
+          "maximum": 10.0,
+          "mean": 4.5789,
+          "median": 4.73,
+          "standard_deviation": 3.9264,
+          "observed_score_spread": 10.0
+        },
+        "price_not_overheated": {
+          "count": 53,
+          "minimum": 0.0,
+          "maximum": 10.0,
+          "mean": 5.736,
+          "median": 5.8,
+          "standard_deviation": 2.3347,
+          "observed_score_spread": 10.0
+        },
+        "roe": {
+          "count": 53,
+          "minimum": 0.0,
+          "maximum": 10.0,
+          "mean": 6.3326,
+          "median": 6.32,
+          "standard_deviation": 3.3857,
+          "observed_score_spread": 10.0
+        }
+      },
+      "coverage_distribution": {
+        "below_60": 197,
+        "60_to_79_99": 3,
+        "80_to_99_99": 7,
+        "100": 43
+      },
+      "score_gap_rank_10_vs_11": 1.44,
+      "used_for_automatic_weight_changes": false
+    },
+    "category_scores_are_cross_comparable": false
+  },
+  "duration_seconds": 1617.059,
+  "validation_status": "PASS"
+}
+
