@@ -2,10 +2,10 @@
   "schema_version": 1,
   "purpose": "ChatGPT machine-readable mirror for the Japanese stock dashboard",
   "analysis_policy_url": "https://raw.githubusercontent.com/lexus8410-bot/japan-stock-analysis-data/main/analysis_policy.md",
-  "updated_at": "2026-08-28T08:27:06+09:00",
-  "watchlist_updated_at": "2026-08-28T08:15:06+09:00",
-  "manifest_updated_at": "2026-08-28T08:27:06+09:00",
-  "market_as_of": "2026-08-27",
+  "updated_at": "2026-08-30T23:52:10+09:00",
+  "watchlist_updated_at": "2026-08-30T23:51:34+09:00",
+  "manifest_updated_at": "2026-08-30T23:52:10+09:00",
+  "market_as_of": "2026-08-28",
   "close_status": "confirmed daily close",
   "validation_status": "PASS",
   "watchlist_count": 8,
@@ -14,23 +14,23 @@
       "ticker": "6134",
       "name": "FUJI",
       "exchange": "TSE",
-      "price_as_of": "2026-08-27",
-      "close": 7231.0,
+      "price_as_of": "2026-08-28",
+      "close": 7044.0,
       "ma": {
-        "ma5": 7253.6,
-        "ma25": 7600.04,
-        "ma75": 7807.2133
+        "ma5": 7211.0,
+        "ma25": 7577.36,
+        "ma75": 7807.96
       },
       "ma_distance_percent": {
-        "ma5": -0.31,
-        "ma25": -4.86,
-        "ma75": -7.38
+        "ma5": -2.32,
+        "ma25": -7.04,
+        "ma75": -9.78
       },
-      "rsi14": 42.85,
+      "rsi14": 40.17,
       "macd": {
-        "line": -125.6208,
-        "signal": -43.0994,
-        "histogram": -82.5214,
+        "line": -152.8091,
+        "signal": -65.0414,
+        "histogram": -87.7677,
         "parameters": [
           12,
           26,
@@ -38,23 +38,23 @@
         ]
       },
       "atr14": {
-        "value": 407.6426,
-        "percent": 5.64
+        "value": 397.9538,
+        "percent": 5.65
       },
       "volume": {
-        "latest": 529700,
-        "average_20d": 1032775.0,
-        "ratio_to_20d": 0.5129
+        "latest": 595200,
+        "average_20d": 1022690.0,
+        "ratio_to_20d": 0.582
       },
       "topix_relative_strength_percent": {
-        "one_month": 2.28
+        "one_month": 3.27
       },
-      "return_20d_percent": 10.62,
+      "return_20d_percent": 8.42,
       "state": "APPROACHING",
       "pullback_assessment": {
         "label": "\u62bc\u3057\u76ee\u63a5\u8fd1",
         "derived_from_formal_state": true,
-        "basis": "\u76e3\u8996\u53c2\u8003\u4fa1\u683c\u307e\u30671 ATR\u4ee5\u5185",
+        "basis": "\u4fa1\u683c\u6761\u4ef6\u306f\u6e80\u305f\u3059\u304c\u53cd\u8ee2\u78ba\u8a8d\u304c\u4e0d\u8db3",
         "is_trade_signal": false
       },
       "scores": {
@@ -75,9 +75,9 @@
           "entry_timing": 6.0
         }
       },
-      "codex_comment": "\u6b63\u5f0f\u72b6\u614bAPPROACHING\u3068\u6a5f\u68b0\u5019\u88dcAPPROACHING\u304c\u4e00\u81f4\u3002\u7d42\u50247231\u5186\u3001\u76e3\u8996\u53c2\u8003\u4fa1\u683c\u307e\u30670.1989 ATR\u3001\u78ba\u8a8d\u7fa41\u3067\u3042\u308b\u3002",
+      "codex_comment": "Propose APPROACHING to SETUP, subject to human approval. The close of JPY 7,044 is below the JPY 7,149.93 reference price, but reversal confirmation remains limited to relative strength only.",
       "analysis_as_of": "2026-08-19",
-      "updated_at": "2026-08-28T08:27:06+09:00",
+      "updated_at": "2026-08-30T23:52:10+09:00",
       "chart_data": {
         "path": "chart_data/6134.json",
         "bars": 120,
@@ -88,23 +88,23 @@
       "ticker": "6508",
       "name": "\u660e\u96fb\u820e",
       "exchange": "TSE",
-      "price_as_of": "2026-08-27",
-      "close": 11960.0,
+      "price_as_of": "2026-08-28",
+      "close": 11720.0,
       "ma": {
-        "ma5": 11686.0,
-        "ma25": 10727.6,
-        "ma75": 10090.4
+        "ma5": 11734.0,
+        "ma25": 10832.8,
+        "ma75": 10120.1333
       },
       "ma_distance_percent": {
-        "ma5": 2.34,
-        "ma25": 11.49,
-        "ma75": 18.53
+        "ma5": -0.12,
+        "ma25": 8.19,
+        "ma75": 15.81
       },
-      "rsi14": 62.33,
+      "rsi14": 58.94,
       "macd": {
-        "line": 570.007,
-        "signal": 583.9947,
-        "histogram": -13.9876,
+        "line": 542.5947,
+        "signal": 575.7147,
+        "histogram": -33.12,
         "parameters": [
           12,
           26,
@@ -112,23 +112,23 @@
         ]
       },
       "atr14": {
-        "value": 577.0198,
+        "value": 565.0898,
         "percent": 4.82
       },
       "volume": {
-        "latest": 412000,
-        "average_20d": 374945.0,
-        "ratio_to_20d": 1.0988
+        "latest": 447700,
+        "average_20d": 382025.0,
+        "ratio_to_20d": 1.1719
       },
       "topix_relative_strength_percent": {
-        "one_month": 37.56
+        "one_month": 40.58
       },
-      "return_20d_percent": 49.69,
+      "return_20d_percent": 40.19,
       "state": "OVERHEATED",
       "pullback_assessment": {
         "label": "\u307e\u3060\u9ad8\u3044",
         "derived_from_formal_state": true,
-        "basis": "\u8907\u6570\u306e\u904e\u71b1\u6761\u4ef6\u304c\u540c\u6642\u6210\u7acb",
+        "basis": "\u76e3\u8996\u53c2\u8003\u4fa1\u683c\u304c\u672a\u9054",
         "is_trade_signal": false
       },
       "scores": {
@@ -149,9 +149,9 @@
           "entry_timing": 4.0
         }
       },
-      "codex_comment": "\u6b63\u5f0f\u72b6\u614bOVERHEATED\u3068\u6a5f\u68b0\u5019\u88dcOVERHEATED\u304c\u4e00\u81f4\u3002\u7d42\u502411960\u5186\u3001\u76e3\u8996\u53c2\u8003\u4fa1\u683c\u307e\u30674.3544 ATR\u3001\u78ba\u8a8d\u7fa43\u3067\u3042\u308b\u3002",
+      "codex_comment": "Propose OVERHEATED to WATCH, subject to human approval. The 25-day deviation cooled to +8.19%, leaving only the 20-day return as an overheat signal.",
       "analysis_as_of": "2026-08-19",
-      "updated_at": "2026-08-28T08:27:06+09:00",
+      "updated_at": "2026-08-30T23:52:10+09:00",
       "chart_data": {
         "path": "chart_data/6508.json",
         "bars": 120,
@@ -162,23 +162,23 @@
       "ticker": "5805",
       "name": "SWCC",
       "exchange": "TSE",
-      "price_as_of": "2026-08-27",
-      "close": 14600.0,
+      "price_as_of": "2026-08-28",
+      "close": 14670.0,
       "ma": {
-        "ma5": 14134.0,
-        "ma25": 12854.4,
-        "ma75": 13262.9333
+        "ma5": 14290.0,
+        "ma25": 12984.0,
+        "ma75": 13204.8
       },
       "ma_distance_percent": {
-        "ma5": 3.3,
-        "ma25": 13.58,
-        "ma75": 10.08
+        "ma5": 2.66,
+        "ma25": 12.99,
+        "ma75": 11.1
       },
-      "rsi14": 62.11,
+      "rsi14": 62.59,
       "macd": {
-        "line": 591.8206,
-        "signal": 488.3792,
-        "histogram": 103.4414,
+        "line": 609.3084,
+        "signal": 512.565,
+        "histogram": 96.7434,
         "parameters": [
           12,
           26,
@@ -186,18 +186,18 @@
         ]
       },
       "atr14": {
-        "value": 796.2168,
-        "percent": 5.45
+        "value": 772.9156,
+        "percent": 5.27
       },
       "volume": {
-        "latest": 331200,
-        "average_20d": 533410.0,
-        "ratio_to_20d": 0.6209
+        "latest": 351000,
+        "average_20d": 531065.0,
+        "ratio_to_20d": 0.6609
       },
       "topix_relative_strength_percent": {
-        "one_month": 30.38
+        "one_month": 34.28
       },
-      "return_20d_percent": 39.45,
+      "return_20d_percent": 38.92,
       "state": "OVERHEATED",
       "pullback_assessment": {
         "label": "\u307e\u3060\u9ad8\u3044",
@@ -223,9 +223,9 @@
           "entry_timing": 4.0
         }
       },
-      "codex_comment": "\u6b63\u5f0f\u72b6\u614bOVERHEATED\u3068\u6a5f\u68b0\u5019\u88dcOVERHEATED\u304c\u4e00\u81f4\u3002\u7d42\u502414600\u5186\u3001\u76e3\u8996\u53c2\u8003\u4fa1\u683c\u307e\u30674.406 ATR\u3001\u78ba\u8a8d\u7fa43\u3067\u3042\u308b\u3002",
+      "codex_comment": "Maintain OVERHEATED. The 25-day deviation was +12.99% and the 20-day return +38.92%, so two overheat conditions remain active.",
       "analysis_as_of": "2026-08-19",
-      "updated_at": "2026-08-28T08:27:06+09:00",
+      "updated_at": "2026-08-30T23:52:10+09:00",
       "chart_data": {
         "path": "chart_data/5805.json",
         "bars": 120,
@@ -236,23 +236,23 @@
       "ticker": "7729",
       "name": "\u6771\u4eac\u7cbe\u5bc6",
       "exchange": "TSE",
-      "price_as_of": "2026-08-27",
-      "close": 18290.0,
+      "price_as_of": "2026-08-28",
+      "close": 17990.0,
       "ma": {
-        "ma5": 17857.0,
-        "ma25": 17729.0,
-        "ma75": 18064.0667
+        "ma5": 17997.0,
+        "ma25": 17710.8,
+        "ma75": 18054.7333
       },
       "ma_distance_percent": {
-        "ma5": 2.42,
-        "ma25": 3.16,
-        "ma75": 1.25
+        "ma5": -0.04,
+        "ma25": 1.58,
+        "ma75": -0.36
       },
-      "rsi14": 52.19,
+      "rsi14": 49.92,
       "macd": {
-        "line": 1.4572,
-        "signal": -18.1922,
-        "histogram": 19.6494,
+        "line": 0.5253,
+        "signal": -14.4487,
+        "histogram": 14.974,
         "parameters": [
           12,
           26,
@@ -260,18 +260,18 @@
         ]
       },
       "atr14": {
-        "value": 990.5853,
-        "percent": 5.42
+        "value": 966.6149,
+        "percent": 5.37
       },
       "volume": {
-        "latest": 357100,
-        "average_20d": 494460.0,
-        "ratio_to_20d": 0.7222
+        "latest": 268900,
+        "average_20d": 470745.0,
+        "ratio_to_20d": 0.5712
       },
       "topix_relative_strength_percent": {
-        "one_month": 9.23
+        "one_month": 16.81
       },
-      "return_20d_percent": 23.92,
+      "return_20d_percent": 16.48,
       "state": "WATCH",
       "pullback_assessment": {
         "label": "\u62bc\u3057\u5f85\u3061",
@@ -297,9 +297,9 @@
           "entry_timing": 6.0
         }
       },
-      "codex_comment": "\u6b63\u5f0f\u72b6\u614bWATCH\u3068\u6a5f\u68b0\u5019\u88dcWATCH\u304c\u4e00\u81f4\u3002\u7d42\u502418290\u5186\u3001\u76e3\u8996\u53c2\u8003\u4fa1\u683c\u307e\u30673.5408 ATR\u3001\u78ba\u8a8d\u7fa43\u3067\u3042\u308b\u3002",
+      "codex_comment": "Maintain WATCH. The close was JPY 17,990, 3.3183 ATR above the reference watch price, with no overheat signal.",
       "analysis_as_of": "2026-08-19",
-      "updated_at": "2026-08-28T08:27:06+09:00",
+      "updated_at": "2026-08-30T23:52:10+09:00",
       "chart_data": {
         "path": "chart_data/7729.json",
         "bars": 120,
@@ -310,23 +310,23 @@
       "ticker": "4203",
       "name": "\u4f4f\u53cb\u30d9\u30fc\u30af\u30e9\u30a4\u30c8",
       "exchange": "TSE",
-      "price_as_of": "2026-08-27",
-      "close": 7534.0,
+      "price_as_of": "2026-08-28",
+      "close": 7444.0,
       "ma": {
-        "ma5": 7367.2,
-        "ma25": 7250.56,
-        "ma75": 7055.2667
+        "ma5": 7421.8,
+        "ma25": 7262.52,
+        "ma75": 7065.7467
       },
       "ma_distance_percent": {
-        "ma5": 2.26,
-        "ma25": 3.91,
-        "ma75": 6.79
+        "ma5": 0.3,
+        "ma25": 2.5,
+        "ma75": 5.35
       },
-      "rsi14": 54.32,
+      "rsi14": 52.24,
       "macd": {
-        "line": 90.068,
-        "signal": 111.1839,
-        "histogram": -21.116,
+        "line": 84.0202,
+        "signal": 105.7512,
+        "histogram": -21.731,
         "parameters": [
           12,
           26,
@@ -334,18 +334,18 @@
         ]
       },
       "atr14": {
-        "value": 319.0279,
-        "percent": 4.23
+        "value": 307.2402,
+        "percent": 4.13
       },
       "volume": {
-        "latest": 683400,
-        "average_20d": 966215.0,
-        "ratio_to_20d": 0.7073
+        "latest": 542600,
+        "average_20d": 959390.0,
+        "ratio_to_20d": 0.5656
       },
       "topix_relative_strength_percent": {
-        "one_month": 15.18
+        "one_month": 18.39
       },
-      "return_20d_percent": 25.02,
+      "return_20d_percent": 23.51,
       "state": "WATCH",
       "pullback_assessment": {
         "label": "\u62bc\u3057\u5f85\u3061",
@@ -371,9 +371,9 @@
           "entry_timing": 7.0
         }
       },
-      "codex_comment": "\u6b63\u5f0f\u72b6\u614bWATCH\u3068\u6a5f\u68b0\u5019\u88dcWATCH\u304c\u4e00\u81f4\u3002\u7d42\u50247534\u5186\u3001\u76e3\u8996\u53c2\u8003\u4fa1\u683c\u307e\u30674.2209 ATR\u3001\u78ba\u8a8d\u7fa42\u3067\u3042\u308b\u3002",
+      "codex_comment": "Maintain WATCH. Only the 20-day return remains an overheat signal, while price is 4.0899 ATR above the reference watch price.",
       "analysis_as_of": "2026-08-19",
-      "updated_at": "2026-08-28T08:27:06+09:00",
+      "updated_at": "2026-08-30T23:52:10+09:00",
       "chart_data": {
         "path": "chart_data/4203.json",
         "bars": 120,
@@ -384,23 +384,23 @@
       "ticker": "6504",
       "name": "\u5bcc\u58eb\u96fb\u6a5f",
       "exchange": "TSE",
-      "price_as_of": "2026-08-27",
-      "close": 14230.0,
+      "price_as_of": "2026-08-28",
+      "close": 13815.0,
       "ma": {
-        "ma5": 14031.0,
-        "ma25": 13935.4,
-        "ma75": 14151.1333
+        "ma5": 14017.0,
+        "ma25": 13960.8,
+        "ma75": 14129.0667
       },
       "ma_distance_percent": {
-        "ma5": 1.42,
-        "ma25": 2.11,
-        "ma75": 0.56
+        "ma5": -1.44,
+        "ma25": -1.04,
+        "ma75": -2.22
       },
-      "rsi14": 53.24,
+      "rsi14": 48.23,
       "macd": {
-        "line": 120.9389,
-        "signal": 175.3456,
-        "histogram": -54.4068,
+        "line": 89.2833,
+        "signal": 158.1332,
+        "histogram": -68.8498,
         "parameters": [
           12,
           26,
@@ -408,18 +408,18 @@
         ]
       },
       "atr14": {
-        "value": 620.3542,
-        "percent": 4.36
+        "value": 609.9718,
+        "percent": 4.42
       },
       "volume": {
-        "latest": 661100,
-        "average_20d": 1014140.0,
-        "ratio_to_20d": 0.6519
+        "latest": 590600,
+        "average_20d": 955855.0,
+        "ratio_to_20d": 0.6179
       },
       "topix_relative_strength_percent": {
-        "one_month": 10.3
+        "one_month": 9.92
       },
-      "return_20d_percent": 18.14,
+      "return_20d_percent": 8.82,
       "state": "WATCH",
       "pullback_assessment": {
         "label": "\u62bc\u3057\u5f85\u3061",
@@ -445,9 +445,9 @@
           "entry_timing": 6.0
         }
       },
-      "codex_comment": "\u6b63\u5f0f\u72b6\u614bWATCH\u3068\u6a5f\u68b0\u5019\u88dcWATCH\u304c\u4e00\u81f4\u3002\u7d42\u502414230\u5186\u3001\u76e3\u8996\u53c2\u8003\u4fa1\u683c\u307e\u30675.272 ATR\u3001\u78ba\u8a8d\u7fa42\u3067\u3042\u308b\u3002",
+      "codex_comment": "Maintain WATCH. The close was JPY 13,815, 4.6814 ATR above the reference watch price, with no overheat signal and no new IR dated 2026-08-28.",
       "analysis_as_of": "2026-08-19",
-      "updated_at": "2026-08-28T08:27:06+09:00",
+      "updated_at": "2026-08-30T23:52:10+09:00",
       "chart_data": {
         "path": "chart_data/6504.json",
         "bars": 120,
@@ -458,23 +458,23 @@
       "ticker": "6622",
       "name": "\u30c0\u30a4\u30d8\u30f3",
       "exchange": "TSE",
-      "price_as_of": "2026-08-27",
-      "close": 13120.0,
+      "price_as_of": "2026-08-28",
+      "close": 12980.0,
       "ma": {
-        "ma5": 13002.0,
-        "ma25": 13669.6,
-        "ma75": 15481.3333
+        "ma5": 12994.0,
+        "ma25": 13588.0,
+        "ma75": 15413.4667
       },
       "ma_distance_percent": {
-        "ma5": 0.91,
-        "ma25": -4.02,
-        "ma75": -15.25
+        "ma5": -0.11,
+        "ma25": -4.47,
+        "ma75": -15.79
       },
-      "rsi14": 42.91,
+      "rsi14": 41.83,
       "macd": {
-        "line": -501.1393,
-        "signal": -506.192,
-        "histogram": 5.0527,
+        "line": -494.0103,
+        "signal": -503.7556,
+        "histogram": 9.7453,
         "parameters": [
           12,
           26,
@@ -482,18 +482,18 @@
         ]
       },
       "atr14": {
-        "value": 771.0881,
-        "percent": 5.88
+        "value": 743.1532,
+        "percent": 5.73
       },
       "volume": {
-        "latest": 198900,
-        "average_20d": 297400.0,
-        "ratio_to_20d": 0.6688
+        "latest": 107600,
+        "average_20d": 287165.0,
+        "ratio_to_20d": 0.3747
       },
       "topix_relative_strength_percent": {
-        "one_month": -3.66
+        "one_month": 4.53
       },
-      "return_20d_percent": 10.25,
+      "return_20d_percent": 5.96,
       "state": "WATCH",
       "pullback_assessment": {
         "label": "\u62bc\u3057\u5f85\u3061",
@@ -519,9 +519,9 @@
           "entry_timing": 5.0
         }
       },
-      "codex_comment": "\u6b63\u5f0f\u72b6\u614bWATCH\u3068\u6a5f\u68b0\u5019\u88dcWATCH\u304c\u4e00\u81f4\u3002\u7d42\u502413120\u5186\u3001\u76e3\u8996\u53c2\u8003\u4fa1\u683c\u307e\u30672.3399 ATR\u3001\u78ba\u8a8d\u7fa41\u3067\u3042\u308b\u3002",
+      "codex_comment": "Maintain WATCH. The close was JPY 12,980, 2.2395 ATR above the reference watch price, with only relative-strength confirmation and no overheat signal.",
       "analysis_as_of": "2026-08-19",
-      "updated_at": "2026-08-28T08:27:06+09:00",
+      "updated_at": "2026-08-30T23:52:10+09:00",
       "chart_data": {
         "path": "chart_data/6622.json",
         "bars": 120,
@@ -532,23 +532,23 @@
       "ticker": "6383",
       "name": "\u30c0\u30a4\u30d5\u30af",
       "exchange": "TSE",
-      "price_as_of": "2026-08-27",
-      "close": 5798.0,
+      "price_as_of": "2026-08-28",
+      "close": 5745.0,
       "ma": {
-        "ma5": 5856.2,
-        "ma25": 6044.48,
-        "ma75": 6652.2533
+        "ma5": 5825.2,
+        "ma25": 6021.32,
+        "ma75": 6625.5333
       },
       "ma_distance_percent": {
-        "ma5": -0.99,
-        "ma25": -4.08,
-        "ma75": -12.84
+        "ma5": -1.38,
+        "ma25": -4.59,
+        "ma75": -13.29
       },
-      "rsi14": 36.7,
+      "rsi14": 35.2,
       "macd": {
-        "line": -158.3462,
-        "signal": -149.9887,
-        "histogram": -8.3575,
+        "line": -163.8413,
+        "signal": -152.7592,
+        "histogram": -11.0821,
         "parameters": [
           12,
           26,
@@ -556,18 +556,18 @@
         ]
       },
       "atr14": {
-        "value": 201.1301,
-        "percent": 3.47
+        "value": 193.2637,
+        "percent": 3.36
       },
       "volume": {
-        "latest": 1535900,
-        "average_20d": 2100865.0,
-        "ratio_to_20d": 0.7311
+        "latest": 1993900,
+        "average_20d": 2101670.0,
+        "ratio_to_20d": 0.9487
       },
       "topix_relative_strength_percent": {
-        "one_month": -4.77
+        "one_month": -4.3
       },
-      "return_20d_percent": 0.78,
+      "return_20d_percent": 1.32,
       "state": "WATCH",
       "pullback_assessment": {
         "label": "\u62bc\u3057\u5f85\u3061",
@@ -593,9 +593,9 @@
           "entry_timing": 6.0
         }
       },
-      "codex_comment": "\u6b63\u5f0f\u72b6\u614bWATCH\u3068\u6a5f\u68b0\u5019\u88dcWATCH\u304c\u4e00\u81f4\u3002\u7d42\u50245798\u5186\u3001\u76e3\u8996\u53c2\u8003\u4fa1\u683c\u307e\u30673.3915 ATR\u3001\u78ba\u8a8d\u7fa40\u3067\u3042\u308b\u3002",
+      "codex_comment": "Maintain WATCH. The close was JPY 5,745, 3.2553 ATR above the reference watch price, with no overheat signal and no reversal-confirmation group.",
       "analysis_as_of": "2026-08-19",
-      "updated_at": "2026-08-28T08:27:06+09:00",
+      "updated_at": "2026-08-30T23:52:10+09:00",
       "chart_data": {
         "path": "chart_data/6383.json",
         "bars": 120,
