@@ -2,10 +2,10 @@
   "schema_version": 1,
   "purpose": "ChatGPT machine-readable mirror for the Japanese stock dashboard",
   "analysis_policy_url": "https://raw.githubusercontent.com/lexus8410-bot/japan-stock-analysis-data/main/analysis_policy.md",
-  "updated_at": "2026-09-03T21:41:55+09:00",
-  "watchlist_updated_at": "2026-09-03T21:41:18+09:00",
-  "manifest_updated_at": "2026-09-03T21:41:55+09:00",
-  "market_as_of": "2026-09-03",
+  "updated_at": "2026-09-06T23:38:56+09:00",
+  "watchlist_updated_at": "2026-09-06T23:37:24+09:00",
+  "manifest_updated_at": "2026-09-06T23:38:56+09:00",
+  "market_as_of": "2026-09-04",
   "close_status": "confirmed daily close",
   "validation_status": "PASS",
   "watchlist_count": 8,
@@ -14,23 +14,23 @@
       "ticker": "6134",
       "name": "FUJI",
       "exchange": "TSE",
-      "price_as_of": "2026-09-03",
-      "close": 6853.0,
+      "price_as_of": "2026-09-04",
+      "close": 6886.0,
       "ma": {
-        "ma5": 6978.2,
-        "ma25": 7558.6,
-        "ma75": 7772.52
+        "ma5": 6946.6,
+        "ma25": 7574.16,
+        "ma75": 7768.0667
       },
       "ma_distance_percent": {
-        "ma5": -1.79,
-        "ma25": -9.34,
-        "ma75": -11.83
+        "ma5": -0.87,
+        "ma25": -9.09,
+        "ma75": -11.36
       },
-      "rsi14": 38.09,
+      "rsi14": 38.93,
       "macd": {
-        "line": -224.385,
-        "signal": -144.8907,
-        "histogram": -79.4944,
+        "line": -232.177,
+        "signal": -162.3479,
+        "histogram": -69.829,
         "parameters": [
           12,
           26,
@@ -38,18 +38,18 @@
         ]
       },
       "atr14": {
-        "value": 360.3236,
-        "percent": 5.26
+        "value": 342.5147,
+        "percent": 4.97
       },
       "volume": {
-        "latest": 628800,
-        "average_20d": 748230.0,
-        "ratio_to_20d": 0.8404
+        "latest": 563200,
+        "average_20d": 696755.0,
+        "ratio_to_20d": 0.8083
       },
       "topix_relative_strength_percent": {
-        "one_month": -18.72
+        "one_month": -19.97
       },
-      "return_20d_percent": -19.23,
+      "return_20d_percent": -15.17,
       "state": "APPROACHING",
       "pullback_assessment": {
         "label": "\u62bc\u3057\u76ee\u63a5\u8fd1",
@@ -75,85 +75,11 @@
           "entry_timing": 6.0
         }
       },
-      "codex_comment": "0.34%\u306e\u5c0f\u53cd\u767a\u3067\u30825\u65e5\u7dda\u672a\u56de\u5fa9\u30fb\u78ba\u8a8d0\u7fa4\u3002\u66ab\u5b9a\u53c2\u8003\u4fa1\u683c\u5185\u3067\u53cd\u8ee2\u3092\u5f85\u3064SETUP\u3078\u306e\u5909\u66f4\u6848\u3092\u7d99\u7d9a\u3059\u308b\u3002",
+      "codex_comment": "0.48%\u53cd\u767a\u3057\u3066\u30825\u65e5\u7dda\u672a\u56de\u5fa9\u30fb\u78ba\u8a8d0\u7fa4\u3002\u66ab\u5b9a\u53c2\u8003\u4fa1\u683c\u5185\u3067\u53cd\u8ee2\u3092\u5f85\u3064SETUP\u3078\u306e\u5909\u66f4\u6848\u3092\u7d99\u7d9a\u3059\u308b\u3002",
       "analysis_as_of": "2026-08-19",
-      "updated_at": "2026-09-03T21:41:55+09:00",
+      "updated_at": "2026-09-06T23:38:56+09:00",
       "chart_data": {
         "path": "chart_data/6134.json",
-        "bars": 120,
-        "interval": "1d"
-      }
-    },
-    {
-      "ticker": "6622",
-      "name": "\u30c0\u30a4\u30d8\u30f3",
-      "exchange": "TSE",
-      "price_as_of": "2026-09-03",
-      "close": 12200.0,
-      "ma": {
-        "ma5": 12558.0,
-        "ma25": 13409.2,
-        "ma75": 15189.4667
-      },
-      "ma_distance_percent": {
-        "ma5": -2.85,
-        "ma25": -9.02,
-        "ma75": -19.68
-      },
-      "rsi14": 35.88,
-      "macd": {
-        "line": -568.438,
-        "signal": -523.1195,
-        "histogram": -45.3185,
-        "parameters": [
-          12,
-          26,
-          9
-        ]
-      },
-      "atr14": {
-        "value": 654.4851,
-        "percent": 5.36
-      },
-      "volume": {
-        "latest": 99800,
-        "average_20d": 210805.0,
-        "ratio_to_20d": 0.4734
-      },
-      "topix_relative_strength_percent": {
-        "one_month": -20.28
-      },
-      "return_20d_percent": -19.74,
-      "state": "WATCH",
-      "pullback_assessment": {
-        "label": "\u62bc\u3057\u5f85\u3061",
-        "derived_from_formal_state": true,
-        "basis": "\u76e3\u8996\u53c2\u8003\u4fa1\u683c\u304c\u672a\u9054",
-        "is_trade_signal": false
-      },
-      "scores": {
-        "company_quality": {
-          "rank": "A",
-          "score": 34.0,
-          "maximum": 40
-        },
-        "investment_attractiveness": {
-          "rank": "C",
-          "score": 53.0,
-          "maximum": 100
-        },
-        "breakdown": {
-          "fundamental": 34.0,
-          "valuation": 12.0,
-          "trend_quality": 2.0,
-          "entry_timing": 5.0
-        }
-      },
-      "codex_comment": "\u7d42\u5024\u306f\u524d\u65e5\u3068\u540c\u5024\u3060\u304c\u3001ATR\u7e2e\u5c0f\u3067\u53c2\u8003\u4fa1\u683c\u307e\u30671.35ATR\u3002\u5168\u4e3b\u8981\u79fb\u52d5\u5e73\u5747\u7dda\u3092\u4e0b\u56de\u308a\u78ba\u8a8d0\u7fa4\u306e\u305f\u3081WATCH\u3092\u7dad\u6301\u3059\u308b\u3002",
-      "analysis_as_of": "2026-08-19",
-      "updated_at": "2026-09-03T21:41:55+09:00",
-      "chart_data": {
-        "path": "chart_data/6622.json",
         "bars": 120,
         "interval": "1d"
       }
@@ -162,23 +88,23 @@
       "ticker": "6508",
       "name": "\u660e\u96fb\u820e",
       "exchange": "TSE",
-      "price_as_of": "2026-09-03",
-      "close": 10530.0,
+      "price_as_of": "2026-09-04",
+      "close": 10800.0,
       "ma": {
-        "ma5": 11212.0,
-        "ma25": 11229.2,
-        "ma75": 10154.6667
+        "ma5": 11028.0,
+        "ma25": 11326.8,
+        "ma75": 10160.8
       },
       "ma_distance_percent": {
-        "ma5": -6.08,
-        "ma25": -6.23,
-        "ma75": 3.7
+        "ma5": -2.07,
+        "ma25": -4.65,
+        "ma75": 6.29
       },
-      "rsi14": 44.49,
+      "rsi14": 47.78,
       "macd": {
-        "line": 258.4841,
-        "signal": 457.2908,
-        "histogram": -198.8068,
+        "line": 200.7019,
+        "signal": 405.973,
+        "histogram": -205.2711,
         "parameters": [
           12,
           26,
@@ -186,18 +112,18 @@
         ]
       },
       "atr14": {
-        "value": 575.3881,
-        "percent": 5.46
+        "value": 569.2889,
+        "percent": 5.27
       },
       "volume": {
-        "latest": 208300,
-        "average_20d": 322045.0,
-        "ratio_to_20d": 0.6468
+        "latest": 228400,
+        "average_20d": 316955.0,
+        "ratio_to_20d": 0.7206
       },
       "topix_relative_strength_percent": {
-        "one_month": -4.86
+        "one_month": -5.33
       },
-      "return_20d_percent": -6.4,
+      "return_20d_percent": -3.05,
       "state": "OVERHEATED",
       "pullback_assessment": {
         "label": "\u307e\u3060\u9ad8\u3044",
@@ -223,11 +149,85 @@
           "entry_timing": 4.0
         }
       },
-      "codex_comment": "\u904e\u71b1\u6761\u4ef6\u30bc\u30ed\u306f\u7d99\u7d9a\u3059\u308b\u4e00\u65b9\u3001\u7d42\u5024\u304c\u76f4\u8fd120\u65e5\u652f\u6301\u3092\u4e0b\u56de\u308a1\u304b\u6708\u76f8\u5bfe\u5f37\u5ea6\u3082\u30de\u30a4\u30ca\u30b9\u5316\u3002\u53c2\u8003\u4fa1\u683c\u672a\u9054\u306e\u305f\u3081WATCH\u3078\u306e\u5909\u66f4\u6848\u3092\u7d99\u7d9a\u3057\u3001\u53cd\u8ee2\u6210\u7acb\u3068\u306f\u6271\u308f\u306a\u3044\u3002",
+      "codex_comment": "2.56%\u53cd\u767a\u3057\u3066\u30825\u30fb25\u65e5\u7dda\u672a\u56de\u5fa9\u30fb\u78ba\u8a8d0\u7fa4\u3002\u904e\u71b1\u6761\u4ef6\u30bc\u30ed\u306f\u7d9a\u304f\u304c\u53c2\u8003\u4fa1\u683c\u672a\u9054\u306e\u305f\u3081WATCH\u3078\u306e\u5909\u66f4\u6848\u3092\u7d99\u7d9a\u3059\u308b\u3002",
       "analysis_as_of": "2026-08-19",
-      "updated_at": "2026-09-03T21:41:55+09:00",
+      "updated_at": "2026-09-06T23:38:56+09:00",
       "chart_data": {
         "path": "chart_data/6508.json",
+        "bars": 120,
+        "interval": "1d"
+      }
+    },
+    {
+      "ticker": "6622",
+      "name": "\u30c0\u30a4\u30d8\u30f3",
+      "exchange": "TSE",
+      "price_as_of": "2026-09-04",
+      "close": 12260.0,
+      "ma": {
+        "ma5": 12414.0,
+        "ma25": 13409.6,
+        "ma75": 15149.2
+      },
+      "ma_distance_percent": {
+        "ma5": -1.24,
+        "ma25": -8.57,
+        "ma75": -19.07
+      },
+      "rsi14": 36.72,
+      "macd": {
+        "line": -574.4202,
+        "signal": -533.3797,
+        "histogram": -41.0405,
+        "parameters": [
+          12,
+          26,
+          9
+        ]
+      },
+      "atr14": {
+        "value": 624.879,
+        "percent": 5.1
+      },
+      "volume": {
+        "latest": 124900,
+        "average_20d": 190030.0,
+        "ratio_to_20d": 0.6573
+      },
+      "topix_relative_strength_percent": {
+        "one_month": -20.46
+      },
+      "return_20d_percent": -13.23,
+      "state": "WATCH",
+      "pullback_assessment": {
+        "label": "\u62bc\u3057\u5f85\u3061",
+        "derived_from_formal_state": true,
+        "basis": "\u76e3\u8996\u53c2\u8003\u4fa1\u683c\u304c\u672a\u9054",
+        "is_trade_signal": false
+      },
+      "scores": {
+        "company_quality": {
+          "rank": "A",
+          "score": 34.0,
+          "maximum": 40
+        },
+        "investment_attractiveness": {
+          "rank": "C",
+          "score": 53.0,
+          "maximum": 100
+        },
+        "breakdown": {
+          "fundamental": 34.0,
+          "valuation": 12.0,
+          "trend_quality": 2.0,
+          "entry_timing": 5.0
+        }
+      },
+      "codex_comment": "0.49%\u53cd\u767a\u3057\u305f\u304c\u30015\u30fb25\u30fb75\u65e5\u7dda\u3092\u4e0b\u56de\u308a\u53cd\u8ee2\u78ba\u8a8d0\u7fa4\u3002\u53c2\u8003\u4fa1\u683c\u307e\u30671.51ATR\u3042\u308b\u305f\u3081WATCH\u3092\u7dad\u6301\u3059\u308b\u3002",
+      "analysis_as_of": "2026-08-19",
+      "updated_at": "2026-09-06T23:38:56+09:00",
+      "chart_data": {
+        "path": "chart_data/6622.json",
         "bars": 120,
         "interval": "1d"
       }
@@ -236,23 +236,23 @@
       "ticker": "7729",
       "name": "\u6771\u4eac\u7cbe\u5bc6",
       "exchange": "TSE",
-      "price_as_of": "2026-09-03",
-      "close": 16785.0,
+      "price_as_of": "2026-09-04",
+      "close": 16850.0,
       "ma": {
-        "ma5": 17344.0,
-        "ma25": 17809.4,
-        "ma75": 18083.2667
+        "ma5": 17116.0,
+        "ma25": 17865.6,
+        "ma75": 18099.5333
       },
       "ma_distance_percent": {
-        "ma5": -3.22,
-        "ma25": -5.75,
-        "ma75": -7.18
+        "ma5": -1.55,
+        "ma25": -5.68,
+        "ma75": -6.9
       },
-      "rsi14": 41.33,
+      "rsi14": 41.99,
       "macd": {
-        "line": -206.5978,
-        "signal": -80.5289,
-        "histogram": -126.0689,
+        "line": -248.4743,
+        "signal": -114.118,
+        "histogram": -134.3563,
         "parameters": [
           12,
           26,
@@ -260,18 +260,18 @@
         ]
       },
       "atr14": {
-        "value": 879.184,
-        "percent": 5.24
+        "value": 843.1709,
+        "percent": 5.0
       },
       "volume": {
-        "latest": 231500,
-        "average_20d": 397525.0,
-        "ratio_to_20d": 0.5824
+        "latest": 197500,
+        "average_20d": 378375.0,
+        "ratio_to_20d": 0.522
       },
       "topix_relative_strength_percent": {
-        "one_month": -10.24
+        "one_month": -11.41
       },
-      "return_20d_percent": -10.5,
+      "return_20d_percent": -6.34,
       "state": "WATCH",
       "pullback_assessment": {
         "label": "\u62bc\u3057\u5f85\u3061",
@@ -297,9 +297,9 @@
           "entry_timing": 6.0
         }
       },
-      "codex_comment": "\u53c2\u8003\u4fa1\u683c\u307e\u30672.28ATR\u3067\u78ba\u8a8d0\u7fa4\u30025\u30fb25\u30fb75\u65e5\u7dda\u3092\u4e0b\u56de\u308aTOPIX\u6bd4\u3082\u5168\u671f\u9593\u30de\u30a4\u30ca\u30b9\u306e\u305f\u3081WATCH\u3092\u7dad\u6301\u3059\u308b\u3002",
+      "codex_comment": "0.39%\u53cd\u767a\u3057\u305f\u304c\u5168\u4e3b\u8981\u77ed\u4e2d\u671f\u7dda\u3092\u4e0b\u56de\u308a\u78ba\u8a8d0\u7fa4\u3002\u53c2\u8003\u4fa1\u683c\u307e\u30672.45ATR\u306e\u305f\u3081WATCH\u3092\u7dad\u6301\u3059\u308b\u3002",
       "analysis_as_of": "2026-08-19",
-      "updated_at": "2026-09-03T21:41:55+09:00",
+      "updated_at": "2026-09-06T23:38:56+09:00",
       "chart_data": {
         "path": "chart_data/7729.json",
         "bars": 120,
@@ -310,23 +310,23 @@
       "ticker": "6383",
       "name": "\u30c0\u30a4\u30d5\u30af",
       "exchange": "TSE",
-      "price_as_of": "2026-09-03",
-      "close": 5610.0,
+      "price_as_of": "2026-09-04",
+      "close": 5661.0,
       "ma": {
-        "ma5": 5696.8,
-        "ma25": 5966.16,
-        "ma75": 6544.6933
+        "ma5": 5680.0,
+        "ma25": 5965.8,
+        "ma75": 6530.2267
       },
       "ma_distance_percent": {
-        "ma5": -1.52,
-        "ma25": -5.97,
-        "ma75": -14.28
+        "ma5": -0.33,
+        "ma25": -5.11,
+        "ma75": -13.31
       },
-      "rsi14": 34.05,
+      "rsi14": 36.73,
       "macd": {
-        "line": -180.3084,
-        "signal": -163.8011,
-        "histogram": -16.5073,
+        "line": -178.156,
+        "signal": -166.6721,
+        "histogram": -11.4839,
         "parameters": [
           12,
           26,
@@ -334,18 +334,18 @@
         ]
       },
       "atr14": {
-        "value": 184.1961,
-        "percent": 3.28
+        "value": 178.7535,
+        "percent": 3.16
       },
       "volume": {
-        "latest": 2317200,
-        "average_20d": 2062540.0,
-        "ratio_to_20d": 1.1235
+        "latest": 1554200,
+        "average_20d": 2024560.0,
+        "ratio_to_20d": 0.7677
       },
       "topix_relative_strength_percent": {
-        "one_month": -11.03
+        "one_month": -10.65
       },
-      "return_20d_percent": -10.21,
+      "return_20d_percent": -8.35,
       "state": "WATCH",
       "pullback_assessment": {
         "label": "\u62bc\u3057\u5f85\u3061",
@@ -371,9 +371,9 @@
           "entry_timing": 6.0
         }
       },
-      "codex_comment": "0.95%\u53cd\u767a\u3068\u5e73\u5747\u8d85\u306e\u51fa\u6765\u9ad8\u3067\u9700\u7d661\u7fa4\u304c\u6210\u7acb\u3057\u305f\u304c\u3001\u5168\u4e3b\u8981\u79fb\u52d5\u5e73\u5747\u7dda\u3092\u4e0b\u56de\u308a\u53c2\u8003\u4fa1\u683c\u672a\u9054\u3002WATCH\u3092\u7dad\u6301\u3059\u308b\u3002",
+      "codex_comment": "0.91%\u53cd\u767a\u3057\u305f\u304c5\u30fb25\u30fb75\u30fb200\u65e5\u7dda\u3092\u4e0b\u56de\u308a\u53cd\u8ee2\u78ba\u8a8d0\u7fa4\u3002\u53c2\u8003\u4fa1\u683c\u307e\u30673.05ATR\u306e\u305f\u3081WATCH\u3092\u7dad\u6301\u3059\u308b\u3002",
       "analysis_as_of": "2026-08-19",
-      "updated_at": "2026-09-03T21:41:55+09:00",
+      "updated_at": "2026-09-06T23:38:56+09:00",
       "chart_data": {
         "path": "chart_data/6383.json",
         "bars": 120,
@@ -384,23 +384,23 @@
       "ticker": "5805",
       "name": "SWCC",
       "exchange": "TSE",
-      "price_as_of": "2026-09-03",
-      "close": 13570.0,
+      "price_as_of": "2026-09-04",
+      "close": 13740.0,
       "ma": {
-        "ma5": 14186.0,
-        "ma25": 13470.4,
-        "ma75": 13140.6667
+        "ma5": 14000.0,
+        "ma25": 13597.6,
+        "ma75": 13149.6
       },
       "ma_distance_percent": {
-        "ma5": -4.34,
-        "ma25": 0.74,
-        "ma75": 3.27
+        "ma5": -1.86,
+        "ma25": 1.05,
+        "ma75": 4.49
       },
-      "rsi14": 50.2,
+      "rsi14": 51.7,
       "macd": {
-        "line": 420.5075,
-        "signal": 516.6256,
-        "histogram": -96.1181,
+        "line": 369.3096,
+        "signal": 487.1624,
+        "histogram": -117.8528,
         "parameters": [
           12,
           26,
@@ -408,18 +408,18 @@
         ]
       },
       "atr14": {
-        "value": 781.1759,
-        "percent": 5.76
+        "value": 752.5204,
+        "percent": 5.48
       },
       "volume": {
-        "latest": 306700,
-        "average_20d": 482080.0,
-        "ratio_to_20d": 0.6362
+        "latest": 279300,
+        "average_20d": 472485.0,
+        "ratio_to_20d": 0.5911
       },
       "topix_relative_strength_percent": {
-        "one_month": 9.95
+        "one_month": 6.27
       },
-      "return_20d_percent": 6.43,
+      "return_20d_percent": 14.88,
       "state": "OVERHEATED",
       "pullback_assessment": {
         "label": "\u307e\u3060\u9ad8\u3044",
@@ -445,9 +445,9 @@
           "entry_timing": 4.0
         }
       },
-      "codex_comment": "1.42%\u53cd\u767a\u3057\u904e\u71b1\u6761\u4ef6\u30bc\u30ed\u304c\u7d9a\u304f\u304c\u30015\u65e5\u7dda\u672a\u56de\u5fa9\u30fb\u78ba\u8a8d\u306f\u76f8\u5bfe\u5f37\u5ea61\u7fa4\u306e\u307f\u3002\u53c2\u8003\u4fa1\u683c\u307e\u30673.17ATR\u306e\u305f\u3081WATCH\u3078\u306e\u5909\u66f4\u6848\u3092\u7d99\u7d9a\u3059\u308b\u3002",
+      "codex_comment": "1.25%\u53cd\u767a\u3057\u904e\u71b1\u6761\u4ef6\u30bc\u30ed\u304c\u7d9a\u304f\u304c\u30015\u65e5\u7dda\u672a\u56de\u5fa9\u30fb\u78ba\u8a8d\u306f\u76f8\u5bfe\u5f37\u5ea61\u7fa4\u306e\u307f\u3002\u53c2\u8003\u4fa1\u683c\u307e\u30673.52ATR\u306e\u305f\u3081WATCH\u3078\u306e\u5909\u66f4\u6848\u3092\u7d99\u7d9a\u3059\u308b\u3002",
       "analysis_as_of": "2026-08-19",
-      "updated_at": "2026-09-03T21:41:55+09:00",
+      "updated_at": "2026-09-06T23:38:56+09:00",
       "chart_data": {
         "path": "chart_data/5805.json",
         "bars": 120,
@@ -458,23 +458,23 @@
       "ticker": "4203",
       "name": "\u4f4f\u53cb\u30d9\u30fc\u30af\u30e9\u30a4\u30c8",
       "exchange": "TSE",
-      "price_as_of": "2026-09-03",
-      "close": 7034.0,
+      "price_as_of": "2026-09-04",
+      "close": 7056.0,
       "ma": {
-        "ma5": 7321.8,
-        "ma25": 7398.6,
-        "ma75": 7107.1733
+        "ma5": 7244.2,
+        "ma25": 7439.76,
+        "ma75": 7117.12
       },
       "ma_distance_percent": {
-        "ma5": -3.93,
-        "ma25": -4.93,
-        "ma75": -1.03
+        "ma5": -2.6,
+        "ma25": -5.16,
+        "ma75": -0.86
       },
-      "rsi14": 43.06,
+      "rsi14": 43.64,
       "macd": {
-        "line": 15.4711,
-        "signal": 73.252,
-        "histogram": -57.7809,
+        "line": -8.949,
+        "signal": 56.8118,
+        "histogram": -65.7608,
         "parameters": [
           12,
           26,
@@ -482,18 +482,18 @@
         ]
       },
       "atr14": {
-        "value": 295.3878,
-        "percent": 4.2
+        "value": 284.9315,
+        "percent": 4.04
       },
       "volume": {
-        "latest": 354900,
-        "average_20d": 674520.0,
-        "ratio_to_20d": 0.5262
+        "latest": 438700,
+        "average_20d": 666730.0,
+        "ratio_to_20d": 0.658
       },
       "topix_relative_strength_percent": {
-        "one_month": -8.69
+        "one_month": -11.58
       },
-      "return_20d_percent": -10.61,
+      "return_20d_percent": -9.13,
       "state": "WATCH",
       "pullback_assessment": {
         "label": "\u62bc\u3057\u5f85\u3061",
@@ -519,9 +519,9 @@
           "entry_timing": 7.0
         }
       },
-      "codex_comment": "5\u30fb25\u30fb75\u65e5\u7dda\u3092\u4e0b\u56de\u308a\u78ba\u8a8d0\u7fa4\u30021\u304b\u6708TOPIX\u6bd4\u306f\u5f31\u304f\u3001\u53c2\u8003\u4fa1\u683c\u307e\u30672.87ATR\u3042\u308b\u305f\u3081WATCH\u3092\u7dad\u6301\u3059\u308b\u3002",
+      "codex_comment": "0.31%\u53cd\u767a\u3057\u305f\u304c5\u30fb25\u30fb75\u65e5\u7dda\u3092\u4e0b\u56de\u308a\u53cd\u8ee2\u78ba\u8a8d0\u7fa4\u3002\u53c2\u8003\u4fa1\u683c\u307e\u30673.05ATR\u306e\u305f\u3081WATCH\u3092\u7dad\u6301\u3059\u308b\u3002",
       "analysis_as_of": "2026-08-19",
-      "updated_at": "2026-09-03T21:41:55+09:00",
+      "updated_at": "2026-09-06T23:38:56+09:00",
       "chart_data": {
         "path": "chart_data/4203.json",
         "bars": 120,
@@ -532,23 +532,23 @@
       "ticker": "6504",
       "name": "\u5bcc\u58eb\u96fb\u6a5f",
       "exchange": "TSE",
-      "price_as_of": "2026-09-03",
-      "close": 12835.0,
+      "price_as_of": "2026-09-04",
+      "close": 13110.0,
       "ma": {
-        "ma5": 13435.0,
-        "ma25": 14080.2,
-        "ma75": 14041.2
+        "ma5": 13294.0,
+        "ma25": 14096.8,
+        "ma75": 14028.4667
       },
       "ma_distance_percent": {
-        "ma5": -4.47,
-        "ma25": -8.84,
-        "ma75": -8.59
+        "ma5": -1.38,
+        "ma25": -7.0,
+        "ma75": -6.55
       },
-      "rsi14": 37.87,
+      "rsi14": 41.92,
       "macd": {
-        "line": -121.5432,
-        "signal": 44.0763,
-        "histogram": -165.6195,
+        "line": -157.1718,
+        "signal": 3.8267,
+        "histogram": -160.9985,
         "parameters": [
           12,
           26,
@@ -556,18 +556,18 @@
         ]
       },
       "atr14": {
-        "value": 561.8294,
-        "percent": 4.38
+        "value": 546.3416,
+        "percent": 4.17
       },
       "volume": {
-        "latest": 627300,
-        "average_20d": 706695.0,
-        "ratio_to_20d": 0.8877
+        "latest": 890000,
+        "average_20d": 701405.0,
+        "ratio_to_20d": 1.2689
       },
       "topix_relative_strength_percent": {
-        "one_month": -12.05
+        "one_month": -13.82
       },
-      "return_20d_percent": -14.43,
+      "return_20d_percent": -8.51,
       "state": "WATCH",
       "pullback_assessment": {
         "label": "\u62bc\u3057\u5f85\u3061",
@@ -593,9 +593,9 @@
           "entry_timing": 6.0
         }
       },
-      "codex_comment": "\u76f4\u8fd120\u65e5\u652f\u6301\u3092\u4e0b\u56de\u308aMACD\u3082\u30de\u30a4\u30ca\u30b9\u3001\u78ba\u8a8d0\u7fa4\u3002\u4f01\u696d\u54c1\u8ceaA+\u3068\u8db3\u5143\u306e\u5f31\u3055\u3092\u5206\u3051\u3001\u4fa1\u683c\u6761\u4ef6\u672a\u9054\u306eWATCH\u3092\u7dad\u6301\u3059\u308b\u3002",
+      "codex_comment": "2.14%\u53cd\u767a\u3057\u51fa\u6765\u9ad8\u7fa4\u306f\u6210\u7acb\u3057\u305f\u304c\u30015\u30fb25\u30fb75\u65e5\u7dda\u672a\u56de\u5fa9\u3067\u53c2\u8003\u4fa1\u683c\u307e\u30673.94ATR\u3002WATCH\u3092\u7dad\u6301\u3059\u308b\u3002",
       "analysis_as_of": "2026-08-19",
-      "updated_at": "2026-09-03T21:41:55+09:00",
+      "updated_at": "2026-09-06T23:38:56+09:00",
       "chart_data": {
         "path": "chart_data/6504.json",
         "bars": 120,
