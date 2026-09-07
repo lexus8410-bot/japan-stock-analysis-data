@@ -1,0 +1,208 @@
+{
+  "schema_version": 2,
+  "screening_date": "2026-09-07",
+  "close_status": "confirmed",
+  "run_id": "2026-09-08T065142-1fb2a26355f9",
+  "generated_at": "2026-09-08T06:51:42.533137+09:00",
+  "indicator_version": "market-v2.2-fixed200",
+  "config_hash": "722bf5fe2f8e9f7dba17e7747af893fd6fe16c31fc11631347e06fb6f6937537",
+  "price_adjustment": "yahoo_split_adjusted_ohlc_no_dividends",
+  "category_scores_are_cross_comparable": false,
+  "universe_count": 3700,
+  "market_data_usable_count": 3677,
+  "financial_eligible_count": 3,
+  "coverage": 99.37837837837837,
+  "missing_daily_sessions": [],
+  "guardrails": {
+    "formal_watchlist_modified": false,
+    "formal_scores_modified": false,
+    "orders_executed": false
+  },
+  "early_move_candidates": [],
+  "trend_improvement_candidates": [],
+  "pullback_candidates": [
+    {
+      "ticker": "6508",
+      "name": "\u660e\u96fb\u820e",
+      "market": "Prime",
+      "sector": "\u96fb\u6c17\u6a5f\u5668",
+      "data_as_of": "2026-09-07",
+      "close_status": "confirmed",
+      "price_adjustment": "yahoo_split_adjusted_ohlc_no_dividends",
+      "rank": 1,
+      "previous_rank": 3,
+      "rank_change": 2,
+      "rank_basis": "eligible_market_cohort:entry_timing",
+      "comparison_group": "macd_direction,near_sma25",
+      "cohort_hash": "43b939e5f7a92a86d40da9d488b541ce2c1ffbfb6be767b9ace563f226eb14c3",
+      "score": 91.6594,
+      "score_axis": "entry_timing",
+      "coverage": 100.0,
+      "reason": [
+        "SMA75\u4e0a\u6607\u30fb\u4e0a\u5024\u7dad\u6301\u306e\u4e2d\u30675\u65e5\u9a30\u843d\u7387\u304c\u8ca0\u3001SMA25\u4ed8\u8fd1\u3078\u8abf\u6574"
+      ],
+      "counter_evidence": [
+        "\u51fa\u6765\u9ad8\u5897\u52a0\u306e\u8907\u6570\u65e5\u7d99\u7d9a\u306f\u672a\u78ba\u8a8d"
+      ],
+      "risk_flags": [
+        "TRADING_VALUE_UNAVAILABLE"
+      ],
+      "scores": {
+        "early_move": {
+          "score": 28.0919,
+          "coverage": 100.0,
+          "parts": {
+            "volume": 0.0,
+            "return5": 0.0,
+            "sma25": 0.22197834357623597,
+            "sma75": 1.0,
+            "macd": 0.0,
+            "rs20": 0.46353734199219476
+          },
+          "coverage_group": "macd,return5,rs20,sma25,sma75,volume"
+        },
+        "trend_quality": {
+          "score": 88.4029,
+          "coverage": 100.0,
+          "parts": {
+            "sma25_slope": 1.0,
+            "sma75_slope": 0.5361157806261836,
+            "sma200": 1.0,
+            "rs60": 1.0
+          },
+          "coverage_group": "rs60,sma200,sma25_slope,sma75_slope"
+        },
+        "entry_timing": {
+          "score": 91.6594,
+          "coverage": 100.0,
+          "parts": {
+            "near_sma25": 0.8331870061457416,
+            "macd_direction": 1.0
+          },
+          "coverage_group": "macd_direction,near_sma25"
+        },
+        "short_term_heat": {
+          "score": 0.0,
+          "coverage": 100.0,
+          "parts": {
+            "rsi": 0.0,
+            "deviation": 0.0,
+            "return5": 0.0
+          },
+          "coverage_group": "deviation,return5,rsi"
+        }
+      },
+      "persistence": {
+        "above_sma25": 0,
+        "above_sma75": 6,
+        "macd_positive": 0,
+        "macd_rising": 1,
+        "rs_positive": 1,
+        "volume_surge": 0
+      },
+      "relative_strength_change_1w": -0.16893862608250498,
+      "trend_quality_change_1w": -8.892799999999994,
+      "observation_flags": [
+        "REBOUND"
+      ],
+      "financial": {
+        "status": "eligible",
+        "coverage": 100.0,
+        "risk_flags": [],
+        "basis": {
+          "revenue": {
+            "period": "2025-04-01/2026-03-31",
+            "period_end": "2026-03-31",
+            "period_type": "FY",
+            "published_at": "2026-05-14",
+            "retrieved_at": "2026-09-08T06:45:28.653604+09:00",
+            "source": "https://www.meidensha.co.jp/ir/ir_04/ir_04_01/",
+            "kind": "company_actual",
+            "source_title": "2026\u5e743\u6708\u671f \u6c7a\u7b97\u77ed\u4fe1\uff08\u9023\u7d50\uff09",
+            "source_page": 1,
+            "source_sha256": "f48a3385b1eca620ee2a0690998bee640e33d03db9c5a6a70d170ab5f835c475",
+            "acquisition_note": "Re-read and visually verified saved primary PDF on retrieval date",
+            "value": 326194000000,
+            "unit": "JPY"
+          },
+          "operating_profit": {
+            "period": "2025-04-01/2026-03-31",
+            "period_end": "2026-03-31",
+            "period_type": "FY",
+            "published_at": "2026-05-14",
+            "retrieved_at": "2026-09-08T06:45:28.653604+09:00",
+            "source": "https://www.meidensha.co.jp/ir/ir_04/ir_04_01/",
+            "kind": "company_actual",
+            "source_title": "2026\u5e743\u6708\u671f \u6c7a\u7b97\u77ed\u4fe1\uff08\u9023\u7d50\uff09",
+            "source_page": 1,
+            "source_sha256": "f48a3385b1eca620ee2a0690998bee640e33d03db9c5a6a70d170ab5f835c475",
+            "acquisition_note": "Re-read and visually verified saved primary PDF on retrieval date",
+            "value": 27122000000,
+            "unit": "JPY"
+          },
+          "equity_ratio": {
+            "period": "2025-04-01/2026-03-31",
+            "period_end": "2026-03-31",
+            "period_type": "FY",
+            "published_at": "2026-05-14",
+            "retrieved_at": "2026-09-08T06:45:28.653604+09:00",
+            "source": "https://www.meidensha.co.jp/ir/ir_04/ir_04_01/",
+            "kind": "company_actual",
+            "source_title": "2026\u5e743\u6708\u671f \u6c7a\u7b97\u77ed\u4fe1\uff08\u9023\u7d50\uff09",
+            "source_page": 1,
+            "source_sha256": "f48a3385b1eca620ee2a0690998bee640e33d03db9c5a6a70d170ab5f835c475",
+            "acquisition_note": "Re-read and visually verified saved primary PDF on retrieval date",
+            "value": 0.468,
+            "unit": "ratio"
+          }
+        }
+      },
+      "close": 11200.0,
+      "valuation": {
+        "per": {
+          "value": null,
+          "denominator": null,
+          "price_as_of": "2026-09-07",
+          "risk_flags": [
+            "VALUATION_BASIS_UNVERIFIED"
+          ]
+        },
+        "pbr": {
+          "value": null,
+          "denominator": {
+            "period": "2025-04-01/2026-03-31",
+            "period_end": "2026-03-31",
+            "period_type": "FY",
+            "published_at": "2026-05-14",
+            "retrieved_at": "2026-09-08T06:45:28.653604+09:00",
+            "source": "https://www.meidensha.co.jp/ir/ir_04/ir_04_01/",
+            "kind": "company_actual",
+            "source_title": "2026\u5e743\u6708\u671f \u6c7a\u7b97\u77ed\u4fe1\uff08\u9023\u7d50\uff09",
+            "source_page": 1,
+            "source_sha256": "f48a3385b1eca620ee2a0690998bee640e33d03db9c5a6a70d170ab5f835c475",
+            "acquisition_note": "Re-read and visually verified saved primary PDF on retrieval date",
+            "value": 3855.25,
+            "unit": "JPY/share",
+            "share_basis_date": "2026-03-31"
+          },
+          "price_as_of": "2026-09-07",
+          "risk_flags": [
+            "VALUATION_BASIS_UNVERIFIED"
+          ]
+        }
+      }
+    }
+  ],
+  "overheated_candidates": [],
+  "deteriorating_candidates": [],
+  "candidate_transitions": [
+    {
+      "ticker": "6508",
+      "status": "new",
+      "data_as_of": "2026-09-07",
+      "reason": "\u5019\u88dc\u7fa4\u30fb\u5e02\u5834\u30c8\u30ec\u30f3\u30c9\u5909\u5316\u304b\u3089\u5224\u5b9a",
+      "financial_status": "eligible"
+    }
+  ],
+  "source_mode": "cache_replay"
+}
