@@ -1,5 +1,34 @@
 # Japan Equity Analysis Policy
 
+## Weekly market screening schema 2 (2026-09-08 onward)
+
+`weekly_market_v2.json` is a separate research-only sidecar linked by
+`latest.json.weekly_market_v2_url`. Its `screening_date` is independent of the
+formal watchlist's `market_as_of`. The legacy `weekly_screening_url` and schema 1
+history remain readable at their original dates; they are not current v2 ranks.
+
+Financial updates are explicit or disclosure-driven. Daily confirmed market
+observations are stored independently; weekly aggregation reads those saved
+observations without downloading financial pages. Financial eligibility,
+valuation, trend quality, entry timing and short-term heat remain separate.
+There is no cross-category ranking. Ranks are comparable only within the stated
+comparison group with aligned date, adjustment, periods and coverage mask.
+
+The five groups are `early_move_candidates`, `trend_improvement_candidates`,
+`pullback_candidates`, `overheated_candidates`, and `deteriorating_candidates`.
+Null rank changes indicate unavailable or incomparable prior observations.
+Missing financial evidence does not become a zero score: eligibility remains
+unknown and those companies stay in the local review queue. Financial coverage
+may cover only a small subset of the full market; always read
+`financial_eligible_count` against `market_data_usable_count`.
+
+`source_mode=cache_replay` explicitly includes subsequently acquired data and
+must not be treated as a point-in-time backtest. Actual trading value remains
+null when unavailable; the liquidity proxy is not observed turnover. PER/PBR
+remain null without verified denominator period/type and share basis. Candidates
+are observations for further research, never automatic watchlist/state changes
+or trade instructions.
+
 - Policy version: 1.1
 - Effective date: 2026-08-27
 - Scope: 日本株分析、正式ウォッチリスト、テーマ発掘、朝分析、公開JSONの利用
