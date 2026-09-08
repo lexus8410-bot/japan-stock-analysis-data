@@ -2,15 +2,15 @@
   "schema_version": 2,
   "screening_date": "2026-09-07",
   "close_status": "confirmed",
-  "run_id": "2026-09-08T065142-1fb2a26355f9",
-  "generated_at": "2026-09-08T06:51:42.533137+09:00",
+  "run_id": "2026-09-08T140847-a927d8ddcee7",
+  "generated_at": "2026-09-08T14:08:47.185941+09:00",
   "indicator_version": "market-v2.2-fixed200",
   "config_hash": "722bf5fe2f8e9f7dba17e7747af893fd6fe16c31fc11631347e06fb6f6937537",
   "price_adjustment": "yahoo_split_adjusted_ohlc_no_dividends",
   "category_scores_are_cross_comparable": false,
   "universe_count": 3700,
   "market_data_usable_count": 3677,
-  "financial_eligible_count": 3,
+  "financial_eligible_count": 8,
   "coverage": 99.37837837837837,
   "missing_daily_sessions": [],
   "guardrails": {
@@ -23,26 +23,26 @@
   "pullback_candidates": [
     {
       "ticker": "6508",
-      "name": "\u660e\u96fb\u820e",
+      "name": "明電舎",
       "market": "Prime",
-      "sector": "\u96fb\u6c17\u6a5f\u5668",
+      "sector": "電気機器",
       "data_as_of": "2026-09-07",
       "close_status": "confirmed",
       "price_adjustment": "yahoo_split_adjusted_ohlc_no_dividends",
-      "rank": 1,
-      "previous_rank": 3,
-      "rank_change": 2,
+      "rank": 2,
+      "previous_rank": 8,
+      "rank_change": 6,
       "rank_basis": "eligible_market_cohort:entry_timing",
       "comparison_group": "macd_direction,near_sma25",
-      "cohort_hash": "43b939e5f7a92a86d40da9d488b541ce2c1ffbfb6be767b9ace563f226eb14c3",
+      "cohort_hash": "3c26288271d53bf016cd3cd7a5f5d30a0ed77c9d03ba110558b0d4225f441745",
       "score": 91.6594,
       "score_axis": "entry_timing",
       "coverage": 100.0,
       "reason": [
-        "SMA75\u4e0a\u6607\u30fb\u4e0a\u5024\u7dad\u6301\u306e\u4e2d\u30675\u65e5\u9a30\u843d\u7387\u304c\u8ca0\u3001SMA25\u4ed8\u8fd1\u3078\u8abf\u6574"
+        "SMA75上昇・上値維持の中で5日騰落率が負、SMA25付近へ調整"
       ],
       "counter_evidence": [
-        "\u51fa\u6765\u9ad8\u5897\u52a0\u306e\u8907\u6570\u65e5\u7d99\u7d9a\u306f\u672a\u78ba\u8a8d"
+        "出来高増加の複数日継続は未確認"
       ],
       "risk_flags": [
         "TRADING_VALUE_UNAVAILABLE"
@@ -118,7 +118,7 @@
             "retrieved_at": "2026-09-08T06:45:28.653604+09:00",
             "source": "https://www.meidensha.co.jp/ir/ir_04/ir_04_01/",
             "kind": "company_actual",
-            "source_title": "2026\u5e743\u6708\u671f \u6c7a\u7b97\u77ed\u4fe1\uff08\u9023\u7d50\uff09",
+            "source_title": "2026年3月期 決算短信（連結）",
             "source_page": 1,
             "source_sha256": "f48a3385b1eca620ee2a0690998bee640e33d03db9c5a6a70d170ab5f835c475",
             "acquisition_note": "Re-read and visually verified saved primary PDF on retrieval date",
@@ -133,7 +133,7 @@
             "retrieved_at": "2026-09-08T06:45:28.653604+09:00",
             "source": "https://www.meidensha.co.jp/ir/ir_04/ir_04_01/",
             "kind": "company_actual",
-            "source_title": "2026\u5e743\u6708\u671f \u6c7a\u7b97\u77ed\u4fe1\uff08\u9023\u7d50\uff09",
+            "source_title": "2026年3月期 決算短信（連結）",
             "source_page": 1,
             "source_sha256": "f48a3385b1eca620ee2a0690998bee640e33d03db9c5a6a70d170ab5f835c475",
             "acquisition_note": "Re-read and visually verified saved primary PDF on retrieval date",
@@ -148,7 +148,7 @@
             "retrieved_at": "2026-09-08T06:45:28.653604+09:00",
             "source": "https://www.meidensha.co.jp/ir/ir_04/ir_04_01/",
             "kind": "company_actual",
-            "source_title": "2026\u5e743\u6708\u671f \u6c7a\u7b97\u77ed\u4fe1\uff08\u9023\u7d50\uff09",
+            "source_title": "2026年3月期 決算短信（連結）",
             "source_page": 1,
             "source_sha256": "f48a3385b1eca620ee2a0690998bee640e33d03db9c5a6a70d170ab5f835c475",
             "acquisition_note": "Re-read and visually verified saved primary PDF on retrieval date",
@@ -161,7 +161,25 @@
       "valuation": {
         "per": {
           "value": null,
-          "denominator": null,
+          "denominator": {
+            "value": 551.1,
+            "unit": "JPY/share",
+            "period": "2026-04-01/2027-03-31",
+            "period_end": "2027-03-31",
+            "period_type": "FY",
+            "kind": "company_forecast",
+            "published_at": "2026-07-31",
+            "retrieved_at": "2026-09-08T14:03:23.833439+09:00",
+            "source": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20260731/20260730503916.pdf",
+            "source_title": "2026-06-30 Cumulative interim results and FY company forecast",
+            "source_page": 1,
+            "source_sha256": "c48c45e93d5d7424d57414dcc45fead9dc7feb51dd70f37b3b3e0f4d8bc7aa1f",
+            "scope": "consolidated",
+            "reported_value": 551.1,
+            "reported_unit": "JPY/share",
+            "reviewed_at": "2026-09-08T14:03:23.833439+09:00",
+            "disclosure_event": "quarterly_results"
+          },
           "price_as_of": "2026-09-07",
           "risk_flags": [
             "VALUATION_BASIS_UNVERIFIED"
@@ -177,7 +195,7 @@
             "retrieved_at": "2026-09-08T06:45:28.653604+09:00",
             "source": "https://www.meidensha.co.jp/ir/ir_04/ir_04_01/",
             "kind": "company_actual",
-            "source_title": "2026\u5e743\u6708\u671f \u6c7a\u7b97\u77ed\u4fe1\uff08\u9023\u7d50\uff09",
+            "source_title": "2026年3月期 決算短信（連結）",
             "source_page": 1,
             "source_sha256": "f48a3385b1eca620ee2a0690998bee640e33d03db9c5a6a70d170ab5f835c475",
             "acquisition_note": "Re-read and visually verified saved primary PDF on retrieval date",
@@ -197,10 +215,17 @@
   "deteriorating_candidates": [],
   "candidate_transitions": [
     {
+      "ticker": "5805",
+      "status": "disappeared",
+      "data_as_of": "2026-09-07",
+      "reason": "候補群・市場トレンド変化から判定",
+      "financial_status": "eligible"
+    },
+    {
       "ticker": "6508",
       "status": "new",
       "data_as_of": "2026-09-07",
-      "reason": "\u5019\u88dc\u7fa4\u30fb\u5e02\u5834\u30c8\u30ec\u30f3\u30c9\u5909\u5316\u304b\u3089\u5224\u5b9a",
+      "reason": "候補群・市場トレンド変化から判定",
       "financial_status": "eligible"
     }
   ],
