@@ -2,9 +2,9 @@
   "schema_version": 1,
   "purpose": "ChatGPT machine-readable mirror for the Japanese stock dashboard",
   "analysis_policy_url": "https://raw.githubusercontent.com/lexus8410-bot/japan-stock-analysis-data/main/analysis_policy.md",
-  "updated_at": "2026-09-09T21:29:44+09:00",
-  "watchlist_updated_at": "2026-09-09T21:29:29+09:00",
-  "manifest_updated_at": "2026-09-09T21:29:44+09:00",
+  "updated_at": "2026-09-09T21:48:43+09:00",
+  "watchlist_updated_at": "2026-09-09T21:48:23+09:00",
+  "manifest_updated_at": "2026-09-09T21:48:43+09:00",
   "market_as_of": "2026-09-09",
   "close_status": "confirmed daily close",
   "validation_status": "PASS",
@@ -50,9 +50,9 @@
         "one_month": -12.02
       },
       "return_20d_percent": -13.67,
-      "state": "APPROACHING",
+      "state": "SETUP",
       "pullback_assessment": {
-        "label": "\u62bc\u3057\u76ee\u63a5\u8fd1",
+        "label": "\u53cd\u8ee2\u78ba\u8a8d\u5f85\u3061",
         "derived_from_formal_state": true,
         "basis": "\u4fa1\u683c\u6761\u4ef6\u306f\u6e80\u305f\u3059\u304c\u53cd\u8ee2\u78ba\u8a8d\u304c\u4e0d\u8db3",
         "is_trade_signal": false
@@ -75,9 +75,9 @@
           "entry_timing": 6.0
         }
       },
-      "codex_comment": "4.62%\u53cd\u767a\u3057\u30665\u65e5\u7dda\u3092\u56de\u5fa9\u3057\u76e3\u8996\u53c2\u8003\u4fa1\u683c\u30922.11%\u4e0b\u56de\u308b\u304c\u3001\u53cd\u8ee2\u78ba\u8a8d\u306f\u4fa1\u683c1\u7fa4\u306e\u307f\u3002SETUP\u3078\u306e\u5909\u66f4\u6848\u3092\u7d99\u7d9a\u3057TRIGGER\u306b\u306f\u9032\u3081\u306a\u3044\u3002",
+      "codex_comment": "4.62%\u53cd\u767a\u3057\u30665\u65e5\u7dda\u3092\u56de\u5fa9\u3057\u76e3\u8996\u53c2\u8003\u4fa1\u683c\u30922.11%\u4e0b\u56de\u308b\u304c\u3001\u53cd\u8ee2\u78ba\u8a8d\u306f\u4fa1\u683c1\u7fa4\u306e\u307f\u3002\u627f\u8a8d\u6e08\u307f\u306e\u6b63\u5f0f\u72b6\u614bSETUP\u3092\u7dad\u6301\u3057TRIGGER\u306b\u306f\u9032\u3081\u306a\u3044\u3002",
       "analysis_as_of": "2026-08-19",
-      "updated_at": "2026-09-09T21:29:44+09:00",
+      "updated_at": "2026-09-09T21:48:43+09:00",
       "chart_data": {
         "path": "chart_data/6134.json",
         "bars": 120,
@@ -151,7 +151,7 @@
       },
       "codex_comment": "3.22%\u53cd\u767a\u3057\u30665\u65e5\u7dda\u3092\u56de\u5fa9\u3057\u305f\u304c\u3001\u53c2\u8003\u4fa1\u683c\u307e\u30671.83ATR\u3067\u53cd\u8ee2\u78ba\u8a8d\u306f\u4fa1\u683c1\u7fa4\u306e\u307f\u3002WATCH\u3092\u7dad\u6301\u3059\u308b\u3002",
       "analysis_as_of": "2026-08-19",
-      "updated_at": "2026-09-09T21:29:44+09:00",
+      "updated_at": "2026-09-09T21:48:43+09:00",
       "chart_data": {
         "path": "chart_data/6622.json",
         "bars": 120,
@@ -198,9 +198,9 @@
         "one_month": 1.52
       },
       "return_20d_percent": -5.18,
-      "state": "OVERHEATED",
+      "state": "WATCH",
       "pullback_assessment": {
-        "label": "\u307e\u3060\u9ad8\u3044",
+        "label": "\u62bc\u3057\u5f85\u3061",
         "derived_from_formal_state": true,
         "basis": "\u76e3\u8996\u53c2\u8003\u4fa1\u683c\u304c\u672a\u9054",
         "is_trade_signal": false
@@ -223,9 +223,9 @@
           "entry_timing": 4.0
         }
       },
-      "codex_comment": "3.84%\u53cd\u767a\u3057\u30665\u65e5\u7dda\u3092\u56de\u5fa9\u3057\u53cd\u8ee2\u78ba\u8a8d2\u7fa4\u3068\u306a\u3063\u305f\u304c\u3001\u53c2\u8003\u4fa1\u683c\u307e\u30672.32ATR\u3002\u904e\u71b1\u6761\u4ef6\u30bc\u30ed\u304c\u7d9a\u304f\u305f\u3081WATCH\u3078\u306e\u5909\u66f4\u6848\u3092\u7d99\u7d9a\u3059\u308b\u3002",
+      "codex_comment": "3.84%\u53cd\u767a\u3057\u30665\u65e5\u7dda\u3092\u56de\u5fa9\u3057\u53cd\u8ee2\u78ba\u8a8d2\u7fa4\u3068\u306a\u3063\u305f\u304c\u3001\u53c2\u8003\u4fa1\u683c\u307e\u30672.32ATR\u3002\u627f\u8a8d\u6e08\u307f\u306e\u6b63\u5f0f\u72b6\u614bWATCH\u3092\u7dad\u6301\u3059\u308b\u3002",
       "analysis_as_of": "2026-08-19",
-      "updated_at": "2026-09-09T21:29:44+09:00",
+      "updated_at": "2026-09-09T21:48:43+09:00",
       "chart_data": {
         "path": "chart_data/6508.json",
         "bars": 120,
@@ -299,7 +299,7 @@
       },
       "codex_comment": "1.55%\u53cd\u767a\u3057\u305f\u304c5\u30fb25\u30fb75\u30fb200\u65e5\u7dda\u3092\u4e0b\u56de\u308a\u53cd\u8ee2\u78ba\u8a8d0\u7fa4\u3002\u53c2\u8003\u4fa1\u683c\u307e\u30672.84ATR\u306e\u305f\u3081WATCH\u3092\u7dad\u6301\u3059\u308b\u3002",
       "analysis_as_of": "2026-08-19",
-      "updated_at": "2026-09-09T21:29:44+09:00",
+      "updated_at": "2026-09-09T21:48:43+09:00",
       "chart_data": {
         "path": "chart_data/6383.json",
         "bars": 120,
@@ -373,7 +373,7 @@
       },
       "codex_comment": "0.21%\u53cd\u767a\u306b\u3068\u3069\u307e\u308a5\u30fb25\u30fb75\u65e5\u7dda\u3092\u4e0b\u56de\u308a\u53cd\u8ee2\u78ba\u8a8d0\u7fa4\u3002\u53c2\u8003\u4fa1\u683c\u307e\u30672.29ATR\u306e\u305f\u3081WATCH\u3092\u7dad\u6301\u3059\u308b\u3002",
       "analysis_as_of": "2026-08-19",
-      "updated_at": "2026-09-09T21:29:44+09:00",
+      "updated_at": "2026-09-09T21:48:43+09:00",
       "chart_data": {
         "path": "chart_data/7729.json",
         "bars": 120,
@@ -420,9 +420,9 @@
         "one_month": 8.75
       },
       "return_20d_percent": 7.95,
-      "state": "OVERHEATED",
+      "state": "WATCH",
       "pullback_assessment": {
-        "label": "\u307e\u3060\u9ad8\u3044",
+        "label": "\u62bc\u3057\u5f85\u3061",
         "derived_from_formal_state": true,
         "basis": "\u76e3\u8996\u53c2\u8003\u4fa1\u683c\u304c\u672a\u9054",
         "is_trade_signal": false
@@ -445,9 +445,9 @@
           "entry_timing": 4.0
         }
       },
-      "codex_comment": "7.71%\u53cd\u767a\u3057\u3066\u4e3b\u8981\u79fb\u52d5\u5e73\u5747\u7dda\u3092\u4e0a\u56de\u3063\u305f\u304c\u3001\u53c2\u8003\u4fa1\u683c\u309232.17%\u4e0a\u56de\u308b\u3002\u904e\u71b1\u6761\u4ef6\u30bc\u30ed\u306e\u305f\u3081WATCH\u3078\u306e\u5909\u66f4\u6848\u3092\u7d99\u7d9a\u3057\u3001\u8ffd\u968f\u3057\u306a\u3044\u3002",
+      "codex_comment": "7.71%\u53cd\u767a\u3057\u3066\u4e3b\u8981\u79fb\u52d5\u5e73\u5747\u7dda\u3092\u4e0a\u56de\u3063\u305f\u304c\u3001\u53c2\u8003\u4fa1\u683c\u309232.17%\u4e0a\u56de\u308b\u3002\u627f\u8a8d\u6e08\u307f\u306e\u6b63\u5f0f\u72b6\u614bWATCH\u3092\u7dad\u6301\u3057\u3001\u8ffd\u968f\u3057\u306a\u3044\u3002",
       "analysis_as_of": "2026-08-19",
-      "updated_at": "2026-09-09T21:29:44+09:00",
+      "updated_at": "2026-09-09T21:48:43+09:00",
       "chart_data": {
         "path": "chart_data/5805.json",
         "bars": 120,
@@ -521,7 +521,7 @@
       },
       "codex_comment": "11.01%\u53cd\u767a\u3057\u51fa\u6765\u9ad82.18\u500d\u3067\u4e3b\u8981\u79fb\u52d5\u5e73\u5747\u7dda\u3092\u56de\u5fa9\u3057\u305f\u304c\u3001\u53c2\u8003\u4fa1\u683c\u309223.80%\u4e0a\u56de\u308b\u3002WATCH\u3092\u7dad\u6301\u3057\u8ffd\u968f\u3057\u306a\u3044\u3002",
       "analysis_as_of": "2026-08-19",
-      "updated_at": "2026-09-09T21:29:44+09:00",
+      "updated_at": "2026-09-09T21:48:43+09:00",
       "chart_data": {
         "path": "chart_data/4203.json",
         "bars": 120,
@@ -595,7 +595,7 @@
       },
       "codex_comment": "2.74%\u53cd\u767a\u3057\u30665\u65e5\u7dda\u3092\u56de\u5fa9\u3057\u4fa1\u683c\u30fb\u51fa\u6765\u9ad8\u306e2\u7fa4\u3092\u78ba\u8a8d\u3057\u305f\u304c\u3001\u53c2\u8003\u4fa1\u683c\u307e\u30673.89ATR\u3002WATCH\u3092\u7dad\u6301\u3059\u308b\u3002",
       "analysis_as_of": "2026-08-19",
-      "updated_at": "2026-09-09T21:29:44+09:00",
+      "updated_at": "2026-09-09T21:48:43+09:00",
       "chart_data": {
         "path": "chart_data/6504.json",
         "bars": 120,
