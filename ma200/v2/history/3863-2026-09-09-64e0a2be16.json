@@ -1,0 +1,96 @@
+{
+  "schema_version": 2,
+  "episode_id": "3863-2026-09-09-64e0a2be16",
+  "ticker": "3863",
+  "policy_version": "ma200-rebound-v2.0",
+  "revisions": [
+    {
+      "as_of": "2026-09-15",
+      "revision": 0,
+      "phase": "REBOUND_CONFIRMED",
+      "lifecycle": "ACTIVE",
+      "data_status": "VALID"
+    },
+    {
+      "as_of": "2026-09-15",
+      "revision": 1,
+      "phase": "REBOUND_CONFIRMED",
+      "lifecycle": "ACTIVE",
+      "data_status": "VALID"
+    }
+  ],
+  "events": [
+    {
+      "event_id": "9674a0158d917e4e165726b61f7a43a892027fde61ea77e4a72bbf7c12c57af9",
+      "event_type": "episode_started",
+      "event_as_of": "2026-09-09",
+      "detected_at": "2026-09-18T07:15:38.146838+09:00",
+      "revision": 0,
+      "reconstructed": true,
+      "evidence": {
+        "entry": "main"
+      }
+    },
+    {
+      "event_id": "b2f75126d8b5b0fbfc970edcd409c110dac9d9ff81187591bd3e57ed76f3d95e",
+      "event_type": "phase_rebound_confirmed",
+      "event_as_of": "2026-09-15",
+      "detected_at": "2026-09-18T07:15:38.146838+09:00",
+      "revision": 0,
+      "reconstructed": false,
+      "evidence": {
+        "support_checks": [
+          true,
+          true
+        ],
+        "support_maintained": true,
+        "low_stop": true,
+        "reclaim_hold": false,
+        "stabilizing": true,
+        "price_group": true,
+        "momentum_rsi": true,
+        "momentum_macd": true,
+        "momentum_group": true,
+        "volume_group": false,
+        "relative_group": true,
+        "rebound_confirmed": true
+      }
+    },
+    {
+      "event_id": "ccbc8b27eee9f12afe9f574d2c5c8c427e1b979ee6da7c5fc3c65deb8d124289",
+      "event_type": "episode_started",
+      "event_as_of": "2026-09-09",
+      "detected_at": "2026-09-18T07:23:07.514435+09:00",
+      "revision": 1,
+      "reconstructed": true,
+      "evidence": {
+        "entry": "main"
+      }
+    },
+    {
+      "event_id": "6dcd5ff1a88bb5f9c4e421fe798a1c59bbe177211fc175b671162cd6fa0fcab3",
+      "event_type": "phase_rebound_confirmed",
+      "event_as_of": "2026-09-15",
+      "detected_at": "2026-09-18T07:23:07.514435+09:00",
+      "revision": 1,
+      "reconstructed": false,
+      "evidence": {
+        "support_checks": [
+          true,
+          true
+        ],
+        "support_maintained": true,
+        "low_stop": true,
+        "reclaim_hold": false,
+        "stabilizing": true,
+        "price_group": true,
+        "momentum_rsi": true,
+        "momentum_macd": true,
+        "momentum_group": true,
+        "volume_group": false,
+        "relative_group": true,
+        "rebound_confirmed": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "schema_version": 2,
+  "episode_id": "2749-2026-09-09-7534d27f35",
+  "ticker": "2749",
+  "policy_version": "ma200-rebound-v2.0",
+  "revisions": [
+    {
+      "as_of": "2026-09-15",
+      "revision": 1,
+      "phase": "REBOUND_CONFIRMED",
+      "lifecycle": "ACTIVE",
+      "data_status": "VALID"
+    }
+  ],
+  "events": [
+    {
+      "event_id": "f77b27539cf2cbad4071e09ae579390df5914f152f1f7eff63edd82cbce7cc88",
+      "event_type": "episode_started",
+      "event_as_of": "2026-09-09",
+      "detected_at": "2026-09-18T07:23:07.514435+09:00",
+      "revision": 1,
+      "reconstructed": true,
+      "evidence": {
+        "entry": "main"
+      }
+    },
+    {
+      "event_id": "b2462ad46907cb53a405c828ff9830689584a3e2ecea27396075625931b4122f",
+      "event_type": "phase_rebound_confirmed",
+      "event_as_of": "2026-09-15",
+      "detected_at": "2026-09-18T07:23:07.514435+09:00",
+      "revision": 1,
+      "reconstructed": false,
+      "evidence": {
+        "support_checks": [
+          false,
+          true
+        ],
+        "support_maintained": false,
+        "low_stop": true,
+        "reclaim_hold": true,
+        "stabilizing": false,
+        "price_group": true,
+        "momentum_rsi": true,
+        "momentum_macd": true,
+        "momentum_group": true,
+        "volume_group": true,
+        "relative_group": true,
+        "rebound_confirmed": true
+      }
+    }
+  ]
+}
