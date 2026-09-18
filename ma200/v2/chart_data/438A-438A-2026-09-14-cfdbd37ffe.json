@@ -1,12 +1,12 @@
 {
   "schema_version": 2,
   "dataset": "ma200_rebound_chart",
-  "run_id": "2026-09-18T072412-40c5b1688acd",
+  "run_id": "2026-09-19T070306-813779895858",
   "episode_id": "438A-2026-09-14-cfdbd37ffe",
   "ticker": "438A",
   "name": "\u30a4\u30f3\u30d5\u30ad\u30e5\u30ea\u30aa\u30f3",
-  "market_as_of": "2026-09-15",
-  "data_as_of": "2026-09-15",
+  "market_as_of": "2026-09-18",
+  "data_as_of": "2026-09-18",
   "data_status": "VALID",
   "phase": "STABILIZING",
   "interval": "1d",
@@ -15,30 +15,30 @@
   "support_low": 997.0,
   "markers": [
     {
-      "time": "2026-09-14",
+      "time": "2026-09-15",
+      "kind": "stabilizing",
+      "label": "\u4e0b\u3052\u6b62\u307e\u308a\u5146\u5019"
+    },
+    {
+      "time": "2026-09-16",
       "kind": "reclaim",
       "label": "\u7dda\u3092\u56de\u5fa9"
     },
     {
-      "time": "2026-09-14",
+      "time": "2026-09-16",
       "kind": "touch",
       "label": "\u53b3\u5bc6\u63a5\u89e6"
     },
     {
-      "time": "2026-09-15",
+      "time": "2026-09-18",
       "kind": "near",
       "label": "\u63a5\u8fd1"
-    },
-    {
-      "time": "2026-09-15",
-      "kind": "stabilizing",
-      "label": "\u4e0b\u3052\u6b62\u307e\u308a\u5146\u5019"
     }
   ],
-  "bar_count": 218,
+  "bar_count": 221,
   "date_range": {
     "from": "2025-10-24",
-    "to": "2026-09-15"
+    "to": "2026-09-18"
   },
   "bars": [
     {
@@ -2438,6 +2438,39 @@
       "sma200": 1032.96,
       "near_upper": 1063.9488000000001,
       "near_lower": 1001.9712
+    },
+    {
+      "date": "2026-09-16",
+      "open": 1065.0,
+      "high": 1081.0,
+      "low": 1028.0,
+      "close": 1034.0,
+      "volume": 108200,
+      "sma200": 1031.81,
+      "near_upper": 1062.7643,
+      "near_lower": 1000.8557
+    },
+    {
+      "date": "2026-09-17",
+      "open": 1040.0,
+      "high": 1071.0,
+      "low": 1040.0,
+      "close": 1053.0,
+      "volume": 82100,
+      "sma200": 1030.08,
+      "near_upper": 1060.9823999999999,
+      "near_lower": 999.1775999999999
+    },
+    {
+      "date": "2026-09-18",
+      "open": 1060.0,
+      "high": 1060.0,
+      "low": 1031.0,
+      "close": 1043.0,
+      "volume": 52700,
+      "sma200": 1027.66,
+      "near_upper": 1058.4898,
+      "near_lower": 996.8302000000001
     }
   ]
 }

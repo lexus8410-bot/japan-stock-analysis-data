@@ -1,58 +1,31 @@
 {
   "schema_version": 2,
   "dataset": "ma200_rebound_chart",
-  "run_id": "2026-09-18T072412-40c5b1688acd",
+  "run_id": "2026-09-19T070306-813779895858",
   "episode_id": "6390-2026-09-15-fcbee57092",
   "ticker": "6390",
   "name": "\u52a0\u85e4\u88fd\u4f5c\u6240",
-  "market_as_of": "2026-09-15",
-  "data_as_of": "2026-09-15",
+  "market_as_of": "2026-09-18",
+  "data_as_of": "2026-09-18",
   "data_status": "VALID",
-  "phase": "PRE_NEAR",
+  "phase": "NEAR",
   "interval": "1d",
   "timezone": "Asia/Tokyo",
   "price_adjustment": "yahoo_split_adjusted_ohlc_no_dividends",
   "support_low": null,
-  "markers": [],
+  "markers": [
+    {
+      "time": "2026-09-17",
+      "kind": "near",
+      "label": "\u63a5\u8fd1"
+    }
+  ],
   "bar_count": 260,
   "date_range": {
-    "from": "2025-08-22",
-    "to": "2026-09-15"
+    "from": "2025-08-27",
+    "to": "2026-09-18"
   },
   "bars": [
-    {
-      "date": "2025-08-22",
-      "open": 1370.0,
-      "high": 1395.0,
-      "low": 1370.0,
-      "close": 1377.0,
-      "volume": 52500,
-      "sma200": 1298.725,
-      "near_upper": 1337.6867499999998,
-      "near_lower": 1259.76325
-    },
-    {
-      "date": "2025-08-25",
-      "open": 1382.0,
-      "high": 1400.0,
-      "low": 1382.0,
-      "close": 1395.0,
-      "volume": 61600,
-      "sma200": 1299.51,
-      "near_upper": 1338.4953,
-      "near_lower": 1260.5247
-    },
-    {
-      "date": "2025-08-26",
-      "open": 1402.0,
-      "high": 1424.0,
-      "low": 1385.0,
-      "close": 1386.0,
-      "volume": 84800,
-      "sma200": 1300.385,
-      "near_upper": 1339.39655,
-      "near_lower": 1261.37345
-    },
     {
       "date": "2025-08-27",
       "open": 1390.0,
@@ -2879,6 +2852,39 @@
       "sma200": 1364.675,
       "near_upper": 1405.61525,
       "near_lower": 1323.7347499999998
+    },
+    {
+      "date": "2026-09-16",
+      "open": 1334.0,
+      "high": 1343.0,
+      "low": 1329.0,
+      "close": 1343.0,
+      "volume": 39100,
+      "sma200": 1365.325,
+      "near_upper": 1406.28475,
+      "near_lower": 1324.36525
+    },
+    {
+      "date": "2026-09-17",
+      "open": 1343.0,
+      "high": 1348.0,
+      "low": 1335.0,
+      "close": 1341.0,
+      "volume": 36200,
+      "sma200": 1365.9,
+      "near_upper": 1406.8770000000002,
+      "near_lower": 1324.923
+    },
+    {
+      "date": "2026-09-18",
+      "open": 1342.0,
+      "high": 1345.0,
+      "low": 1326.0,
+      "close": 1330.0,
+      "volume": 46300,
+      "sma200": 1366.43,
+      "near_upper": 1407.4229,
+      "near_lower": 1325.4371
     }
   ]
 }

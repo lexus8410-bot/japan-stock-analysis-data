@@ -10,6 +10,13 @@
       "phase": "NEAR",
       "lifecycle": "ACTIVE",
       "data_status": "VALID"
+    },
+    {
+      "as_of": "2026-09-18",
+      "revision": 0,
+      "phase": "REBOUND_CONFIRMED",
+      "lifecycle": "ACTIVE",
+      "data_status": "VALID"
     }
   ],
   "events": [
@@ -22,6 +29,31 @@
       "reconstructed": true,
       "evidence": {
         "entry": "main"
+      }
+    },
+    {
+      "event_id": "ce3bf2a1df459d05185edc371a20d4bce31ee247bc30b315f0a8a18bb9ce97da",
+      "event_type": "phase_rebound_confirmed",
+      "event_as_of": "2026-09-18",
+      "detected_at": "2026-09-19T07:01:51.124280+09:00",
+      "revision": 0,
+      "reconstructed": false,
+      "evidence": {
+        "support_checks": [
+          true,
+          true
+        ],
+        "support_maintained": true,
+        "low_stop": true,
+        "reclaim_hold": true,
+        "stabilizing": true,
+        "price_group": true,
+        "momentum_rsi": true,
+        "momentum_macd": true,
+        "momentum_group": true,
+        "volume_group": true,
+        "relative_group": true,
+        "rebound_confirmed": true
       }
     }
   ]

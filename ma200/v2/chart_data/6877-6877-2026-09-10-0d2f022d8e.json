@@ -1,14 +1,14 @@
 {
   "schema_version": 2,
   "dataset": "ma200_rebound_chart",
-  "run_id": "2026-09-18T072412-40c5b1688acd",
+  "run_id": "2026-09-19T070306-813779895858",
   "episode_id": "6877-2026-09-10-0d2f022d8e",
   "ticker": "6877",
   "name": "\uff2f\uff22\uff21\uff32\uff21\u3000\uff27\uff32\uff2f\uff35\uff30",
-  "market_as_of": "2026-09-15",
-  "data_as_of": "2026-09-15",
+  "market_as_of": "2026-09-18",
+  "data_as_of": "2026-09-18",
   "data_status": "VALID",
-  "phase": "STABILIZING",
+  "phase": "NEAR",
   "interval": "1d",
   "timezone": "Asia/Tokyo",
   "price_adjustment": "yahoo_split_adjusted_ohlc_no_dividends",
@@ -16,64 +16,31 @@
   "markers": [
     {
       "time": "2026-09-15",
-      "kind": "near",
-      "label": "\u63a5\u8fd1"
-    },
-    {
-      "time": "2026-09-15",
-      "kind": "reclaim",
-      "label": "\u7dda\u3092\u56de\u5fa9"
-    },
-    {
-      "time": "2026-09-15",
       "kind": "stabilizing",
       "label": "\u4e0b\u3052\u6b62\u307e\u308a\u5146\u5019"
     },
     {
-      "time": "2026-09-15",
+      "time": "2026-09-17",
+      "kind": "reclaim",
+      "label": "\u7dda\u3092\u56de\u5fa9"
+    },
+    {
+      "time": "2026-09-18",
+      "kind": "near",
+      "label": "\u63a5\u8fd1"
+    },
+    {
+      "time": "2026-09-18",
       "kind": "touch",
       "label": "\u53b3\u5bc6\u63a5\u89e6"
     }
   ],
   "bar_count": 260,
   "date_range": {
-    "from": "2025-08-22",
-    "to": "2026-09-15"
+    "from": "2025-08-27",
+    "to": "2026-09-18"
   },
   "bars": [
-    {
-      "date": "2025-08-22",
-      "open": 4200.0,
-      "high": 4210.0,
-      "low": 4160.0,
-      "close": 4200.0,
-      "volume": 23300,
-      "sma200": 3710.875,
-      "near_upper": 3822.20125,
-      "near_lower": 3599.54875
-    },
-    {
-      "date": "2025-08-25",
-      "open": 4200.0,
-      "high": 4215.0,
-      "low": 4195.0,
-      "close": 4210.0,
-      "volume": 21600,
-      "sma200": 3711.075,
-      "near_upper": 3822.4072499999997,
-      "near_lower": 3599.74275
-    },
-    {
-      "date": "2025-08-26",
-      "open": 4210.0,
-      "high": 4245.0,
-      "low": 4200.0,
-      "close": 4215.0,
-      "volume": 17000,
-      "sma200": 3711.1,
-      "near_upper": 3822.433,
-      "near_lower": 3599.767
-    },
     {
       "date": "2025-08-27",
       "open": 4210.0,
@@ -2900,6 +2867,39 @@
       "sma200": 5244.95,
       "near_upper": 5402.2985,
       "near_lower": 5087.6015
+    },
+    {
+      "date": "2026-09-16",
+      "open": 5250.0,
+      "high": 5340.0,
+      "low": 5240.0,
+      "close": 5290.0,
+      "volume": 26200,
+      "sma200": 5252.075,
+      "near_upper": 5409.63725,
+      "near_lower": 5094.51275
+    },
+    {
+      "date": "2026-09-17",
+      "open": 5300.0,
+      "high": 5360.0,
+      "low": 5250.0,
+      "close": 5280.0,
+      "volume": 25200,
+      "sma200": 5258.75,
+      "near_upper": 5416.5125,
+      "near_lower": 5100.9875
+    },
+    {
+      "date": "2026-09-18",
+      "open": 5270.0,
+      "high": 5290.0,
+      "low": 5210.0,
+      "close": 5220.0,
+      "volume": 37500,
+      "sma200": 5265.15,
+      "near_upper": 5423.1044999999995,
+      "near_lower": 5107.1955
     }
   ]
 }
