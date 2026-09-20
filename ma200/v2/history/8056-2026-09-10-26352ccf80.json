@@ -17,6 +17,20 @@
       "phase": "NEAR",
       "lifecycle": "ACTIVE",
       "data_status": "VALID"
+    },
+    {
+      "as_of": "2026-09-18",
+      "revision": 1,
+      "phase": "NEAR",
+      "lifecycle": "ACTIVE",
+      "data_status": "VALID"
+    },
+    {
+      "as_of": "2026-09-18",
+      "revision": 2,
+      "phase": "NEAR",
+      "lifecycle": "ACTIVE",
+      "data_status": "VALID"
     }
   ],
   "events": [
@@ -80,6 +94,503 @@
         "relative_group": false,
         "rebound_confirmed": false
       }
+    },
+    {
+      "event_id": "f145e2c7c708d813779456ae7685969fb75bda1a58af3c2f808bfd164192e10a",
+      "event_type": "range_near",
+      "event_as_of": "2026-09-10",
+      "detected_at": "2026-09-20T20:50:19.267693+09:00",
+      "revision": 1,
+      "reconstructed": true,
+      "evidence": {}
+    },
+    {
+      "event_id": "82e64de02c2496f15d7bc46f02d3d4a6b48e5b936f7fe18dad40155bc9d2d972",
+      "event_type": "range_near",
+      "event_as_of": "2026-09-11",
+      "detected_at": "2026-09-20T20:50:19.267693+09:00",
+      "revision": 1,
+      "reconstructed": true,
+      "evidence": {}
+    },
+    {
+      "event_id": "c482df30234d53bf4e08dce62703e515d441abaf213940b9f4eb86963e0fa5a2",
+      "event_type": "phase_rebound_confirmed",
+      "event_as_of": "2026-09-14",
+      "detected_at": "2026-09-20T20:50:19.267693+09:00",
+      "revision": 1,
+      "reconstructed": true,
+      "evidence": {
+        "support_checks": [
+          false,
+          true
+        ],
+        "support_maintained": false,
+        "low_stop": true,
+        "reclaim_hold": true,
+        "stabilizing": false,
+        "price_group": true,
+        "momentum_rsi": true,
+        "momentum_macd": true,
+        "momentum_group": true,
+        "volume_group": false,
+        "relative_group": true,
+        "rebound_confirmed": true
+      }
+    },
+    {
+      "event_id": "fda62ee815225df197e75466fb403685970a455aba9f4e5d5041a049a4c77519",
+      "event_type": "range_near",
+      "event_as_of": "2026-09-14",
+      "detected_at": "2026-09-20T20:50:19.267693+09:00",
+      "revision": 1,
+      "reconstructed": true,
+      "evidence": {}
+    },
+    {
+      "event_id": "74c016108b6f1242cf7a439a80dff569fdc855de74c2803cf277afeabfd15e44",
+      "event_type": "exact_touch",
+      "event_as_of": "2026-09-14",
+      "detected_at": "2026-09-20T20:50:19.267693+09:00",
+      "revision": 1,
+      "reconstructed": true,
+      "evidence": {}
+    },
+    {
+      "event_id": "32bc082aef873840b93c84014420a4cd4141d1dbc31882e743a1749515b6f458",
+      "event_type": "reclaim",
+      "event_as_of": "2026-09-14",
+      "detected_at": "2026-09-20T20:50:19.267693+09:00",
+      "revision": 1,
+      "reconstructed": true,
+      "evidence": {}
+    },
+    {
+      "event_id": "ccf5d95bd6a39400dd3f2ec01ee098cb927d2fa8091856e1787a2e169e65b08b",
+      "event_type": "range_near",
+      "event_as_of": "2026-09-15",
+      "detected_at": "2026-09-20T20:50:19.267693+09:00",
+      "revision": 1,
+      "reconstructed": true,
+      "evidence": {}
+    },
+    {
+      "event_id": "d80d2b01348f189ddb2cffa9d92b9454d665204f6c0e10047e579d1c7c6860f1",
+      "event_type": "exact_touch",
+      "event_as_of": "2026-09-15",
+      "detected_at": "2026-09-20T20:50:19.267693+09:00",
+      "revision": 1,
+      "reconstructed": true,
+      "evidence": {}
+    },
+    {
+      "event_id": "21aac310fe14f3bfac661a7954b66f4ecfd6757bc7169819175b90bf8c21c6d2",
+      "event_type": "reclaim",
+      "event_as_of": "2026-09-15",
+      "detected_at": "2026-09-20T20:50:19.267693+09:00",
+      "revision": 1,
+      "reconstructed": true,
+      "evidence": {}
+    },
+    {
+      "event_id": "882d4df85c5877b484fb60474a937fbf739b77cc117983416c3142a7c4581a36",
+      "event_type": "rebound_invalidated",
+      "event_as_of": "2026-09-16",
+      "detected_at": "2026-09-20T20:50:19.267693+09:00",
+      "revision": 1,
+      "reconstructed": true,
+      "evidence": {}
+    },
+    {
+      "event_id": "df4b7f625e4a1e56b0c5ebe52871580d53bec75c3079d94f7604d08ddeb802dd",
+      "event_type": "phase_near",
+      "event_as_of": "2026-09-16",
+      "detected_at": "2026-09-20T20:50:19.267693+09:00",
+      "revision": 1,
+      "reconstructed": true,
+      "evidence": {
+        "support_checks": [
+          true,
+          true
+        ],
+        "support_maintained": true,
+        "low_stop": false,
+        "reclaim_hold": false,
+        "stabilizing": false,
+        "price_group": false,
+        "momentum_rsi": false,
+        "momentum_macd": false,
+        "momentum_group": false,
+        "volume_group": false,
+        "relative_group": false,
+        "rebound_confirmed": false
+      }
+    },
+    {
+      "event_id": "c9433504e47ea07f4d06b57e24afca3f7d3dcc91938dfe08f38e5c040002943b",
+      "event_type": "range_near",
+      "event_as_of": "2026-09-16",
+      "detected_at": "2026-09-20T20:50:19.267693+09:00",
+      "revision": 1,
+      "reconstructed": true,
+      "evidence": {}
+    },
+    {
+      "event_id": "1379e4484281918735d990856b3fe98066334c211481635313202c53fde91020",
+      "event_type": "exact_touch",
+      "event_as_of": "2026-09-16",
+      "detected_at": "2026-09-20T20:50:19.267693+09:00",
+      "revision": 1,
+      "reconstructed": true,
+      "evidence": {}
+    },
+    {
+      "event_id": "4ffdad84ebf74dd80a2f7f46700f31e1da3fe2f0a8370e697fae1c4d951cf7a1",
+      "event_type": "phase_stabilizing",
+      "event_as_of": "2026-09-17",
+      "detected_at": "2026-09-20T20:50:19.267693+09:00",
+      "revision": 1,
+      "reconstructed": true,
+      "evidence": {
+        "support_checks": [
+          true,
+          true
+        ],
+        "support_maintained": true,
+        "low_stop": false,
+        "reclaim_hold": true,
+        "stabilizing": true,
+        "price_group": false,
+        "momentum_rsi": false,
+        "momentum_macd": false,
+        "momentum_group": false,
+        "volume_group": true,
+        "relative_group": false,
+        "rebound_confirmed": false
+      }
+    },
+    {
+      "event_id": "7a37049b46c002e54e22585e6f2d4dce2b15fc0e9fd94e147b1256ab7f4cdc45",
+      "event_type": "range_near",
+      "event_as_of": "2026-09-17",
+      "detected_at": "2026-09-20T20:50:19.267693+09:00",
+      "revision": 1,
+      "reconstructed": true,
+      "evidence": {}
+    },
+    {
+      "event_id": "57a873b2fcd4f08f9e53e74e72f4168092fd03f3f0c9ca0058d4024f2900e8b5",
+      "event_type": "exact_touch",
+      "event_as_of": "2026-09-17",
+      "detected_at": "2026-09-20T20:50:19.267693+09:00",
+      "revision": 1,
+      "reconstructed": true,
+      "evidence": {}
+    },
+    {
+      "event_id": "39c1f54acc104b575a87c02d6283d967cccd3956a0e4e5b659e5a86a1e8035ad",
+      "event_type": "reclaim",
+      "event_as_of": "2026-09-17",
+      "detected_at": "2026-09-20T20:50:19.267693+09:00",
+      "revision": 1,
+      "reconstructed": true,
+      "evidence": {}
+    },
+    {
+      "event_id": "17babd764c2747a940364ed12af98720a6f75b6a569fbb9f3f7ad22d77dfea0f",
+      "event_type": "phase_near",
+      "event_as_of": "2026-09-18",
+      "detected_at": "2026-09-20T20:50:19.267693+09:00",
+      "revision": 1,
+      "reconstructed": true,
+      "evidence": {
+        "support_checks": [
+          true,
+          false
+        ],
+        "support_maintained": false,
+        "low_stop": false,
+        "reclaim_hold": false,
+        "stabilizing": false,
+        "price_group": false,
+        "momentum_rsi": false,
+        "momentum_macd": false,
+        "momentum_group": false,
+        "volume_group": false,
+        "relative_group": false,
+        "rebound_confirmed": false
+      }
+    },
+    {
+      "event_id": "4f00a98132eb3d6a783e5c7dd813bbced8700ff21fe3f46f9219ed66e018948a",
+      "event_type": "range_near",
+      "event_as_of": "2026-09-18",
+      "detected_at": "2026-09-20T20:50:19.267693+09:00",
+      "revision": 1,
+      "reconstructed": true,
+      "evidence": {}
+    },
+    {
+      "event_id": "aec3eaf6781ed7d540abf1b73f1d2f9d987f65a9a47840c50a65ced10aa45658",
+      "event_type": "exact_touch",
+      "event_as_of": "2026-09-18",
+      "detected_at": "2026-09-20T20:50:19.267693+09:00",
+      "revision": 1,
+      "reconstructed": true,
+      "evidence": {}
+    },
+    {
+      "event_id": "c50f3243d8bf4bc34bb802ba252ce40874c1bcbbbd3dded89a31a31c5009b245",
+      "event_type": "episode_started",
+      "event_as_of": "2026-09-10",
+      "detected_at": "2026-09-20T20:55:00.365059+09:00",
+      "revision": 2,
+      "reconstructed": true,
+      "evidence": {}
+    },
+    {
+      "event_id": "a192a413dab0657f226f33ac8f75c936e7b9f6ee5d58abb9c0587d14b3bb784b",
+      "event_type": "range_near",
+      "event_as_of": "2026-09-10",
+      "detected_at": "2026-09-20T20:55:00.365059+09:00",
+      "revision": 2,
+      "reconstructed": true,
+      "evidence": {}
+    },
+    {
+      "event_id": "79dd6f2e1c6e2e5644ea32d4ac3ef648f4975ca4e80dfc6f4d65501cf1e1ac2b",
+      "event_type": "range_near",
+      "event_as_of": "2026-09-11",
+      "detected_at": "2026-09-20T20:55:00.365059+09:00",
+      "revision": 2,
+      "reconstructed": true,
+      "evidence": {}
+    },
+    {
+      "event_id": "da5cae3ccd57bf94ef95ebd92e5b0b4a3aaa0ab6c296e9f5ef6d61e1651271c4",
+      "event_type": "phase_rebound_confirmed",
+      "event_as_of": "2026-09-14",
+      "detected_at": "2026-09-20T20:55:00.365059+09:00",
+      "revision": 2,
+      "reconstructed": true,
+      "evidence": {
+        "support_checks": [
+          false,
+          true
+        ],
+        "support_maintained": false,
+        "low_stop": true,
+        "reclaim_hold": true,
+        "stabilizing": false,
+        "price_group": true,
+        "momentum_rsi": true,
+        "momentum_macd": true,
+        "momentum_group": true,
+        "volume_group": false,
+        "relative_group": true,
+        "rebound_confirmed": true
+      }
+    },
+    {
+      "event_id": "d6f832324848cb9489507248a1d238907cdaf1913d05b55cfde23a8132a3586f",
+      "event_type": "range_near",
+      "event_as_of": "2026-09-14",
+      "detected_at": "2026-09-20T20:55:00.365059+09:00",
+      "revision": 2,
+      "reconstructed": true,
+      "evidence": {}
+    },
+    {
+      "event_id": "eb599183f03eecac682470b03b702ce393deeb53e144719f9f4427e856f69a8c",
+      "event_type": "exact_touch",
+      "event_as_of": "2026-09-14",
+      "detected_at": "2026-09-20T20:55:00.365059+09:00",
+      "revision": 2,
+      "reconstructed": true,
+      "evidence": {}
+    },
+    {
+      "event_id": "ef31ddc43b8f2e690a7120d34118e343ee300698a27384e45200506175c9eebb",
+      "event_type": "reclaim",
+      "event_as_of": "2026-09-14",
+      "detected_at": "2026-09-20T20:55:00.365059+09:00",
+      "revision": 2,
+      "reconstructed": true,
+      "evidence": {}
+    },
+    {
+      "event_id": "a73d6f01cc23c98fbf1dbde8138dbd4c99e7a6afd3c04d8c74a9dff313617a6f",
+      "event_type": "range_near",
+      "event_as_of": "2026-09-15",
+      "detected_at": "2026-09-20T20:55:00.365059+09:00",
+      "revision": 2,
+      "reconstructed": true,
+      "evidence": {}
+    },
+    {
+      "event_id": "87eb118861d1f5b3b6e10ea9865e316fc8e9cdabb358b159b9488598dd1789e5",
+      "event_type": "exact_touch",
+      "event_as_of": "2026-09-15",
+      "detected_at": "2026-09-20T20:55:00.365059+09:00",
+      "revision": 2,
+      "reconstructed": true,
+      "evidence": {}
+    },
+    {
+      "event_id": "9d9b28ef118abdc3c78c8c583b8a478f9b4203a56d8e940c6cdc2faa1bd3f891",
+      "event_type": "reclaim",
+      "event_as_of": "2026-09-15",
+      "detected_at": "2026-09-20T20:55:00.365059+09:00",
+      "revision": 2,
+      "reconstructed": true,
+      "evidence": {}
+    },
+    {
+      "event_id": "74e83d75bccda38470040871a2c34b22652d9ab001dc69098737478c53e59f84",
+      "event_type": "rebound_invalidated",
+      "event_as_of": "2026-09-16",
+      "detected_at": "2026-09-20T20:55:00.365059+09:00",
+      "revision": 2,
+      "reconstructed": true,
+      "evidence": {}
+    },
+    {
+      "event_id": "8ca672d81c0c8afd542451b6e823456b8980931e52bab0f1134d02dec58f6c6c",
+      "event_type": "phase_near",
+      "event_as_of": "2026-09-16",
+      "detected_at": "2026-09-20T20:55:00.365059+09:00",
+      "revision": 2,
+      "reconstructed": true,
+      "evidence": {
+        "support_checks": [
+          true,
+          true
+        ],
+        "support_maintained": true,
+        "low_stop": false,
+        "reclaim_hold": false,
+        "stabilizing": false,
+        "price_group": false,
+        "momentum_rsi": false,
+        "momentum_macd": false,
+        "momentum_group": false,
+        "volume_group": false,
+        "relative_group": false,
+        "rebound_confirmed": false
+      }
+    },
+    {
+      "event_id": "9367bfd9de6ed2487efdffd15fbcdd4d0b0fc2ee5bcdfa2f4744a9349ef5c4af",
+      "event_type": "range_near",
+      "event_as_of": "2026-09-16",
+      "detected_at": "2026-09-20T20:55:00.365059+09:00",
+      "revision": 2,
+      "reconstructed": true,
+      "evidence": {}
+    },
+    {
+      "event_id": "5407150896811082995e088ddab2ff12496a9cdc13e4ace4129d015786cc71c2",
+      "event_type": "exact_touch",
+      "event_as_of": "2026-09-16",
+      "detected_at": "2026-09-20T20:55:00.365059+09:00",
+      "revision": 2,
+      "reconstructed": true,
+      "evidence": {}
+    },
+    {
+      "event_id": "45767711a57fd0644bf0ef978e8bbd1ae14f8dab16da9751e89b3231258a884d",
+      "event_type": "phase_stabilizing",
+      "event_as_of": "2026-09-17",
+      "detected_at": "2026-09-20T20:55:00.365059+09:00",
+      "revision": 2,
+      "reconstructed": true,
+      "evidence": {
+        "support_checks": [
+          true,
+          true
+        ],
+        "support_maintained": true,
+        "low_stop": false,
+        "reclaim_hold": true,
+        "stabilizing": true,
+        "price_group": false,
+        "momentum_rsi": false,
+        "momentum_macd": false,
+        "momentum_group": false,
+        "volume_group": true,
+        "relative_group": false,
+        "rebound_confirmed": false
+      }
+    },
+    {
+      "event_id": "cd21268b5574987de5b68b3a7bb4a750d98d5dedb844dd41bf550cb961c0c044",
+      "event_type": "range_near",
+      "event_as_of": "2026-09-17",
+      "detected_at": "2026-09-20T20:55:00.365059+09:00",
+      "revision": 2,
+      "reconstructed": true,
+      "evidence": {}
+    },
+    {
+      "event_id": "ff08193f42e44bbf6f2bdd23982c3ce193facaf9446454227c5c2d1117491a23",
+      "event_type": "exact_touch",
+      "event_as_of": "2026-09-17",
+      "detected_at": "2026-09-20T20:55:00.365059+09:00",
+      "revision": 2,
+      "reconstructed": true,
+      "evidence": {}
+    },
+    {
+      "event_id": "0b90da635069d76d68db30589eae656735a5981b8d19947a471a5060ee4122d6",
+      "event_type": "reclaim",
+      "event_as_of": "2026-09-17",
+      "detected_at": "2026-09-20T20:55:00.365059+09:00",
+      "revision": 2,
+      "reconstructed": true,
+      "evidence": {}
+    },
+    {
+      "event_id": "1452123b6a613ae83570ee1b8e54a1dbf717695b8cecfbf3378cc739d4129097",
+      "event_type": "phase_near",
+      "event_as_of": "2026-09-18",
+      "detected_at": "2026-09-20T20:55:00.365059+09:00",
+      "revision": 2,
+      "reconstructed": true,
+      "evidence": {
+        "support_checks": [
+          true,
+          false
+        ],
+        "support_maintained": false,
+        "low_stop": false,
+        "reclaim_hold": false,
+        "stabilizing": false,
+        "price_group": false,
+        "momentum_rsi": false,
+        "momentum_macd": false,
+        "momentum_group": false,
+        "volume_group": false,
+        "relative_group": false,
+        "rebound_confirmed": false
+      }
+    },
+    {
+      "event_id": "ad22471392550bf31642eb0ebcac5146ef238af51cb7096e4f304213e34e39ca",
+      "event_type": "range_near",
+      "event_as_of": "2026-09-18",
+      "detected_at": "2026-09-20T20:55:00.365059+09:00",
+      "revision": 2,
+      "reconstructed": true,
+      "evidence": {}
+    },
+    {
+      "event_id": "1163b19ec601542a63b90e688464f2b8657269f004795ecf29bac4fed5da718e",
+      "event_type": "exact_touch",
+      "event_as_of": "2026-09-18",
+      "detected_at": "2026-09-20T20:55:00.365059+09:00",
+      "revision": 2,
+      "reconstructed": true,
+      "evidence": {}
     }
   ]
 }

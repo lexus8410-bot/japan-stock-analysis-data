@@ -24,6 +24,20 @@
       "phase": "STABILIZING",
       "lifecycle": "ACTIVE",
       "data_status": "VALID"
+    },
+    {
+      "as_of": "2026-09-18",
+      "revision": 1,
+      "phase": "REBOUND_CONFIRMED",
+      "lifecycle": "ACTIVE",
+      "data_status": "VALID"
+    },
+    {
+      "as_of": "2026-09-18",
+      "revision": 2,
+      "phase": "REBOUND_CONFIRMED",
+      "lifecycle": "ACTIVE",
+      "data_status": "VALID"
     }
   ],
   "events": [
@@ -97,6 +111,144 @@
         "volume_group": true,
         "relative_group": true,
         "rebound_confirmed": false
+      }
+    },
+    {
+      "event_id": "a7dcd5281a80afadf018f545be14fcdf3d7e307f1a146bbe4e9c3a89c61edfcd",
+      "event_type": "range_near",
+      "event_as_of": "2026-09-15",
+      "detected_at": "2026-09-20T20:50:19.267693+09:00",
+      "revision": 1,
+      "reconstructed": true,
+      "evidence": {}
+    },
+    {
+      "event_id": "6b097b828abe5d730c8a0d3901fb6844d77d329d0aad8ca8ad090d317b6508e7",
+      "event_type": "exact_touch",
+      "event_as_of": "2026-09-15",
+      "detected_at": "2026-09-20T20:50:19.267693+09:00",
+      "revision": 1,
+      "reconstructed": true,
+      "evidence": {}
+    },
+    {
+      "event_id": "3b0014a62939c72e30f88005e054cf9dd2ae7abc5fd100926878f66a3d3b4d03",
+      "event_type": "reclaim",
+      "event_as_of": "2026-09-15",
+      "detected_at": "2026-09-20T20:50:19.267693+09:00",
+      "revision": 1,
+      "reconstructed": true,
+      "evidence": {}
+    },
+    {
+      "event_id": "8e1f7170f18886f6c31545274cec392987769defd621a7088bf212f09c30d3b2",
+      "event_type": "phase_rebound_confirmed",
+      "event_as_of": "2026-09-16",
+      "detected_at": "2026-09-20T20:50:19.267693+09:00",
+      "revision": 1,
+      "reconstructed": true,
+      "evidence": {
+        "support_checks": [
+          true,
+          true
+        ],
+        "support_maintained": true,
+        "low_stop": false,
+        "reclaim_hold": true,
+        "stabilizing": true,
+        "price_group": true,
+        "momentum_rsi": true,
+        "momentum_macd": false,
+        "momentum_group": true,
+        "volume_group": true,
+        "relative_group": true,
+        "rebound_confirmed": true
+      }
+    },
+    {
+      "event_id": "413c48209f9273146c8c3de585f26754aad41ba6c632f86af910fc27ad2645be",
+      "event_type": "episode_started",
+      "event_as_of": "2026-09-15",
+      "detected_at": "2026-09-20T20:55:00.365059+09:00",
+      "revision": 2,
+      "reconstructed": true,
+      "evidence": {}
+    },
+    {
+      "event_id": "b3cad2ede1a069cc94b5c24bdcb790967b5cff5a447d41ba2eb4f7f2e502edf4",
+      "event_type": "phase_stabilizing",
+      "event_as_of": "2026-09-15",
+      "detected_at": "2026-09-20T20:55:00.365059+09:00",
+      "revision": 2,
+      "reconstructed": true,
+      "evidence": {
+        "support_checks": [
+          true,
+          true
+        ],
+        "support_maintained": true,
+        "low_stop": false,
+        "reclaim_hold": true,
+        "stabilizing": true,
+        "price_group": false,
+        "momentum_rsi": false,
+        "momentum_macd": false,
+        "momentum_group": false,
+        "volume_group": true,
+        "relative_group": true,
+        "rebound_confirmed": false
+      }
+    },
+    {
+      "event_id": "1b9848863a319013e3ff1a9525737bea1dd7f8c70f1b20a6c9434447a46a5a83",
+      "event_type": "range_near",
+      "event_as_of": "2026-09-15",
+      "detected_at": "2026-09-20T20:55:00.365059+09:00",
+      "revision": 2,
+      "reconstructed": true,
+      "evidence": {}
+    },
+    {
+      "event_id": "1dc5ce26a356fd9627d47882da05e7e71b52e180c768808ed4c03a8f9e6a5ade",
+      "event_type": "exact_touch",
+      "event_as_of": "2026-09-15",
+      "detected_at": "2026-09-20T20:55:00.365059+09:00",
+      "revision": 2,
+      "reconstructed": true,
+      "evidence": {}
+    },
+    {
+      "event_id": "fed381529b424d43022384a672f996199f8c99184e0f5c00c0e2cda7ba1dc0ff",
+      "event_type": "reclaim",
+      "event_as_of": "2026-09-15",
+      "detected_at": "2026-09-20T20:55:00.365059+09:00",
+      "revision": 2,
+      "reconstructed": true,
+      "evidence": {}
+    },
+    {
+      "event_id": "de4edc9b6c1aee218f88d66fe8f1f8e870a117a17dbabfe3b02727869a63cfc2",
+      "event_type": "phase_rebound_confirmed",
+      "event_as_of": "2026-09-16",
+      "detected_at": "2026-09-20T20:55:00.365059+09:00",
+      "revision": 2,
+      "reconstructed": true,
+      "evidence": {
+        "support_checks": [
+          true,
+          true
+        ],
+        "support_maintained": true,
+        "low_stop": false,
+        "reclaim_hold": true,
+        "stabilizing": true,
+        "price_group": true,
+        "momentum_rsi": true,
+        "momentum_macd": false,
+        "momentum_group": true,
+        "volume_group": true,
+        "relative_group": true,
+        "rebound_confirmed": true
       }
     }
   ]
