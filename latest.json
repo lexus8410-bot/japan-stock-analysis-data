@@ -2,14 +2,14 @@
   "schema_version": 1,
   "purpose": "ChatGPT machine-readable mirror for the Japanese stock dashboard",
   "analysis_policy_url": "https://raw.githubusercontent.com/lexus8410-bot/japan-stock-analysis-data/main/analysis_policy.md",
-  "updated_at": "2026-09-20T21:01:44+09:00",
-  "watchlist_updated_at": "2026-09-19T07:10:14+09:00",
-  "manifest_updated_at": "2026-09-20T21:01:44+09:00",
-  "ai_reviewed_at": "2026-09-19T07:07:48+09:00",
+  "updated_at": "2026-09-21T12:51:46+09:00",
+  "watchlist_updated_at": "2026-09-21T12:51:22+09:00",
+  "manifest_updated_at": "2026-09-21T12:51:46+09:00",
+  "ai_reviewed_at": "2026-09-21T12:47:01+09:00",
   "market_as_of": "2026-09-18",
   "close_status": "confirmed daily close",
   "validation_status": "PASS",
-  "watchlist_count": 8,
+  "watchlist_count": 9,
   "stocks": [
     {
       "ticker": "6622",
@@ -78,7 +78,7 @@
       },
       "codex_comment": "\u53cd\u767a\u3067\u78ba\u8a8d3\u7fa4\u3068\u306a\u3063\u305f\u304c\u3001\u76e3\u8996\u53c2\u8003\u4fa1\u683c\u307e\u30672.34ATR\u3068\u96e2\u308c\u3066\u3044\u308b\u305f\u3081WATCH\u3078\u306e\u5909\u66f4\u63d0\u6848\u3092\u7d99\u7d9a\u3059\u308b\u3002",
       "analysis_as_of": "2026-08-19",
-      "updated_at": "2026-09-20T21:01:44+09:00",
+      "updated_at": "2026-09-21T12:51:46+09:00",
       "chart_data": {
         "path": "chart_data/6622.json",
         "bars": 120,
@@ -152,9 +152,83 @@
       },
       "codex_comment": "\u53c2\u8003\u4fa1\u683c\u307e\u30670.09ATR\u3067\u78ba\u8a8d3\u7fa4\u3060\u304c\u3001\u4e00\u65e5\u3060\u3051\u306e\u6025\u53cd\u767a\u3068\u76f8\u5bfe\u5f31\u3055\u3092\u8003\u616e\u3057\u3066SETUP\u3092\u7dad\u6301\u3059\u308b\u3002",
       "analysis_as_of": "2026-08-19",
-      "updated_at": "2026-09-20T21:01:44+09:00",
+      "updated_at": "2026-09-21T12:51:46+09:00",
       "chart_data": {
         "path": "chart_data/6134.json",
+        "bars": 120,
+        "interval": "1d"
+      }
+    },
+    {
+      "ticker": "6745",
+      "name": "\u30db\u30fc\u30c1\u30ad",
+      "exchange": "TSE",
+      "price_as_of": "2026-09-18",
+      "close": 1977.0,
+      "ma": {
+        "ma5": 1916.0,
+        "ma25": 1951.2,
+        "ma75": 1966.92
+      },
+      "ma_distance_percent": {
+        "ma5": 3.18,
+        "ma25": 1.32,
+        "ma75": 0.51
+      },
+      "rsi14": 54.03,
+      "macd": {
+        "line": -18.6664,
+        "signal": -24.0949,
+        "histogram": 5.4285,
+        "parameters": [
+          12,
+          26,
+          9
+        ]
+      },
+      "atr14": {
+        "value": 63.6506,
+        "percent": 3.22
+      },
+      "volume": {
+        "latest": 276200,
+        "average_20d": 169640.0,
+        "ratio_to_20d": 1.6282
+      },
+      "topix_relative_strength_percent": {
+        "one_month": -3.22
+      },
+      "return_20d_percent": -1.89,
+      "state": "WATCH",
+      "pullback_assessment": {
+        "label": "\u62bc\u3057\u5f85\u3061",
+        "derived_from_formal_state": true,
+        "basis": "\u76e3\u8996\u53c2\u8003\u4fa1\u683c\u304c\u672a\u9054",
+        "is_trade_signal": false
+      },
+      "scores": {
+        "company_quality": {
+          "rank": "B",
+          "score": 31.0,
+          "maximum": 40
+        },
+        "investment_attractiveness": {
+          "rank": "C",
+          "score": 59.25,
+          "maximum": 100
+        },
+        "breakdown": {
+          "fundamental": 31.0,
+          "valuation": 11.25,
+          "trend_quality": 8.0,
+          "entry_timing": 9.0
+        }
+      },
+      "codex_comment": "200\u65e5\u7dda\u304b\u3089\u306e\u53cd\u767a\u3092\u78ba\u8a8d\u3057\u6b63\u5f0f\u76e3\u8996\u3078\u8ffd\u52a0\u3002\u53c2\u8003\u4fa1\u683c\u307e\u30672.18ATR\u3042\u308a\u3001\u4fa1\u683c\u6761\u4ef6\u3092\u5f85\u3064WATCH\u3002",
+      "analysis_as_of": "2026-09-21",
+      "updated_at": "2026-09-21T12:51:46+09:00",
+      "chart_data": {
+        "path": "chart_data/6745.json",
         "bars": 120,
         "interval": "1d"
       }
@@ -226,7 +300,7 @@
       },
       "codex_comment": "\u53c2\u8003\u4fa1\u683c\u3068\u306e\u5dee\u306f6.51%\u3060\u304c\u4e0b\u964d\u57fa\u8abf\u3068\u76f8\u5bfe\u5f31\u3055\u304c\u6b8b\u308a\u3001WATCH\u3092\u7dad\u6301\u3059\u308b\u3002",
       "analysis_as_of": "2026-08-19",
-      "updated_at": "2026-09-20T21:01:44+09:00",
+      "updated_at": "2026-09-21T12:51:46+09:00",
       "chart_data": {
         "path": "chart_data/6383.json",
         "bars": 120,
@@ -300,7 +374,7 @@
       },
       "codex_comment": "200\u65e5\u7dda\u8fd1\u8fba\u3067\u3082\u77ed\u671f\u30fb\u76f8\u5bfe\u5f37\u5ea6\u304c\u5f31\u304f\u3001\u53c2\u8003\u4fa1\u683c\u307e\u30672.87ATR\u306e\u305f\u3081WATCH\u3092\u7dad\u6301\u3059\u308b\u3002",
       "analysis_as_of": "2026-08-19",
-      "updated_at": "2026-09-20T21:01:44+09:00",
+      "updated_at": "2026-09-21T12:51:46+09:00",
       "chart_data": {
         "path": "chart_data/5805.json",
         "bars": 120,
@@ -374,7 +448,7 @@
       },
       "codex_comment": "5\u65e5\u53cd\u767a\u306f\u3042\u308b\u304c\u53c2\u8003\u4fa1\u683c\u307e\u30672.97ATR\u3067\u4fa1\u683c\u6761\u4ef6\u304c\u9060\u304f\u3001WATCH\u3092\u7dad\u6301\u3059\u308b\u3002",
       "analysis_as_of": "2026-08-19",
-      "updated_at": "2026-09-20T21:01:44+09:00",
+      "updated_at": "2026-09-21T12:51:46+09:00",
       "chart_data": {
         "path": "chart_data/6508.json",
         "bars": 120,
@@ -448,7 +522,7 @@
       },
       "codex_comment": "\u53cd\u767a\u78ba\u8a8d\u306f\u5897\u3048\u305f\u304c\u53c2\u8003\u4fa1\u683c\u307e\u30673.18ATR\u3068\u9060\u304f\u3001WATCH\u3092\u7dad\u6301\u3059\u308b\u3002",
       "analysis_as_of": "2026-08-19",
-      "updated_at": "2026-09-20T21:01:44+09:00",
+      "updated_at": "2026-09-21T12:51:46+09:00",
       "chart_data": {
         "path": "chart_data/7729.json",
         "bars": 120,
@@ -522,7 +596,7 @@
       },
       "codex_comment": "\u53cd\u8ee2\u78ba\u8a8d2\u7fa4\u3067\u3082\u53c2\u8003\u4fa1\u683c\u307e\u30674.38ATR\u3068\u9060\u304f\u3001WATCH\u3092\u7dad\u6301\u3059\u308b\u3002",
       "analysis_as_of": "2026-08-19",
-      "updated_at": "2026-09-20T21:01:44+09:00",
+      "updated_at": "2026-09-21T12:51:46+09:00",
       "chart_data": {
         "path": "chart_data/6504.json",
         "bars": 120,
@@ -596,7 +670,7 @@
       },
       "codex_comment": "\u4e0a\u6607\u78ba\u8a8d\u306f3\u7fa4\u3067\u3082\u53c2\u8003\u4fa1\u683c\u307e\u30675.18ATR\u3068\u9060\u3044\u305f\u3081\u3001WATCH\u3092\u7dad\u6301\u3057\u8ffd\u968f\u3057\u306a\u3044\u3002",
       "analysis_as_of": "2026-08-19",
-      "updated_at": "2026-09-20T21:01:44+09:00",
+      "updated_at": "2026-09-21T12:51:46+09:00",
       "chart_data": {
         "path": "chart_data/4203.json",
         "bars": 120,
@@ -622,9 +696,10 @@
   "dataset_status": {
     "formal_watchlist": {
       "market_as_of": "2026-09-18",
-      "ai_reviewed_at": "2026-09-19T07:07:48+09:00",
+      "ai_reviewed_at": "2026-09-21T12:47:01+09:00",
       "analysis_dates": [
-        "2026-08-19"
+        "2026-08-19",
+        "2026-09-21"
       ]
     },
     "weekly_market_v2": {
@@ -648,7 +723,7 @@
       "near_count": 273,
       "last_attempted_as_of": "2026-09-18",
       "aligned_with_formal_market": true,
-      "content_hash": "e61c018b9e075cc7ab3d781b28fa294f4fc508f2ab8c4db99d99650926fe8556"
+      "content_hash": "a4eca0ee48105d9ee273125a7baa4f8f7ed9e9c3621d350982124dc0ae6db49a"
     },
     "ma200_rebound": {
       "status": "current",
@@ -657,7 +732,7 @@
       "active_count": 774,
       "diagnostic_count": 3700,
       "aligned_with_formal_market": true,
-      "content_hash": "7a33512e632d378400b5c9f7407aad09ece0e238f581e5f402e98327eb7616cb"
+      "content_hash": "1f273012aeda255033605dafab3c4c61f88cab2c31d0193478d827b15e7cba4d"
     }
   },
   "weekly_market_v2_url": "https://raw.githubusercontent.com/lexus8410-bot/japan-stock-analysis-data/main/weekly_market_v2.json",
