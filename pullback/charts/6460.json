@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "dataset": "pullback_chart",
-  "run_id": "2026-09-24-79ea02905131",
-  "market_as_of": "2026-09-24",
-  "data_as_of": "2026-09-24",
-  "source_daily_run_id": "2026-09-24T233645-de20b203377f",
-  "source_input_hash": "987e34fd30cb132f698c8b85c78f2fb2384adf879e261c8ece28d31b8508e5bd",
+  "run_id": "2026-09-25-bcab22150d1e",
+  "market_as_of": "2026-09-25",
+  "data_as_of": "2026-09-25",
+  "source_daily_run_id": "2026-09-28T192157-e340205b8c9b",
+  "source_input_hash": "367e551d6bd0b05508699cfa7e120ce1627f604497b83cc924ef32dbcbd5e6f4",
   "policy_version": "pullback-2026-09-22-v1",
   "algorithm_version": "pullback-monitor-1.0.5",
   "price_adjustment": "yahoo_split_adjusted_ohlc_no_dividends",
@@ -14,26 +14,11 @@
   "data_status": "current",
   "reason_codes": [],
   "current": {
-    "date": "2026-09-24",
-    "close": 3260.0
+    "date": "2026-09-25",
+    "close": 3265.0
   },
   "last_known": null,
   "bars": [
-    {
-      "date": "2025-08-28",
-      "open": 3111.0,
-      "high": 3125.0,
-      "low": 3051.0,
-      "close": 3071.0,
-      "volume": 627400,
-      "sma20": 3234.0,
-      "sma75": 3128.94,
-      "sma200": 2954.9525,
-      "band20_upper": 3298.68,
-      "band20_lower": 3169.32,
-      "band200_upper": 3043.601075,
-      "band200_lower": 2866.3039249999997
-    },
     {
       "date": "2025-08-29",
       "open": 3085.0,
@@ -3918,6 +3903,21 @@
       "band20_lower": 3111.598,
       "band200_upper": 2613.29025,
       "band200_lower": 2461.0597500000003
+    },
+    {
+      "date": "2026-09-25",
+      "open": 3242.0,
+      "high": 3277.0,
+      "low": 3229.0,
+      "close": 3265.0,
+      "volume": 800600,
+      "sma20": 3187.25,
+      "sma75": 2670.58,
+      "sma200": 2539.9775,
+      "band20_upper": 3250.995,
+      "band20_lower": 3123.505,
+      "band200_upper": 2616.176825,
+      "band200_lower": 2463.778175
     }
   ],
   "markers": [
@@ -3926,7 +3926,12 @@
       "kind": "near",
       "ma_period": 20,
       "setup_id": "6460-20-2026-09-24-fafa7bf1e2"
+    },
+    {
+      "date": "2026-09-25",
+      "kind": "stabilizing",
+      "ma_period": 20,
+      "setup_id": "6460-20-2026-09-24-fafa7bf1e2"
     }
   ]
 }
-

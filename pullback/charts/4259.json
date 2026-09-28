@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "dataset": "pullback_chart",
-  "run_id": "2026-09-24-79ea02905131",
-  "market_as_of": "2026-09-24",
-  "data_as_of": "2026-09-24",
-  "source_daily_run_id": "2026-09-24T233645-de20b203377f",
-  "source_input_hash": "987e34fd30cb132f698c8b85c78f2fb2384adf879e261c8ece28d31b8508e5bd",
+  "run_id": "2026-09-25-bcab22150d1e",
+  "market_as_of": "2026-09-25",
+  "data_as_of": "2026-09-25",
+  "source_daily_run_id": "2026-09-28T192157-e340205b8c9b",
+  "source_input_hash": "367e551d6bd0b05508699cfa7e120ce1627f604497b83cc924ef32dbcbd5e6f4",
   "policy_version": "pullback-2026-09-22-v1",
   "algorithm_version": "pullback-monitor-1.0.5",
   "price_adjustment": "yahoo_split_adjusted_ohlc_no_dividends",
@@ -14,26 +14,11 @@
   "data_status": "current",
   "reason_codes": [],
   "current": {
-    "date": "2026-09-24",
-    "close": 899.0
+    "date": "2026-09-25",
+    "close": 864.0
   },
   "last_known": null,
   "bars": [
-    {
-      "date": "2025-08-28",
-      "open": 485.0,
-      "high": 503.0,
-      "low": 484.0,
-      "close": 497.0,
-      "volume": 848600,
-      "sma20": 485.25,
-      "sma75": 444.17333333333335,
-      "sma200": 399.535,
-      "band20_upper": 494.955,
-      "band20_lower": 475.545,
-      "band200_upper": 411.52105,
-      "band200_lower": 387.54895000000005
-    },
     {
       "date": "2025-08-29",
       "open": 495.0,
@@ -3918,6 +3903,21 @@
       "band20_lower": 825.503,
       "band200_upper": 806.2016,
       "band200_lower": 759.2384000000001
+    },
+    {
+      "date": "2026-09-25",
+      "open": 899.0,
+      "high": 906.0,
+      "low": 858.0,
+      "close": 864.0,
+      "volume": 1363400,
+      "sma20": 848.05,
+      "sma75": 843.7466666666667,
+      "sma200": 783.325,
+      "band20_upper": 865.011,
+      "band20_lower": 831.0889999999999,
+      "band200_upper": 806.82475,
+      "band200_lower": 759.8252500000001
     }
   ],
   "markers": [
@@ -3938,7 +3938,18 @@
       "kind": "rebound",
       "ma_period": 200,
       "setup_id": "4259-200-2026-09-11-922404927b"
+    },
+    {
+      "date": "2026-09-25",
+      "kind": "near",
+      "ma_period": 20,
+      "setup_id": "4259-20-2026-09-25-0502cde7e9"
+    },
+    {
+      "date": "2026-09-25",
+      "kind": "ended",
+      "ma_period": 200,
+      "setup_id": "4259-200-2026-09-11-922404927b"
     }
   ]
 }
-
