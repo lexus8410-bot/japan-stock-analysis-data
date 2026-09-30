@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "dataset": "pullback_chart",
-  "run_id": "2026-09-25-bcab22150d1e",
-  "market_as_of": "2026-09-25",
-  "data_as_of": "2026-09-25",
-  "source_daily_run_id": "2026-09-28T192157-e340205b8c9b",
-  "source_input_hash": "367e551d6bd0b05508699cfa7e120ce1627f604497b83cc924ef32dbcbd5e6f4",
+  "run_id": "2026-09-30-2c3a9ddb4af9",
+  "market_as_of": "2026-09-30",
+  "data_as_of": "2026-09-30",
+  "source_daily_run_id": "2026-09-30T224905-77f7eabdfcaa",
+  "source_input_hash": "dcb8ce706e7bf06e778729eb98b0ba927f54489dd225c405522199f406390609",
   "policy_version": "pullback-2026-09-22-v1",
   "algorithm_version": "pullback-monitor-1.0.5",
   "price_adjustment": "yahoo_split_adjusted_ohlc_no_dividends",
@@ -14,56 +14,11 @@
   "data_status": "current",
   "reason_codes": [],
   "current": {
-    "date": "2026-09-25",
-    "close": 1633.0
+    "date": "2026-09-30",
+    "close": 1629.0
   },
   "last_known": null,
   "bars": [
-    {
-      "date": "2025-08-29",
-      "open": 1755.0,
-      "high": 1760.0,
-      "low": 1726.0,
-      "close": 1748.0,
-      "volume": 41600,
-      "sma20": 1744.7,
-      "sma75": 1657.1733333333334,
-      "sma200": 1516.88,
-      "band20_upper": 1771.9187753395806,
-      "band20_lower": 1717.4812246604195,
-      "band200_upper": 1553.1717004527743,
-      "band200_lower": 1480.588299547226
-    },
-    {
-      "date": "2025-09-01",
-      "open": 1746.0,
-      "high": 1760.0,
-      "low": 1696.0,
-      "close": 1705.0,
-      "volume": 38500,
-      "sma20": 1744.3,
-      "sma75": 1658.7066666666667,
-      "sma200": 1518.11,
-      "band20_upper": 1773.0031488731474,
-      "band20_lower": 1715.5968511268525,
-      "band200_upper": 1556.3808651641966,
-      "band200_lower": 1479.8391348358032
-    },
-    {
-      "date": "2025-09-02",
-      "open": 1709.0,
-      "high": 1721.0,
-      "low": 1696.0,
-      "close": 1708.0,
-      "volume": 20600,
-      "sma20": 1742.25,
-      "sma75": 1659.8266666666666,
-      "sma200": 1519.275,
-      "band20_upper": 1770.2422089847978,
-      "band20_lower": 1714.2577910152022,
-      "band200_upper": 1556.5979453130637,
-      "band200_lower": 1481.9520546869364
-    },
     {
       "date": "2025-09-03",
       "open": 1708.0,
@@ -3918,27 +3873,54 @@
       "band20_lower": 1570.793,
       "band200_upper": 1525.5432999999998,
       "band200_lower": 1436.6767
+    },
+    {
+      "date": "2026-09-28",
+      "open": 1613.0,
+      "high": 1621.0,
+      "low": 1592.0,
+      "close": 1619.0,
+      "volume": 28900,
+      "sma20": 1606.75,
+      "sma75": 1492.0933333333332,
+      "sma200": 1482.07,
+      "band20_upper": 1638.885,
+      "band20_lower": 1574.615,
+      "band200_upper": 1526.5321,
+      "band200_lower": 1437.6079
+    },
+    {
+      "date": "2026-09-29",
+      "open": 1627.0,
+      "high": 1635.0,
+      "low": 1606.0,
+      "close": 1629.0,
+      "volume": 45900,
+      "sma20": 1611.75,
+      "sma75": 1495.5333333333333,
+      "sma200": 1483.05,
+      "band20_upper": 1643.985,
+      "band20_lower": 1579.515,
+      "band200_upper": 1527.5415,
+      "band200_lower": 1438.5584999999999
+    },
+    {
+      "date": "2026-09-30",
+      "open": 1624.0,
+      "high": 1635.0,
+      "low": 1615.0,
+      "close": 1629.0,
+      "volume": 17400,
+      "sma20": 1615.2,
+      "sma75": 1497.6666666666667,
+      "sma200": 1484.055,
+      "band20_upper": 1647.5040000000001,
+      "band20_lower": 1582.896,
+      "band200_upper": 1528.57665,
+      "band200_lower": 1439.5333500000002
     }
   ],
   "markers": [
-    {
-      "date": "2026-09-11",
-      "kind": "near",
-      "ma_period": 200,
-      "setup_id": "3180-200-2026-09-11-7e0ba97f82"
-    },
-    {
-      "date": "2026-09-14",
-      "kind": "stabilizing",
-      "ma_period": 200,
-      "setup_id": "3180-200-2026-09-11-7e0ba97f82"
-    },
-    {
-      "date": "2026-09-17",
-      "kind": "rebound",
-      "ma_period": 200,
-      "setup_id": "3180-200-2026-09-11-7e0ba97f82"
-    },
     {
       "date": "2026-09-18",
       "kind": "near",
