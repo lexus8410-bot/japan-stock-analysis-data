@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "dataset": "pullback_chart",
-  "run_id": "2026-09-30-2c3a9ddb4af9",
-  "market_as_of": "2026-09-30",
-  "data_as_of": "2026-09-30",
-  "source_daily_run_id": "2026-09-30T224905-77f7eabdfcaa",
-  "source_input_hash": "dcb8ce706e7bf06e778729eb98b0ba927f54489dd225c405522199f406390609",
+  "run_id": "2026-10-06-9d849f410fcc",
+  "market_as_of": "2026-10-06",
+  "data_as_of": "2026-10-05",
+  "source_daily_run_id": "2026-10-06T224413-d8499915625e",
+  "source_input_hash": "ccb1094f6b02ddbfa9ef00565b9ec1bc514aea39f2e0ca430b162b6a89a4cfbb",
   "policy_version": "pullback-2026-09-22-v1",
   "algorithm_version": "pullback-monitor-1.0.5",
   "price_adjustment": "yahoo_split_adjusted_ohlc_no_dividends",
@@ -14,56 +14,11 @@
   "data_status": "current",
   "reason_codes": [],
   "current": {
-    "date": "2026-09-30",
-    "close": 3327.0
+    "date": "2026-10-05",
+    "close": 3252.0
   },
   "last_known": null,
   "bars": [
-    {
-      "date": "2025-09-03",
-      "open": 3065.0,
-      "high": 3084.0,
-      "low": 3055.0,
-      "close": 3062.0,
-      "volume": 590800,
-      "sma20": 3229.15,
-      "sma75": 3135.1133333333332,
-      "sma200": 2958.355,
-      "band20_upper": 3290.991580550487,
-      "band20_lower": 3167.308419449513,
-      "band200_upper": 3040.810440733983,
-      "band200_lower": 2875.899559266017
-    },
-    {
-      "date": "2025-09-04",
-      "open": 3055.0,
-      "high": 3116.0,
-      "low": 3045.0,
-      "close": 3099.0,
-      "volume": 457000,
-      "sma20": 3227.5,
-      "sma75": 3138.0866666666666,
-      "sma200": 2959.785,
-      "band20_upper": 3288.7278942353078,
-      "band20_lower": 3166.2721057646922,
-      "band200_upper": 3041.4221923137434,
-      "band200_lower": 2878.1478076862563
-    },
-    {
-      "date": "2025-09-05",
-      "open": 3114.0,
-      "high": 3122.0,
-      "low": 3071.0,
-      "close": 3094.0,
-      "volume": 488700,
-      "sma20": 3224.8,
-      "sma75": 3142.0466666666666,
-      "sma200": 2961.1125,
-      "band20_upper": 3284.386615882157,
-      "band20_lower": 3165.2133841178434,
-      "band200_upper": 3040.561321176209,
-      "band200_lower": 2881.6636788237915
-    },
     {
       "date": "2025-09-08",
       "open": 3109.0,
@@ -3918,6 +3873,51 @@
       "band20_lower": 3158.687,
       "band200_upper": 2625.524075,
       "band200_lower": 2472.5809249999998
+    },
+    {
+      "date": "2026-10-01",
+      "open": 3302.0,
+      "high": 3397.0,
+      "low": 3267.0,
+      "close": 3367.0,
+      "volume": 1022200,
+      "sma20": 3236.4,
+      "sma75": 2726.4133333333334,
+      "sma200": 2552.6525,
+      "band20_upper": 3301.128,
+      "band20_lower": 3171.672,
+      "band200_upper": 2629.2320750000003,
+      "band200_lower": 2476.072925
+    },
+    {
+      "date": "2026-10-02",
+      "open": 3327.0,
+      "high": 3352.0,
+      "low": 3250.0,
+      "close": 3285.0,
+      "volume": 1296100,
+      "sma20": 3243.15,
+      "sma75": 2741.0066666666667,
+      "sma200": 2555.6175,
+      "band20_upper": 3308.013,
+      "band20_lower": 3178.2870000000003,
+      "band200_upper": 2632.286025,
+      "band200_lower": 2478.948975
+    },
+    {
+      "date": "2026-10-05",
+      "open": 3290.0,
+      "high": 3305.0,
+      "low": 3235.0,
+      "close": 3252.0,
+      "volume": 808500,
+      "sma20": 3246.75,
+      "sma75": 2755.866666666667,
+      "sma200": 2558.7425,
+      "band20_upper": 3311.685,
+      "band20_lower": 3181.815,
+      "band200_upper": 2635.504775,
+      "band200_lower": 2481.980225
     }
   ],
   "markers": [
@@ -3930,6 +3930,18 @@
     {
       "date": "2026-09-25",
       "kind": "stabilizing",
+      "ma_period": 20,
+      "setup_id": "6460-20-2026-09-24-fafa7bf1e2"
+    },
+    {
+      "date": "2026-10-01",
+      "kind": "rebound",
+      "ma_period": 20,
+      "setup_id": "6460-20-2026-09-24-fafa7bf1e2"
+    },
+    {
+      "date": "2026-10-06",
+      "kind": "ended",
       "ma_period": 20,
       "setup_id": "6460-20-2026-09-24-fafa7bf1e2"
     }

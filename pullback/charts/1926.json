@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "dataset": "pullback_chart",
-  "run_id": "2026-09-30-2c3a9ddb4af9",
-  "market_as_of": "2026-09-30",
-  "data_as_of": "2026-09-30",
-  "source_daily_run_id": "2026-09-30T224905-77f7eabdfcaa",
-  "source_input_hash": "dcb8ce706e7bf06e778729eb98b0ba927f54489dd225c405522199f406390609",
+  "run_id": "2026-10-06-9d849f410fcc",
+  "market_as_of": "2026-10-06",
+  "data_as_of": "2026-10-05",
+  "source_daily_run_id": "2026-10-06T224413-d8499915625e",
+  "source_input_hash": "ccb1094f6b02ddbfa9ef00565b9ec1bc514aea39f2e0ca430b162b6a89a4cfbb",
   "policy_version": "pullback-2026-09-22-v1",
   "algorithm_version": "pullback-monitor-1.0.5",
   "price_adjustment": "yahoo_split_adjusted_ohlc_no_dividends",
@@ -14,56 +14,11 @@
   "data_status": "current",
   "reason_codes": [],
   "current": {
-    "date": "2026-09-30",
-    "close": 987.0
+    "date": "2026-10-05",
+    "close": 950.0
   },
   "last_known": null,
   "bars": [
-    {
-      "date": "2025-09-03",
-      "open": 827.5,
-      "high": 831.25,
-      "low": 821.25,
-      "close": 828.75,
-      "volume": 770400,
-      "sma20": 814.5,
-      "sma75": 748.6033333333334,
-      "sma200": 653.10625,
-      "band20_upper": 823.7666468538268,
-      "band20_lower": 805.2333531461732,
-      "band200_upper": 665.4617791384359,
-      "band200_lower": 640.7507208615642
-    },
-    {
-      "date": "2025-09-04",
-      "open": 823.75,
-      "high": 837.5,
-      "low": 820.0,
-      "close": 833.75,
-      "volume": 637200,
-      "sma20": 815.75,
-      "sma75": 750.7266666666667,
-      "sma200": 654.59375,
-      "band20_upper": 825.2922434478944,
-      "band20_lower": 806.2077565521056,
-      "band200_upper": 667.3167412638593,
-      "band200_lower": 641.8707587361407
-    },
-    {
-      "date": "2025-09-05",
-      "open": 833.75,
-      "high": 833.75,
-      "low": 822.5,
-      "close": 831.25,
-      "volume": 579200,
-      "sma20": 816.5625,
-      "sma75": 752.8166666666667,
-      "sma200": 656.085,
-      "band20_upper": 826.0258331058603,
-      "band20_lower": 807.0991668941397,
-      "band200_upper": 668.7027774744804,
-      "band200_lower": 643.4672225255197
-    },
     {
       "date": "2025-09-08",
       "open": 821.25,
@@ -3918,12 +3873,69 @@
       "band20_lower": 948.7700093713463,
       "band200_upper": 979.0212375048716,
       "band200_lower": 940.7412624951285
+    },
+    {
+      "date": "2026-10-01",
+      "open": 976.0,
+      "high": 990.0,
+      "low": 976.0,
+      "close": 987.0,
+      "volume": 831800,
+      "sma20": 964.5375,
+      "sma75": 971.41,
+      "sma200": 960.66,
+      "band20_upper": 978.6171345006896,
+      "band20_lower": 950.4578654993104,
+      "band200_upper": 979.4328460009195,
+      "band200_lower": 941.8871539990804
+    },
+    {
+      "date": "2026-10-02",
+      "open": 978.0,
+      "high": 984.0,
+      "low": 952.0,
+      "close": 952.0,
+      "volume": 783900,
+      "sma20": 963.5125,
+      "sma75": 970.8866666666667,
+      "sma200": 961.245,
+      "band20_upper": 978.4614467613618,
+      "band20_lower": 948.5635532386383,
+      "band200_upper": 981.1769290151491,
+      "band200_lower": 941.3130709848509
+    },
+    {
+      "date": "2026-10-05",
+      "open": 960.0,
+      "high": 960.0,
+      "low": 944.0,
+      "close": 950.0,
+      "volume": 533200,
+      "sma20": 963.6375,
+      "sma75": 970.2033333333334,
+      "sma200": 961.77625,
+      "band20_upper": 978.3758072479425,
+      "band20_lower": 948.8991927520576,
+      "band200_upper": 981.42732633059,
+      "band200_lower": 942.1251736694101
     }
   ],
   "markers": [
     {
       "date": "2026-09-28",
       "kind": "near",
+      "ma_period": 200,
+      "setup_id": "1926-200-2026-09-28-4f96dd851b"
+    },
+    {
+      "date": "2026-10-01",
+      "kind": "stabilizing",
+      "ma_period": 200,
+      "setup_id": "1926-200-2026-09-28-4f96dd851b"
+    },
+    {
+      "date": "2026-10-06",
+      "kind": "ended",
       "ma_period": 200,
       "setup_id": "1926-200-2026-09-28-4f96dd851b"
     }
