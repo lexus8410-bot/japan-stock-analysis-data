@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "dataset": "pullback_chart",
-  "run_id": "2026-10-06-9d849f410fcc",
-  "market_as_of": "2026-10-06",
-  "data_as_of": "2026-10-06",
-  "source_daily_run_id": "2026-10-06T224413-d8499915625e",
-  "source_input_hash": "ccb1094f6b02ddbfa9ef00565b9ec1bc514aea39f2e0ca430b162b6a89a4cfbb",
+  "run_id": "2026-10-07-0c3aa2570f1e",
+  "market_as_of": "2026-10-07",
+  "data_as_of": "2026-10-07",
+  "source_daily_run_id": "2026-10-08T001349-90da41877045",
+  "source_input_hash": "34b8f3a1e872dd4ed682ca0278a7c99aed8d04483b3999cfee0c2ddaeff6da71",
   "policy_version": "pullback-2026-09-22-v1",
   "algorithm_version": "pullback-monitor-1.0.5",
   "price_adjustment": "yahoo_split_adjusted_ohlc_no_dividends",
@@ -14,26 +14,11 @@
   "data_status": "current",
   "reason_codes": [],
   "current": {
-    "date": "2026-10-06",
-    "close": 4270.0
+    "date": "2026-10-07",
+    "close": 4330.0
   },
   "last_known": null,
   "bars": [
-    {
-      "date": "2025-09-09",
-      "open": 3270.0,
-      "high": 3330.0,
-      "low": 3250.0,
-      "close": 3265.0,
-      "volume": 38100,
-      "sma20": 3193.75,
-      "sma75": 2931.6133333333332,
-      "sma200": 2678.905,
-      "band20_upper": 3243.413451551867,
-      "band20_lower": 3144.086548448133,
-      "band200_upper": 2745.1229354024895,
-      "band200_lower": 2612.687064597511
-    },
     {
       "date": "2025-09-10",
       "open": 3255.0,
@@ -3918,6 +3903,21 @@
       "band20_lower": 4106.2,
       "band200_upper": 4080.6336948828266,
       "band200_lower": 3849.7163051171738
+    },
+    {
+      "date": "2026-10-07",
+      "open": 4285.0,
+      "high": 4350.0,
+      "low": 4265.0,
+      "close": 4330.0,
+      "volume": 81200,
+      "sma20": 4209.0,
+      "sma75": 4029.6666666666665,
+      "sma200": 3968.8,
+      "band20_upper": 4293.18,
+      "band20_lower": 4124.82,
+      "band200_upper": 4082.083073872417,
+      "band200_lower": 3855.5169261275832
     }
   ],
   "markers": [
@@ -3930,6 +3930,12 @@
     {
       "date": "2026-10-01",
       "kind": "stabilizing",
+      "ma_period": 20,
+      "setup_id": "9960-20-2026-09-29-85791160fa"
+    },
+    {
+      "date": "2026-10-07",
+      "kind": "rebound",
       "ma_period": 20,
       "setup_id": "9960-20-2026-09-29-85791160fa"
     }

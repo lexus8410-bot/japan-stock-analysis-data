@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "dataset": "pullback_chart",
-  "run_id": "2026-10-06-9d849f410fcc",
-  "market_as_of": "2026-10-06",
-  "data_as_of": "2026-10-06",
-  "source_daily_run_id": "2026-10-06T224413-d8499915625e",
-  "source_input_hash": "ccb1094f6b02ddbfa9ef00565b9ec1bc514aea39f2e0ca430b162b6a89a4cfbb",
+  "run_id": "2026-10-07-0c3aa2570f1e",
+  "market_as_of": "2026-10-07",
+  "data_as_of": "2026-10-07",
+  "source_daily_run_id": "2026-10-08T001349-90da41877045",
+  "source_input_hash": "34b8f3a1e872dd4ed682ca0278a7c99aed8d04483b3999cfee0c2ddaeff6da71",
   "policy_version": "pullback-2026-09-22-v1",
   "algorithm_version": "pullback-monitor-1.0.5",
   "price_adjustment": "yahoo_split_adjusted_ohlc_no_dividends",
@@ -14,26 +14,11 @@
   "data_status": "current",
   "reason_codes": [],
   "current": {
-    "date": "2026-10-06",
-    "close": 2658.5
+    "date": "2026-10-07",
+    "close": 2728.0
   },
   "last_known": null,
   "bars": [
-    {
-      "date": "2025-09-09",
-      "open": 2500.0,
-      "high": 2518.0,
-      "low": 2460.0,
-      "close": 2466.0,
-      "volume": 1110100,
-      "sma20": 2349.0,
-      "sma75": 2115.4666666666667,
-      "sma200": 1987.94,
-      "band20_upper": 2389.6437417631573,
-      "band20_lower": 2308.3562582368427,
-      "band200_upper": 2042.13165568421,
-      "band200_lower": 1933.74834431579
-    },
     {
       "date": "2025-09-10",
       "open": 2466.0,
@@ -3918,6 +3903,21 @@
       "band20_lower": 2597.7120310469054,
       "band200_upper": 2649.3797919374592,
       "band200_lower": 2511.9452080625406
+    },
+    {
+      "date": "2026-10-07",
+      "open": 2671.5,
+      "high": 2728.0,
+      "low": 2649.0,
+      "close": 2728.0,
+      "volume": 1256400,
+      "sma20": 2647.275,
+      "sma75": 2936.5066666666667,
+      "sma200": 2583.325,
+      "band20_upper": 2699.3638281674857,
+      "band20_lower": 2595.1861718325144,
+      "band200_upper": 2652.776770889981,
+      "band200_lower": 2513.8732291100187
     }
   ],
   "markers": [
@@ -3930,6 +3930,12 @@
     {
       "date": "2026-10-06",
       "kind": "stabilizing",
+      "ma_period": 200,
+      "setup_id": "3086-200-2026-10-01-bdad804b63"
+    },
+    {
+      "date": "2026-10-07",
+      "kind": "rebound",
       "ma_period": 200,
       "setup_id": "3086-200-2026-10-01-bdad804b63"
     }
