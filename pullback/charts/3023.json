@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "dataset": "pullback_chart",
-  "run_id": "2026-10-07-0c3aa2570f1e",
-  "market_as_of": "2026-10-07",
-  "data_as_of": "2026-10-07",
-  "source_daily_run_id": "2026-10-08T001349-90da41877045",
-  "source_input_hash": "34b8f3a1e872dd4ed682ca0278a7c99aed8d04483b3999cfee0c2ddaeff6da71",
+  "run_id": "2026-10-13-f531d72512f2",
+  "market_as_of": "2026-10-13",
+  "data_as_of": "2026-10-13",
+  "source_daily_run_id": "2026-10-13T225706-dba93194ae6e",
+  "source_input_hash": "ffbdfa5fb9dbd0ba5e8a7b282eb6ed69866c07a27878658582c7db135071708b",
   "policy_version": "pullback-2026-09-22-v1",
   "algorithm_version": "pullback-monitor-1.0.5",
   "price_adjustment": "yahoo_split_adjusted_ohlc_no_dividends",
@@ -14,56 +14,11 @@
   "data_status": "current",
   "reason_codes": [],
   "current": {
-    "date": "2026-10-07",
-    "close": 2056.0
+    "date": "2026-10-13",
+    "close": 2041.0
   },
   "last_known": null,
   "bars": [
-    {
-      "date": "2025-09-10",
-      "open": 1699.0,
-      "high": 1699.0,
-      "low": 1688.0,
-      "close": 1693.0,
-      "volume": 12400,
-      "sma20": 1678.7,
-      "sma75": 1533.5866666666666,
-      "sma200": 1465.075,
-      "band20_upper": 1694.817301955098,
-      "band20_lower": 1662.5826980449021,
-      "band200_upper": 1486.5647359401307,
-      "band200_lower": 1443.5852640598694
-    },
-    {
-      "date": "2025-09-11",
-      "open": 1699.0,
-      "high": 1699.0,
-      "low": 1685.0,
-      "close": 1693.0,
-      "volume": 13600,
-      "sma20": 1682.25,
-      "sma75": 1536.8533333333332,
-      "sma200": 1466.555,
-      "band20_upper": 1697.9660657931638,
-      "band20_lower": 1666.5339342068362,
-      "band200_upper": 1487.5097543908853,
-      "band200_lower": 1445.6002456091148
-    },
-    {
-      "date": "2025-09-12",
-      "open": 1700.0,
-      "high": 1700.0,
-      "low": 1684.0,
-      "close": 1689.0,
-      "volume": 18100,
-      "sma20": 1684.8,
-      "sma75": 1540.0666666666666,
-      "sma200": 1467.97,
-      "band20_upper": 1700.25063210761,
-      "band20_lower": 1669.3493678923899,
-      "band200_upper": 1488.5708428101468,
-      "band200_lower": 1447.3691571898532
-    },
     {
       "date": "2025-09-16",
       "open": 1689.0,
@@ -3918,14 +3873,65 @@
       "band20_lower": 2033.5823642214518,
       "band200_upper": 1994.4885143713973,
       "band200_lower": 1920.4414856286025
+    },
+    {
+      "date": "2026-10-08",
+      "open": 2030.0,
+      "high": 2030.0,
+      "low": 1967.0,
+      "close": 1999.0,
+      "volume": 45100,
+      "sma20": 2059.7,
+      "sma75": 1963.7333333333333,
+      "sma200": 1958.62,
+      "band20_upper": 2090.252091151586,
+      "band20_lower": 2029.1479088484139,
+      "band200_upper": 1999.3561215354478,
+      "band200_lower": 1917.883878464552
+    },
+    {
+      "date": "2026-10-09",
+      "open": 1983.0,
+      "high": 2016.0,
+      "low": 1970.0,
+      "close": 1988.0,
+      "volume": 29700,
+      "sma20": 2058.7,
+      "sma75": 1966.04,
+      "sma200": 1959.82,
+      "band20_upper": 2089.5340836812243,
+      "band20_lower": 2027.8659163187754,
+      "band200_upper": 2000.9321115749658,
+      "band200_lower": 1918.707888425034
+    },
+    {
+      "date": "2026-10-13",
+      "open": 2002.0,
+      "high": 2046.0,
+      "low": 1993.0,
+      "close": 2041.0,
+      "volume": 36500,
+      "sma20": 2059.75,
+      "sma75": 1969.1066666666666,
+      "sma200": 1961.045,
+      "band20_upper": 2091.4887919897083,
+      "band20_lower": 2028.0112080102917,
+      "band200_upper": 2003.363389319611,
+      "band200_lower": 1918.726610680389
     }
   ],
   "markers": [
     {
-      "date": "2026-10-07",
+      "date": "2026-10-08",
       "kind": "near",
-      "ma_period": 20,
-      "setup_id": "3023-20-2026-10-07-0c3c52202d"
+      "ma_period": 200,
+      "setup_id": "3023-200-2026-10-08-130cb77099"
+    },
+    {
+      "date": "2026-10-13",
+      "kind": "stabilizing",
+      "ma_period": 200,
+      "setup_id": "3023-200-2026-10-08-130cb77099"
     }
   ]
 }

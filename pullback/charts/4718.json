@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "dataset": "pullback_chart",
-  "run_id": "2026-10-07-0c3aa2570f1e",
-  "market_as_of": "2026-10-07",
-  "data_as_of": "2026-10-07",
-  "source_daily_run_id": "2026-10-08T001349-90da41877045",
-  "source_input_hash": "34b8f3a1e872dd4ed682ca0278a7c99aed8d04483b3999cfee0c2ddaeff6da71",
+  "run_id": "2026-10-13-f531d72512f2",
+  "market_as_of": "2026-10-13",
+  "data_as_of": "2026-10-13",
+  "source_daily_run_id": "2026-10-13T225706-dba93194ae6e",
+  "source_input_hash": "ffbdfa5fb9dbd0ba5e8a7b282eb6ed69866c07a27878658582c7db135071708b",
   "policy_version": "pullback-2026-09-22-v1",
   "algorithm_version": "pullback-monitor-1.0.5",
   "price_adjustment": "yahoo_split_adjusted_ohlc_no_dividends",
@@ -14,56 +14,11 @@
   "data_status": "current",
   "reason_codes": [],
   "current": {
-    "date": "2026-10-07",
-    "close": 2391.0
+    "date": "2026-10-13",
+    "close": 2480.0
   },
   "last_known": null,
   "bars": [
-    {
-      "date": "2025-09-10",
-      "open": 2776.0,
-      "high": 2828.0,
-      "low": 2776.0,
-      "close": 2820.0,
-      "volume": 22900,
-      "sma20": 2768.6,
-      "sma75": 2552.5333333333333,
-      "sma200": 2211.69,
-      "band20_upper": 2816.7737690614085,
-      "band20_lower": 2720.4262309385913,
-      "band200_upper": 2275.9216920818785,
-      "band200_lower": 2147.4583079181216
-    },
-    {
-      "date": "2025-09-11",
-      "open": 2844.0,
-      "high": 2870.0,
-      "low": 2834.0,
-      "close": 2870.0,
-      "volume": 31400,
-      "sma20": 2774.9,
-      "sma75": 2559.7733333333335,
-      "sma200": 2217.085,
-      "band20_upper": 2822.311356101085,
-      "band20_lower": 2727.488643898915,
-      "band200_upper": 2280.3001414681135,
-      "band200_lower": 2153.8698585318866
-    },
-    {
-      "date": "2025-09-12",
-      "open": 2877.0,
-      "high": 2877.0,
-      "low": 2829.0,
-      "close": 2839.0,
-      "volume": 31700,
-      "sma20": 2779.55,
-      "sma75": 2566.68,
-      "sma200": 2222.145,
-      "band20_upper": 2826.1462587984165,
-      "band20_lower": 2732.953741201584,
-      "band200_upper": 2284.273345064555,
-      "band200_lower": 2160.016654935445
-    },
     {
       "date": "2025-09-16",
       "open": 2863.0,
@@ -3918,12 +3873,69 @@
       "band20_lower": 2450.845058824751,
       "band200_upper": 2330.396588233665,
       "band200_lower": 2205.5834117663344
+    },
+    {
+      "date": "2026-10-08",
+      "open": 2355.0,
+      "high": 2400.0,
+      "low": 2351.0,
+      "close": 2395.0,
+      "volume": 24600,
+      "sma20": 2485.5,
+      "sma75": 2452.3333333333335,
+      "sma200": 2268.735,
+      "band20_upper": 2531.5867315927876,
+      "band20_lower": 2439.4132684072124,
+      "band200_upper": 2330.18397545705,
+      "band200_lower": 2207.28602454295
+    },
+    {
+      "date": "2026-10-09",
+      "open": 2395.0,
+      "high": 2456.0,
+      "low": 2392.0,
+      "close": 2440.0,
+      "volume": 25000,
+      "sma20": 2475.9,
+      "sma75": 2452.24,
+      "sma200": 2269.685,
+      "band20_upper": 2522.1233940680772,
+      "band20_lower": 2429.676605931923,
+      "band200_upper": 2331.316192090769,
+      "band200_lower": 2208.0538079092307
+    },
+    {
+      "date": "2026-10-13",
+      "open": 2440.0,
+      "high": 2492.0,
+      "low": 2440.0,
+      "close": 2480.0,
+      "volume": 16100,
+      "sma20": 2473.35,
+      "sma75": 2453.52,
+      "sma200": 2270.565,
+      "band20_upper": 2519.0574362077546,
+      "band20_lower": 2427.6425637922453,
+      "band200_upper": 2331.5082482770063,
+      "band200_lower": 2209.621751722994
     }
   ],
   "markers": [
     {
       "date": "2026-10-06",
       "kind": "near",
+      "ma_period": 200,
+      "setup_id": "4718-200-2026-10-06-e0142b091c"
+    },
+    {
+      "date": "2026-10-09",
+      "kind": "stabilizing",
+      "ma_period": 200,
+      "setup_id": "4718-200-2026-10-06-e0142b091c"
+    },
+    {
+      "date": "2026-10-13",
+      "kind": "rebound",
       "ma_period": 200,
       "setup_id": "4718-200-2026-10-06-e0142b091c"
     }

@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "dataset": "pullback_chart",
-  "run_id": "2026-10-07-0c3aa2570f1e",
-  "market_as_of": "2026-10-07",
-  "data_as_of": "2026-10-07",
-  "source_daily_run_id": "2026-10-08T001349-90da41877045",
-  "source_input_hash": "34b8f3a1e872dd4ed682ca0278a7c99aed8d04483b3999cfee0c2ddaeff6da71",
+  "run_id": "2026-10-13-f531d72512f2",
+  "market_as_of": "2026-10-13",
+  "data_as_of": "2026-10-13",
+  "source_daily_run_id": "2026-10-13T225706-dba93194ae6e",
+  "source_input_hash": "ffbdfa5fb9dbd0ba5e8a7b282eb6ed69866c07a27878658582c7db135071708b",
   "policy_version": "pullback-2026-09-22-v1",
   "algorithm_version": "pullback-monitor-1.0.5",
   "price_adjustment": "yahoo_split_adjusted_ohlc_no_dividends",
@@ -14,56 +14,11 @@
   "data_status": "current",
   "reason_codes": [],
   "current": {
-    "date": "2026-10-07",
-    "close": 2771.5
+    "date": "2026-10-13",
+    "close": 2848.0
   },
   "last_known": null,
   "bars": [
-    {
-      "date": "2025-09-10",
-      "open": 2215.0,
-      "high": 2221.5,
-      "low": 2198.0,
-      "close": 2198.0,
-      "volume": 2456600,
-      "sma20": 2196.475,
-      "sma75": 2076.02,
-      "sma200": 2062.89,
-      "band20_upper": 2226.234459407373,
-      "band20_lower": 2166.715540592627,
-      "band200_upper": 2102.5692792098307,
-      "band200_lower": 2023.210720790169
-    },
-    {
-      "date": "2025-09-11",
-      "open": 2201.0,
-      "high": 2209.5,
-      "low": 2172.5,
-      "close": 2192.5,
-      "volume": 2576000,
-      "sma20": 2199.3,
-      "sma75": 2077.48,
-      "sma200": 2063.2975,
-      "band20_upper": 2228.9159272618654,
-      "band20_lower": 2169.684072738135,
-      "band200_upper": 2102.7854030158205,
-      "band200_lower": 2023.8095969841797
-    },
-    {
-      "date": "2025-09-12",
-      "open": 2186.5,
-      "high": 2187.0,
-      "low": 2150.5,
-      "close": 2150.5,
-      "volume": 3601600,
-      "sma20": 2199.25,
-      "sma75": 2078.5066666666667,
-      "sma200": 2063.55,
-      "band20_upper": 2229.0005045178095,
-      "band20_lower": 2169.4994954821905,
-      "band200_upper": 2103.2173393570797,
-      "band200_lower": 2023.8826606429207
-    },
     {
       "date": "2025-09-16",
       "open": 2139.0,
@@ -3918,12 +3873,69 @@
       "band20_lower": 2785.69712360366,
       "band200_upper": 2729.3096685284527,
       "band200_lower": 2616.635331471547
+    },
+    {
+      "date": "2026-10-08",
+      "open": 2778.0,
+      "high": 2786.0,
+      "low": 2731.0,
+      "close": 2750.5,
+      "volume": 4157400,
+      "sma20": 2821.9,
+      "sma75": 2902.2,
+      "sma200": 2675.05,
+      "band20_upper": 2864.081243325589,
+      "band20_lower": 2779.718756674411,
+      "band200_upper": 2731.2916577674528,
+      "band200_lower": 2618.8083422325476
+    },
+    {
+      "date": "2026-10-09",
+      "open": 2769.0,
+      "high": 2831.0,
+      "low": 2756.0,
+      "close": 2800.0,
+      "volume": 3060400,
+      "sma20": 2819.575,
+      "sma75": 2902.5666666666666,
+      "sma200": 2677.5025,
+      "band20_upper": 2863.0557969630963,
+      "band20_lower": 2776.0942030369033,
+      "band200_upper": 2735.4768959507956,
+      "band200_lower": 2619.5281040492046
+    },
+    {
+      "date": "2026-10-13",
+      "open": 2829.5,
+      "high": 2857.5,
+      "low": 2806.0,
+      "close": 2848.0,
+      "volume": 2382100,
+      "sma20": 2821.775,
+      "sma75": 2903.06,
+      "sma200": 2680.145,
+      "band20_upper": 2865.2303823000248,
+      "band20_lower": 2778.3196176999754,
+      "band200_upper": 2738.0855097333665,
+      "band200_lower": 2622.2044902666335
     }
   ],
   "markers": [
     {
       "date": "2026-10-07",
       "kind": "near",
+      "ma_period": 200,
+      "setup_id": "2503-200-2026-10-07-496dc2746f"
+    },
+    {
+      "date": "2026-10-09",
+      "kind": "stabilizing",
+      "ma_period": 200,
+      "setup_id": "2503-200-2026-10-07-496dc2746f"
+    },
+    {
+      "date": "2026-10-13",
+      "kind": "rebound",
       "ma_period": 200,
       "setup_id": "2503-200-2026-10-07-496dc2746f"
     }
