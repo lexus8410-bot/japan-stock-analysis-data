@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "dataset": "pullback_chart",
-  "run_id": "2026-10-13-f531d72512f2",
-  "market_as_of": "2026-10-13",
-  "data_as_of": "2026-10-13",
-  "source_daily_run_id": "2026-10-13T225706-dba93194ae6e",
-  "source_input_hash": "ffbdfa5fb9dbd0ba5e8a7b282eb6ed69866c07a27878658582c7db135071708b",
+  "run_id": "2026-10-19-3378f1431d0f",
+  "market_as_of": "2026-10-19",
+  "data_as_of": "2026-10-16",
+  "source_daily_run_id": "2026-10-19T230207-1c6e5c5c755b",
+  "source_input_hash": "aa5a743f904c3bf6537d5b6c59aa33a2139f0e17220f26eee807d2a61add698f",
   "policy_version": "pullback-2026-09-22-v1",
   "algorithm_version": "pullback-monitor-1.0.5",
   "price_adjustment": "yahoo_split_adjusted_ohlc_no_dividends",
@@ -14,56 +14,11 @@
   "data_status": "current",
   "reason_codes": [],
   "current": {
-    "date": "2026-10-13",
-    "close": 2433.0
+    "date": "2026-10-16",
+    "close": 2487.0
   },
   "last_known": null,
   "bars": [
-    {
-      "date": "2025-09-16",
-      "open": 1786.0,
-      "high": 1829.0,
-      "low": 1780.0,
-      "close": 1790.0,
-      "volume": 44000,
-      "sma20": 1674.25,
-      "sma75": 1477.12,
-      "sma200": 1390.25,
-      "band20_upper": 1703.373324444374,
-      "band20_lower": 1645.126675555626,
-      "band200_upper": 1429.0810992591653,
-      "band200_lower": 1351.4189007408347
-    },
-    {
-      "date": "2025-09-17",
-      "open": 1797.0,
-      "high": 1802.0,
-      "low": 1770.0,
-      "close": 1793.0,
-      "volume": 37700,
-      "sma20": 1685.25,
-      "sma75": 1482.96,
-      "sma200": 1392.32,
-      "band20_upper": 1714.0073728523464,
-      "band20_lower": 1656.4926271476536,
-      "band200_upper": 1430.6631638031286,
-      "band200_lower": 1353.9768361968713
-    },
-    {
-      "date": "2025-09-18",
-      "open": 1811.0,
-      "high": 1847.0,
-      "low": 1799.0,
-      "close": 1805.0,
-      "volume": 29200,
-      "sma20": 1696.75,
-      "sma75": 1488.96,
-      "sma200": 1394.42,
-      "band20_upper": 1726.3461321357054,
-      "band20_lower": 1667.1538678642946,
-      "band200_upper": 1433.881509514274,
-      "band200_lower": 1354.958490485726
-    },
     {
       "date": "2025-09-19",
       "open": 1798.0,
@@ -3918,12 +3873,69 @@
       "band20_lower": 2401.2353179761635,
       "band200_upper": 2203.4479093651153,
       "band200_lower": 2090.3420906348847
+    },
+    {
+      "date": "2026-10-14",
+      "open": 2423.0,
+      "high": 2437.0,
+      "low": 2406.0,
+      "close": 2418.0,
+      "volume": 19800,
+      "sma20": 2445.3,
+      "sma75": 2374.1066666666666,
+      "sma200": 2150.465,
+      "band20_upper": 2486.345776678322,
+      "band20_lower": 2404.254223321678,
+      "band200_upper": 2205.1927022377627,
+      "band200_lower": 2095.7372977622376
+    },
+    {
+      "date": "2026-10-15",
+      "open": 2401.0,
+      "high": 2461.0,
+      "low": 2394.0,
+      "close": 2444.0,
+      "volume": 21000,
+      "sma20": 2449.2,
+      "sma75": 2376.16,
+      "sma200": 2154.2,
+      "band20_upper": 2490.9032219712954,
+      "band20_lower": 2407.4967780287043,
+      "band200_upper": 2209.804295961727,
+      "band200_lower": 2098.5957040382727
+    },
+    {
+      "date": "2026-10-16",
+      "open": 2446.0,
+      "high": 2507.0,
+      "low": 2446.0,
+      "close": 2487.0,
+      "volume": 20500,
+      "sma20": 2452.45,
+      "sma75": 2378.786666666667,
+      "sma200": 2158.11,
+      "band20_upper": 2494.54942112058,
+      "band20_lower": 2410.3505788794196,
+      "band200_upper": 2214.2425614941076,
+      "band200_lower": 2101.9774385058927
     }
   ],
   "markers": [
     {
       "date": "2026-10-02",
       "kind": "near",
+      "ma_period": 20,
+      "setup_id": "9702-20-2026-10-02-055128dc7a"
+    },
+    {
+      "date": "2026-10-16",
+      "kind": "stabilizing",
+      "ma_period": 20,
+      "setup_id": "9702-20-2026-10-02-055128dc7a"
+    },
+    {
+      "date": "2026-10-19",
+      "kind": "ended",
       "ma_period": 20,
       "setup_id": "9702-20-2026-10-02-055128dc7a"
     }
