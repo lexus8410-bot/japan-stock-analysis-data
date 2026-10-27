@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "dataset": "pullback_chart",
-  "run_id": "2026-10-23-524eb7b7e7fe",
-  "market_as_of": "2026-10-23",
-  "data_as_of": "2026-10-23",
-  "source_daily_run_id": "2026-10-25T160411-4e3dd13e9f2f",
-  "source_input_hash": "9b6aee68121a7dee8b4f222edf57ffd013e5f80bfb117fb1878c033c1b76af4d",
+  "run_id": "2026-10-27-102e5a2e82e0",
+  "market_as_of": "2026-10-27",
+  "data_as_of": "2026-10-26",
+  "source_daily_run_id": "2026-10-27T230444-be6dcb070c13",
+  "source_input_hash": "1df8224fa1743b7c340b9186322c5b973c336c3980b12c6107f4afb35f077249",
   "policy_version": "pullback-2026-09-22-v1",
   "algorithm_version": "pullback-monitor-1.0.5",
   "price_adjustment": "yahoo_split_adjusted_ohlc_no_dividends",
@@ -14,26 +14,11 @@
   "data_status": "current",
   "reason_codes": [],
   "current": {
-    "date": "2026-10-23",
-    "close": 2615.0
+    "date": "2026-10-26",
+    "close": 2584.5
   },
   "last_known": null,
   "bars": [
-    {
-      "date": "2025-09-29",
-      "open": 2257.0,
-      "high": 2260.0,
-      "low": 2229.5,
-      "close": 2233.5,
-      "volume": 740200,
-      "sma20": 2223.55,
-      "sma75": 1971.6066666666666,
-      "sma200": 1919.3,
-      "band20_upper": 2249.755480056459,
-      "band20_lower": 2197.3445199435414,
-      "band200_upper": 1954.2406400752782,
-      "band200_lower": 1884.3593599247217
-    },
     {
       "date": "2025-09-30",
       "open": 2234.0,
@@ -3918,12 +3903,33 @@
       "band20_lower": 2669.340977698248,
       "band200_upper": 2673.1720297356696,
       "band200_lower": 2565.347970264331
+    },
+    {
+      "date": "2026-10-26",
+      "open": 2621.5,
+      "high": 2623.5,
+      "low": 2581.0,
+      "close": 2584.5,
+      "volume": 1142800,
+      "sma20": 2704.475,
+      "sma75": 2651.306666666667,
+      "sma200": 2620.605,
+      "band20_upper": 2744.2976642312688,
+      "band20_lower": 2664.652335768731,
+      "band200_upper": 2673.7018856416917,
+      "band200_lower": 2567.5081143583084
     }
   ],
   "markers": [
     {
       "date": "2026-10-22",
       "kind": "near",
+      "ma_period": 200,
+      "setup_id": "7276-200-2026-10-22-6ed0194021"
+    },
+    {
+      "date": "2026-10-27",
+      "kind": "ended",
       "ma_period": 200,
       "setup_id": "7276-200-2026-10-22-6ed0194021"
     }

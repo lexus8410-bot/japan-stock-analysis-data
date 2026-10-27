@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "dataset": "pullback_chart",
-  "run_id": "2026-10-23-524eb7b7e7fe",
-  "market_as_of": "2026-10-23",
-  "data_as_of": "2026-10-22",
-  "source_daily_run_id": "2026-10-25T160411-4e3dd13e9f2f",
-  "source_input_hash": "9b6aee68121a7dee8b4f222edf57ffd013e5f80bfb117fb1878c033c1b76af4d",
+  "run_id": "2026-10-27-102e5a2e82e0",
+  "market_as_of": "2026-10-27",
+  "data_as_of": "2026-10-27",
+  "source_daily_run_id": "2026-10-27T230444-be6dcb070c13",
+  "source_input_hash": "1df8224fa1743b7c340b9186322c5b973c336c3980b12c6107f4afb35f077249",
   "policy_version": "pullback-2026-09-22-v1",
   "algorithm_version": "pullback-monitor-1.0.5",
   "price_adjustment": "yahoo_split_adjusted_ohlc_no_dividends",
@@ -14,56 +14,11 @@
   "data_status": "current",
   "reason_codes": [],
   "current": {
-    "date": "2026-10-22",
-    "close": 1134.0
+    "date": "2026-10-27",
+    "close": 1100.0
   },
   "last_known": null,
   "bars": [
-    {
-      "date": "2025-09-26",
-      "open": 739.0,
-      "high": 754.0,
-      "low": 736.0,
-      "close": 748.0,
-      "volume": 139700,
-      "sma20": 708.6,
-      "sma75": 636.1733333333333,
-      "sma200": 625.455,
-      "band20_upper": 720.4096550882283,
-      "band20_lower": 696.7903449117717,
-      "band200_upper": 641.2012067843044,
-      "band200_lower": 609.7087932156957
-    },
-    {
-      "date": "2025-09-29",
-      "open": 738.0,
-      "high": 741.0,
-      "low": 725.0,
-      "close": 736.0,
-      "volume": 66000,
-      "sma20": 711.5,
-      "sma75": 637.76,
-      "sma200": 626.08,
-      "band20_upper": 723.6982510546374,
-      "band20_lower": 699.3017489453626,
-      "band200_upper": 642.3443347395164,
-      "band200_lower": 609.8156652604837
-    },
-    {
-      "date": "2025-09-30",
-      "open": 738.0,
-      "high": 738.0,
-      "low": 716.0,
-      "close": 733.0,
-      "volume": 105700,
-      "sma20": 713.95,
-      "sma75": 639.4133333333333,
-      "sma200": 626.67,
-      "band20_upper": 726.4555187456289,
-      "band20_lower": 701.4444812543712,
-      "band200_upper": 643.3440249941717,
-      "band200_lower": 609.9959750058282
-    },
     {
       "date": "2025-10-01",
       "open": 728.0,
@@ -3918,26 +3873,59 @@
       "band20_lower": 1137.8548899241075,
       "band200_upper": 1088.75348010119,
       "band200_lower": 1043.16651989881
+    },
+    {
+      "date": "2026-10-23",
+      "open": 1124.0,
+      "high": 1129.0,
+      "low": 1107.0,
+      "close": 1119.0,
+      "volume": 109000,
+      "sma20": 1153.85,
+      "sma75": 1118.2,
+      "sma200": 1067.52,
+      "band20_upper": 1171.1704590047516,
+      "band20_lower": 1136.5295409952482,
+      "band200_upper": 1090.6139453396688,
+      "band200_lower": 1044.4260546603311
+    },
+    {
+      "date": "2026-10-26",
+      "open": 1119.0,
+      "high": 1126.0,
+      "low": 1108.0,
+      "close": 1108.0,
+      "volume": 43200,
+      "sma20": 1151.65,
+      "sma75": 1118.6933333333334,
+      "sma200": 1069.02,
+      "band20_upper": 1168.6975696523511,
+      "band20_lower": 1134.602430347649,
+      "band200_upper": 1091.7500928698012,
+      "band200_lower": 1046.2899071301988
+    },
+    {
+      "date": "2026-10-27",
+      "open": 1114.0,
+      "high": 1118.0,
+      "low": 1086.0,
+      "close": 1100.0,
+      "volume": 43300,
+      "sma20": 1148.95,
+      "sma75": 1119.08,
+      "sma200": 1070.49,
+      "band20_upper": 1166.4941721714745,
+      "band20_lower": 1131.4058278285256,
+      "band200_upper": 1093.882229561966,
+      "band200_lower": 1047.097770438034
     }
   ],
   "markers": [
     {
-      "date": "2026-10-15",
+      "date": "2026-10-27",
       "kind": "near",
-      "ma_period": 20,
-      "setup_id": "6470-20-2026-10-15-00d1fe5f53"
-    },
-    {
-      "date": "2026-10-16",
-      "kind": "stabilizing",
-      "ma_period": 20,
-      "setup_id": "6470-20-2026-10-15-00d1fe5f53"
-    },
-    {
-      "date": "2026-10-23",
-      "kind": "ended",
-      "ma_period": 20,
-      "setup_id": "6470-20-2026-10-15-00d1fe5f53"
+      "ma_period": 200,
+      "setup_id": "6470-200-2026-10-27-38cd50b21c"
     }
   ]
 }
