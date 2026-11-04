@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "dataset": "pullback_chart",
-  "run_id": "2026-10-28-c079581f4348",
-  "market_as_of": "2026-10-28",
-  "data_as_of": "2026-10-28",
-  "source_daily_run_id": "2026-10-29T000324-399c185e3161",
-  "source_input_hash": "c28ec3ebae61eb8dd6e28dd1f82d3dd5bcb952368ae884743e1e8eb859e9cb26",
+  "run_id": "2026-11-04-c2c6a4f54eb7",
+  "market_as_of": "2026-11-04",
+  "data_as_of": "2026-11-02",
+  "source_daily_run_id": "2026-11-04T214532-f965bfffeb3a",
+  "source_input_hash": "99c5c5a9fcb5bfbc5ba29c3a012a74295fd08ec45d97814c512abfabed86aecb",
   "policy_version": "pullback-2026-09-22-v1",
   "algorithm_version": "pullback-monitor-1.0.5",
   "price_adjustment": "yahoo_split_adjusted_ohlc_no_dividends",
@@ -14,56 +14,11 @@
   "data_status": "current",
   "reason_codes": [],
   "current": {
-    "date": "2026-10-28",
-    "close": 3000.0
+    "date": "2026-11-02",
+    "close": 2890.0
   },
   "last_known": null,
   "bars": [
-    {
-      "date": "2025-10-02",
-      "open": 1899.0,
-      "high": 1926.0,
-      "low": 1871.0,
-      "close": 1886.0,
-      "volume": 135200,
-      "sma20": 1949.3666625976562,
-      "sma75": 1786.5644482421876,
-      "sma200": 1608.5783349609376,
-      "band20_upper": 1985.8421310886313,
-      "band20_lower": 1912.891194106681,
-      "band200_upper": 1656.8356850097657,
-      "band200_lower": 1560.3209849121095
-    },
-    {
-      "date": "2025-10-03",
-      "open": 1887.0,
-      "high": 1938.0,
-      "low": 1887.0,
-      "close": 1920.0,
-      "volume": 121900,
-      "sma20": 1948.0333312988282,
-      "sma75": 1792.1644482421875,
-      "sma200": 1610.4866680908203,
-      "band20_upper": 1984.6891245680786,
-      "band20_lower": 1911.3775380295779,
-      "band200_upper": 1658.801268133545,
-      "band200_lower": 1562.1720680480958
-    },
-    {
-      "date": "2025-10-06",
-      "open": 2014.0,
-      "high": 2097.0,
-      "low": 2010.0,
-      "close": 2084.0,
-      "volume": 484100,
-      "sma20": 1954.9,
-      "sma75": 1799.1955598958334,
-      "sma200": 1613.3566680908202,
-      "band20_upper": 1993.998,
-      "band20_lower": 1915.8020000000001,
-      "band200_upper": 1661.7573681335448,
-      "band200_lower": 1564.9559680480957
-    },
     {
       "date": "2025-10-07",
       "open": 2106.0,
@@ -3918,6 +3873,51 @@
       "band20_lower": 2918.93,
       "band200_upper": 2914.7248999999997,
       "band200_lower": 2744.9351
+    },
+    {
+      "date": "2026-10-29",
+      "open": 3055.0,
+      "high": 3060.0,
+      "low": 2997.0,
+      "close": 3045.0,
+      "volume": 197100,
+      "sma20": 2979.0,
+      "sma75": 2933.346666666667,
+      "sma200": 2833.19,
+      "band20_upper": 3038.58,
+      "band20_lower": 2919.42,
+      "band200_upper": 2918.1857,
+      "band200_lower": 2748.1943
+    },
+    {
+      "date": "2026-10-30",
+      "open": 3030.0,
+      "high": 3065.0,
+      "low": 2954.0,
+      "close": 2979.0,
+      "volume": 172800,
+      "sma20": 2979.65,
+      "sma75": 2937.04,
+      "sma200": 2835.92,
+      "band20_upper": 3039.243,
+      "band20_lower": 2920.0570000000002,
+      "band200_upper": 2920.9976,
+      "band200_lower": 2750.8424
+    },
+    {
+      "date": "2026-11-02",
+      "open": 2899.0,
+      "high": 2953.0,
+      "low": 2858.0,
+      "close": 2890.0,
+      "volume": 142700,
+      "sma20": 2976.6,
+      "sma75": 2939.8133333333335,
+      "sma200": 2838.285,
+      "band20_upper": 3036.132,
+      "band20_lower": 2917.0679999999998,
+      "band200_upper": 2923.4335499999997,
+      "band200_lower": 2753.13645
     }
   ],
   "markers": [
@@ -3936,6 +3936,12 @@
     {
       "date": "2026-10-27",
       "kind": "rebound",
+      "ma_period": 200,
+      "setup_id": "8061-200-2026-10-20-6f37ed28f3"
+    },
+    {
+      "date": "2026-11-04",
+      "kind": "ended",
       "ma_period": 200,
       "setup_id": "8061-200-2026-10-20-6f37ed28f3"
     }
