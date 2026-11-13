@@ -1,1868 +1,766 @@
 {
   "schema_version": 1,
-  "run_id": "2026-11-04-c2c6a4f54eb7",
-  "market_as_of": "2026-11-04",
-  "source_daily_run_id": "2026-11-04T214532-f965bfffeb3a",
+  "run_id": "2026-11-12-3866311cf08f",
+  "market_as_of": "2026-11-12",
+  "source_daily_run_id": "2026-11-13T114336-3eb07327098f",
   "price_adjustment": "yahoo_split_adjusted_ohlc_no_dividends",
-  "source_input_hash": "99c5c5a9fcb5bfbc5ba29c3a012a74295fd08ec45d97814c512abfabed86aecb",
+  "source_input_hash": "38f88895f915c22714029cd3d56345e72a2447a349e22601734878102240dae7",
   "policy_version": "pullback-2026-09-22-v1",
   "algorithm_version": "pullback-monitor-1.0.5",
-  "generated_at": "2026-11-04T21:45:52.239385+09:00",
+  "generated_at": "2026-11-13T11:44:02.917335+09:00",
   "health": "partial",
   "events": [
     {
-      "ticker": "167A",
-      "setup_id": "167A-200-2026-11-04-b429ffae58",
-      "event_type": "episode_started",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "2003",
-      "setup_id": "2003-20-2026-10-27-5ad44fa2c0",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "2004",
-      "setup_id": "2004-20-2026-10-28-7daaec56d6",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
       "ticker": "2053",
       "setup_id": "2053-20-2026-11-04-6974d0d28a",
+      "event_type": "state_changed",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
+      "reasons": null
+    },
+    {
+      "ticker": "2109",
+      "setup_id": "2109-200-2026-10-30-afe4b9fc5c",
+      "event_type": "state_changed",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
+      "reasons": null
+    },
+    {
+      "ticker": "2124",
+      "setup_id": "2124-20-2026-11-12-5c504085b4",
       "event_type": "episode_started",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
       "reasons": null
     },
     {
-      "ticker": "2120",
-      "setup_id": "2120-20-2026-10-21-2fdafdae72",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "2153",
-      "setup_id": "2153-200-2026-10-28-950e6d3853",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "215A",
-      "setup_id": "215A-200-2026-11-04-b997b3c4db",
+      "ticker": "2212",
+      "setup_id": "2212-20-2026-11-12-0d5945d35c",
       "event_type": "episode_started",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
       "reasons": null
     },
     {
-      "ticker": "2170",
-      "setup_id": "2170-200-2026-10-14-5aa45791f8",
+      "ticker": "2489",
+      "setup_id": "2489-200-2026-11-02-a92ec80960",
       "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
       "reasons": null
     },
     {
-      "ticker": "2267",
-      "setup_id": "2267-200-2026-10-28-4f3b97ee45",
+      "ticker": "2782",
+      "setup_id": "2782-200-2026-11-02-ea22bae111",
       "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "2384",
-      "setup_id": "2384-20-2026-11-04-ae99b5c4db",
-      "event_type": "episode_started",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "2433",
-      "setup_id": "2433-20-2026-10-28-180be38133",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "2531",
-      "setup_id": "2531-20-2026-10-23-447419f1a1",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "2579",
-      "setup_id": "2579-200-2026-10-22-e4c80f721d",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "2590",
-      "setup_id": "2590-20-2026-10-27-5159f1a379",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "2593",
-      "setup_id": "2593-20-2026-10-28-3ba043896f",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "2607",
-      "setup_id": "2607-20-2026-10-21-9f60603af8",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "2613",
-      "setup_id": "2613-20-2026-11-04-5f4abcd79a",
-      "event_type": "episode_started",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "2760",
-      "setup_id": "2760-200-2026-11-04-68b74b0fa6",
-      "event_type": "episode_started",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "2802",
-      "setup_id": "2802-200-2026-10-23-d81b25daee",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "2820",
-      "setup_id": "2820-20-2026-10-19-350ad631e2",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "287A",
-      "setup_id": "287A-200-2026-11-04-01eb6fac69",
-      "event_type": "episode_started",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "2914",
-      "setup_id": "2914-20-2026-10-28-c8369bdd68",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
       "reasons": null
     },
     {
       "ticker": "2930",
       "setup_id": "2930-20-2026-11-04-f9c85c20f4",
-      "event_type": "episode_started",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "3042",
-      "setup_id": "3042-20-2026-11-04-d056421c90",
-      "event_type": "episode_started",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "3097",
-      "setup_id": "3097-20-2026-10-28-aba45daf25",
       "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
       "reasons": null
     },
     {
-      "ticker": "3105",
-      "setup_id": "3105-200-2026-11-04-4f9b520312",
-      "event_type": "episode_started",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "3132",
-      "setup_id": "3132-200-2026-11-04-5c22958a11",
-      "event_type": "episode_started",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "3151",
-      "setup_id": "3151-200-2026-10-20-58249a322d",
+      "ticker": "3091",
+      "setup_id": "3091-20-2026-10-29-e9b3aacd0b",
       "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
       "reasons": null
     },
     {
-      "ticker": "3191",
-      "setup_id": "3191-200-2026-11-04-c0c5862d7a",
-      "event_type": "episode_started",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "3201",
-      "setup_id": "3201-20-2026-10-28-c1c23901f1",
+      "ticker": "3393",
+      "setup_id": "3393-200-2026-11-02-b9b1c3d077",
       "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "3402",
-      "setup_id": "3402-200-2026-10-21-0399895e11",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
       "reasons": null
     },
     {
       "ticker": "3405",
-      "setup_id": "3405-20-2026-10-20-e5ed87c5d4",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "3549",
-      "setup_id": "3549-20-2026-10-28-ed2f87db9e",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "3563",
-      "setup_id": "3563-20-2026-10-26-71080726a8",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "3652",
-      "setup_id": "3652-200-2026-10-23-9c8c2e2267",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
+      "setup_id": "3405-20-2026-11-12-6a2b52afd7",
+      "event_type": "episode_started",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
       "reasons": null
     },
     {
       "ticker": "3657",
       "setup_id": "3657-200-2026-11-04-ad7e73c7fe",
-      "event_type": "episode_started",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "3753",
-      "setup_id": "3753-20-2026-11-04-6aa5518937",
-      "event_type": "episode_started",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "3964",
-      "setup_id": "3964-200-2026-11-04-e322cdde5c",
-      "event_type": "episode_started",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
+      "event_type": "state_changed",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
       "reasons": null
     },
     {
       "ticker": "3967",
       "setup_id": "3967-200-2026-11-04-8b9fd1f8b5",
-      "event_type": "episode_started",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "4021",
-      "setup_id": "4021-200-2026-11-04-64b3fa0a12",
-      "event_type": "episode_started",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "4051",
-      "setup_id": "4051-200-2026-10-26-c0eb5da50f",
       "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
       "reasons": null
     },
     {
-      "ticker": "4064",
-      "setup_id": "4064-200-2026-11-04-da21963684",
-      "event_type": "episode_started",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
+      "ticker": "4044",
+      "setup_id": "4044-200-2026-10-23-a0de1e18ce",
+      "event_type": "state_changed",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
       "reasons": null
     },
     {
       "ticker": "417A",
-      "setup_id": "417A-20-2026-10-28-2e1c6c25b3",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "4216",
-      "setup_id": "4216-200-2026-10-23-35348dff5a",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "4221",
-      "setup_id": "4221-200-2026-10-22-9872257062",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "4238",
-      "setup_id": "4238-200-2026-11-04-962eb958e4",
+      "setup_id": "417A-200-2026-11-12-151b279c5b",
       "event_type": "episode_started",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
       "reasons": null
     },
     {
-      "ticker": "4272",
-      "setup_id": "4272-200-2026-10-23-18ead63c28",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "4324",
-      "setup_id": "4324-20-2026-10-27-59df9f3fc6",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "4382",
-      "setup_id": "4382-200-2026-11-04-b49a67ef48",
+      "ticker": "4180",
+      "setup_id": "4180-20-2026-11-12-9908e7c198",
       "event_type": "episode_started",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
       "reasons": null
     },
     {
-      "ticker": "4386",
-      "setup_id": "4386-200-2026-11-04-3bfded2726",
-      "event_type": "episode_started",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "4447",
-      "setup_id": "4447-200-2026-11-04-7f2ed386e4",
-      "event_type": "episode_started",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "4452",
-      "setup_id": "4452-20-2026-10-28-08e1d08d62",
+      "ticker": "4477",
+      "setup_id": "4477-200-2026-11-02-9662d4b14c",
       "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
       "reasons": null
     },
     {
-      "ticker": "4498",
-      "setup_id": "4498-20-2026-11-04-701ca857dd",
+      "ticker": "456A",
+      "setup_id": "456A-20-2026-11-12-b00b19c4e7",
       "event_type": "episode_started",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
       "reasons": null
     },
     {
-      "ticker": "4612",
-      "setup_id": "4612-20-2026-10-21-9176fd7327",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "4665",
-      "setup_id": "4665-20-2026-10-28-034dd9d7e6",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "4912",
-      "setup_id": "4912-20-2026-10-27-6ec7753707",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "5019",
-      "setup_id": "5019-200-2026-11-04-3e17b2b851",
+      "ticker": "4667",
+      "setup_id": "4667-200-2026-11-12-9c04f22162",
       "event_type": "episode_started",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
       "reasons": null
     },
     {
-      "ticker": "5020",
-      "setup_id": "5020-200-2026-11-04-87bf8fe417",
+      "ticker": "4684",
+      "setup_id": "4684-20-2026-11-12-7abeb57f05",
       "event_type": "episode_started",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
       "reasons": null
     },
     {
-      "ticker": "5108",
-      "setup_id": "5108-20-2026-10-28-3e05fdcfa0",
+      "ticker": "4733",
+      "setup_id": "4733-20-2026-11-12-e4d040eacf",
+      "event_type": "episode_started",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
+      "reasons": null
+    },
+    {
+      "ticker": "4933",
+      "setup_id": "4933-20-2026-11-12-ccd2c9d1fc",
+      "event_type": "episode_started",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
+      "reasons": null
+    },
+    {
+      "ticker": "5018",
+      "setup_id": "5018-20-2026-10-30-38d293ccb0",
       "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
       "reasons": null
     },
     {
       "ticker": "5121",
       "setup_id": "5121-200-2026-11-04-2537268427",
-      "event_type": "episode_started",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "5122",
-      "setup_id": "5122-200-2026-11-04-0bf41cba63",
-      "event_type": "episode_started",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
+      "event_type": "state_changed",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
       "reasons": null
     },
     {
       "ticker": "5184",
       "setup_id": "5184-200-2026-11-04-aa24e23983",
+      "event_type": "state_changed",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
+      "reasons": null
+    },
+    {
+      "ticker": "5192",
+      "setup_id": "5192-200-2026-11-02-480b8ab983",
+      "event_type": "state_changed",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
+      "reasons": null
+    },
+    {
+      "ticker": "5273",
+      "setup_id": "5273-20-2026-11-12-2d5cf6cace",
       "event_type": "episode_started",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
       "reasons": null
     },
     {
-      "ticker": "5208",
-      "setup_id": "5208-200-2026-10-23-ae0efc6e94",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "5233",
-      "setup_id": "5233-200-2026-10-20-b2d5235d98",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "5367",
-      "setup_id": "5367-200-2026-11-04-1f5bfc0642",
+      "ticker": "5363",
+      "setup_id": "5363-200-2026-11-12-8446e90322",
       "event_type": "episode_started",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "5393",
-      "setup_id": "5393-200-2026-10-22-bd13240df6",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "5463",
-      "setup_id": "5463-200-2026-10-23-ed67efe7a5",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "5527",
-      "setup_id": "5527-20-2026-10-28-235ac21568",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "5832",
-      "setup_id": "5832-200-2026-10-23-efbccc316f",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "5985",
-      "setup_id": "5985-200-2026-11-04-463afc1a73",
-      "event_type": "episode_started",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "6072",
-      "setup_id": "6072-200-2026-10-23-b983a3cfb0",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "6104",
-      "setup_id": "6104-200-2026-11-04-2916509f3b",
-      "event_type": "episode_started",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
       "reasons": null
     },
     {
       "ticker": "6136",
       "setup_id": "6136-200-2026-11-04-ad421cbda5",
-      "event_type": "episode_started",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
+      "event_type": "state_changed",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
       "reasons": null
     },
     {
       "ticker": "6165",
       "setup_id": "6165-200-2026-11-04-d31452d386",
-      "event_type": "episode_started",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "6258",
-      "setup_id": "6258-200-2026-11-04-f46a97de64",
-      "event_type": "episode_started",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "6333",
-      "setup_id": "6333-200-2026-11-04-7c42d7041d",
-      "event_type": "episode_started",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "6473",
-      "setup_id": "6473-200-2026-10-23-230f073690",
       "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
       "reasons": null
     },
     {
-      "ticker": "6480",
-      "setup_id": "6480-200-2026-10-20-4e3e251229",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "6490",
-      "setup_id": "6490-200-2026-11-04-ae4235af72",
+      "ticker": "6250",
+      "setup_id": "6250-200-2026-11-12-8602eb1924",
       "event_type": "episode_started",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
+      "reasons": null
+    },
+    {
+      "ticker": "6523",
+      "setup_id": "6523-200-2026-11-12-81736e642b",
+      "event_type": "episode_started",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
+      "reasons": null
+    },
+    {
+      "ticker": "6532",
+      "setup_id": "6532-20-2026-11-12-d7b3ac91f5",
+      "event_type": "episode_started",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
       "reasons": null
     },
     {
       "ticker": "6736",
       "setup_id": "6736-200-2026-10-23-f88068e4c2",
       "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "6741",
-      "setup_id": "6741-200-2026-11-04-763dda8d27",
-      "event_type": "episode_started",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "6752",
-      "setup_id": "6752-200-2026-10-23-dba7cdf69d",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "6779",
-      "setup_id": "6779-200-2026-10-23-30a095dcf5",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "6785",
-      "setup_id": "6785-200-2026-10-23-cdd5319cdd",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "6794",
-      "setup_id": "6794-200-2026-11-04-2bd9028cfa",
-      "event_type": "episode_started",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
       "reasons": null
     },
     {
       "ticker": "6835",
       "setup_id": "6835-200-2026-11-04-83e3b385b4",
-      "event_type": "episode_started",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "6850",
-      "setup_id": "6850-200-2026-11-04-e903f4a123",
-      "event_type": "episode_started",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "6859",
-      "setup_id": "6859-200-2026-11-04-cb54922add",
-      "event_type": "episode_started",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "6861",
-      "setup_id": "6861-200-2026-11-04-ef64e0f224",
-      "event_type": "episode_started",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "6918",
-      "setup_id": "6918-200-2026-11-04-ef3c6a2bac",
-      "event_type": "episode_started",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "6946",
-      "setup_id": "6946-200-2026-10-23-352c57881b",
       "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
       "reasons": null
     },
     {
-      "ticker": "6958",
-      "setup_id": "6958-200-2026-11-04-67c938d4ab",
-      "event_type": "episode_started",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "7161",
-      "setup_id": "7161-200-2026-10-23-2038306393",
+      "ticker": "7180",
+      "setup_id": "7180-200-2026-10-23-a1f9fa74f1",
       "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "7167",
-      "setup_id": "7167-200-2026-10-23-e08302f68b",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "7177",
-      "setup_id": "7177-200-2026-10-26-130fbc98b9",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "7246",
-      "setup_id": "7246-200-2026-11-04-5e55b878c2",
-      "event_type": "episode_started",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
       "reasons": null
     },
     {
       "ticker": "7256",
       "setup_id": "7256-200-2026-11-04-c3fdfe7b0a",
-      "event_type": "episode_started",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "7282",
-      "setup_id": "7282-200-2026-10-23-af84d81949",
       "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "7322",
-      "setup_id": "7322-200-2026-10-23-9a97386cb2",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
       "reasons": null
     },
     {
       "ticker": "7327",
       "setup_id": "7327-200-2026-10-23-fd20677b23",
       "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
       "reasons": null
     },
     {
-      "ticker": "7337",
-      "setup_id": "7337-200-2026-10-23-b4611ba041",
+      "ticker": "7388",
+      "setup_id": "7388-200-2026-10-29-23e3be0813",
       "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
       "reasons": null
     },
     {
-      "ticker": "7350",
-      "setup_id": "7350-200-2026-10-23-f3d0d0b761",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
+      "ticker": "7419",
+      "setup_id": "7419-20-2026-11-12-b84a80b491",
+      "event_type": "episode_started",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
       "reasons": null
     },
     {
-      "ticker": "7380",
-      "setup_id": "7380-200-2026-10-23-84464f8dfd",
+      "ticker": "7466",
+      "setup_id": "7466-200-2026-10-28-46a62fb263",
       "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
       "reasons": null
     },
     {
-      "ticker": "7384",
-      "setup_id": "7384-200-2026-10-23-004ea57aaa",
+      "ticker": "7504",
+      "setup_id": "7504-20-2026-11-02-96dde52e7e",
       "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "7513",
-      "setup_id": "7513-200-2026-10-27-aa2b7c25db",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
       "reasons": null
     },
     {
       "ticker": "7550",
-      "setup_id": "7550-20-2026-10-27-3c48faf78a",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "7715",
-      "setup_id": "7715-200-2026-11-04-9185931ad0",
+      "setup_id": "7550-20-2026-11-12-9c0759faf8",
       "event_type": "episode_started",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
       "reasons": null
     },
     {
-      "ticker": "7745",
-      "setup_id": "7745-200-2026-10-23-d0fc1ed03e",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "7762",
-      "setup_id": "7762-200-2026-10-23-e1b673abf6",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
+      "ticker": "7616",
+      "setup_id": "7616-20-2026-11-12-12866615b2",
+      "event_type": "episode_started",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
       "reasons": null
     },
     {
       "ticker": "7780",
       "setup_id": "7780-200-2026-11-04-de4d726b07",
-      "event_type": "episode_started",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
+      "event_type": "state_changed",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
       "reasons": null
     },
     {
-      "ticker": "7832",
-      "setup_id": "7832-20-2026-10-27-82214d0376",
+      "ticker": "7989",
+      "setup_id": "7989-200-2026-10-29-341b37a144",
       "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
       "reasons": null
     },
     {
-      "ticker": "7867",
-      "setup_id": "7867-20-2026-10-28-bca4898b41",
+      "ticker": "8020",
+      "setup_id": "8020-200-2026-11-02-30bec48d0a",
       "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "7931",
-      "setup_id": "7931-200-2026-10-28-563fda8feb",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
       "reasons": null
     },
     {
       "ticker": "8078",
       "setup_id": "8078-200-2026-11-04-4d947c9ee5",
-      "event_type": "episode_started",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
+      "event_type": "state_changed",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
+      "reasons": null
+    },
+    {
+      "ticker": "8081",
+      "setup_id": "8081-200-2026-11-02-4ed89e06d4",
+      "event_type": "state_changed",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
       "reasons": null
     },
     {
       "ticker": "8131",
       "setup_id": "8131-20-2026-11-04-8593b974d6",
+      "event_type": "state_changed",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
+      "reasons": null
+    },
+    {
+      "ticker": "8142",
+      "setup_id": "8142-200-2026-10-28-338a03a978",
+      "event_type": "state_changed",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
+      "reasons": null
+    },
+    {
+      "ticker": "8163",
+      "setup_id": "8163-20-2026-11-12-dad92da186",
       "event_type": "episode_started",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "8137",
-      "setup_id": "8137-200-2026-11-04-b506e4055a",
-      "event_type": "episode_started",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "8167",
-      "setup_id": "8167-200-2026-10-28-f7faf2ee60",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "8218",
-      "setup_id": "8218-20-2026-10-27-203febfe36",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "8304",
-      "setup_id": "8304-200-2026-10-23-8d5553812f",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "8306",
-      "setup_id": "8306-200-2026-10-23-6a950f53a8",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "8308",
-      "setup_id": "8308-200-2026-10-23-ce18e3795b",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "8316",
-      "setup_id": "8316-200-2026-10-23-c7c21b3773",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "8331",
-      "setup_id": "8331-200-2026-10-22-22d3ff51a1",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "8334",
-      "setup_id": "8334-200-2026-10-23-3ca8b2ac37",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "8336",
-      "setup_id": "8336-200-2026-10-23-721475db8f",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "8337",
-      "setup_id": "8337-200-2026-10-23-03c9e099f0",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
       "reasons": null
     },
     {
       "ticker": "8341",
-      "setup_id": "8341-200-2026-10-23-dfcce3058d",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "8343",
-      "setup_id": "8343-200-2026-10-23-0b4d3597a0",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "8345",
-      "setup_id": "8345-200-2026-10-22-c35212f29c",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
+      "setup_id": "8341-200-2026-11-12-7307cf47e3",
+      "event_type": "episode_started",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
       "reasons": null
     },
     {
       "ticker": "8359",
       "setup_id": "8359-200-2026-10-23-92d5270afc",
       "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
       "reasons": null
     },
     {
-      "ticker": "8360",
-      "setup_id": "8360-200-2026-10-23-8a46b9ce9b",
+      "ticker": "8628",
+      "setup_id": "8628-200-2026-10-27-2e8a32442e",
       "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
       "reasons": null
     },
     {
-      "ticker": "8361",
-      "setup_id": "8361-200-2026-10-23-c30a1a8c69",
+      "ticker": "9251",
+      "setup_id": "9251-200-2026-10-29-c45d2a5a37",
       "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
       "reasons": null
     },
     {
-      "ticker": "8366",
-      "setup_id": "8366-200-2026-11-04-5fa8ae59ca",
+      "ticker": "9310",
+      "setup_id": "9310-200-2026-11-12-85438fddf3",
       "event_type": "episode_started",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "8367",
-      "setup_id": "8367-200-2026-10-23-009883c1a4",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "8368",
-      "setup_id": "8368-200-2026-10-23-e66b4aca3a",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "8370",
-      "setup_id": "8370-200-2026-10-23-f5f1b5b4d1",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "8377",
-      "setup_id": "8377-200-2026-10-23-63a69fbfb0",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "8395",
-      "setup_id": "8395-200-2026-10-23-009f2b4171",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "8411",
-      "setup_id": "8411-200-2026-10-22-24d20c2ff5",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "8418",
-      "setup_id": "8418-200-2026-10-23-e8d89cbb12",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "8508",
-      "setup_id": "8508-200-2026-11-04-ffd97cf873",
-      "event_type": "episode_started",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "8542",
-      "setup_id": "8542-200-2026-10-23-5225561f93",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "8544",
-      "setup_id": "8544-200-2026-10-22-e869caecae",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "8563",
-      "setup_id": "8563-200-2026-11-04-ed7b62048c",
-      "event_type": "episode_started",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "8600",
-      "setup_id": "8600-200-2026-10-23-43c8814d8c",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "8601",
-      "setup_id": "8601-200-2026-10-23-9009b15e56",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "8604",
-      "setup_id": "8604-200-2026-10-15-4239167814",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "8622",
-      "setup_id": "8622-200-2026-10-23-67edf39e7b",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "8704",
-      "setup_id": "8704-200-2026-10-27-bcd41d0662",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "8725",
-      "setup_id": "8725-20-2026-11-04-2dfc9a5491",
-      "event_type": "episode_started",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "8739",
-      "setup_id": "8739-200-2026-11-04-f4e509f601",
-      "event_type": "episode_started",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "9069",
-      "setup_id": "9069-20-2026-10-20-90a283fa84",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "9076",
-      "setup_id": "9076-200-2026-10-27-8707b4015d",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "9104",
-      "setup_id": "9104-20-2026-10-16-f234c40668",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "9250",
-      "setup_id": "9250-200-2026-11-04-e2a0a11363",
-      "event_type": "episode_started",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "9303",
-      "setup_id": "9303-200-2026-11-04-6f0f75b747",
-      "event_type": "episode_started",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "9347",
-      "setup_id": "9347-20-2026-10-28-c51feaf242",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "9503",
-      "setup_id": "9503-20-2026-11-04-829f0b9bf7",
-      "event_type": "episode_started",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
       "reasons": null
     },
     {
       "ticker": "9534",
       "setup_id": "9534-20-2026-11-04-7c6c3f0712",
-      "event_type": "episode_started",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "9560",
-      "setup_id": "9560-20-2026-11-04-3d0f95ed13",
-      "event_type": "episode_started",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "9605",
-      "setup_id": "9605-200-2026-10-28-0cea54203b",
       "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "9616",
-      "setup_id": "9616-20-2026-10-28-01edcf88fd",
-      "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
       "reasons": null
     },
     {
       "ticker": "9621",
       "setup_id": "9621-20-2026-11-04-b909d1028c",
-      "event_type": "episode_started",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "9729",
-      "setup_id": "9729-20-2026-11-04-dc4dcbe2ec",
-      "event_type": "episode_started",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "9742",
-      "setup_id": "9742-20-2026-10-26-7f9edffda5",
       "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
       "reasons": null
     },
     {
-      "ticker": "9828",
-      "setup_id": "9828-200-2026-11-04-e2e2c68e14",
-      "event_type": "episode_started",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "9960",
-      "setup_id": "9960-200-2026-11-04-eb38b2c9ff",
-      "event_type": "episode_started",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": null
-    },
-    {
-      "ticker": "9983",
-      "setup_id": "9983-200-2026-10-27-7d59ed7a3c",
+      "ticker": "9678",
+      "setup_id": "9678-20-2026-10-29-22c8855603",
       "event_type": "state_changed",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
       "reasons": null
     },
     {
-      "ticker": "4205",
-      "setup_id": "4205-200-2026-10-23-5b8de7cfd3",
-      "event_type": "episode_ended",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": [
-        "pattern_broken"
-      ]
+      "ticker": "9888",
+      "setup_id": "9888-20-2026-11-02-be6b22a402",
+      "event_type": "state_changed",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
+      "reasons": null
     },
     {
-      "ticker": "8338",
-      "setup_id": "8338-200-2026-10-22-b4c89901c2",
+      "ticker": "7282",
+      "setup_id": "7282-200-2026-10-23-af84d81949",
       "event_type": "episode_ended",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": [
-        "pattern_broken"
-      ]
-    },
-    {
-      "ticker": "4933",
-      "setup_id": "4933-20-2026-10-20-7ebfc8e931",
-      "event_type": "episode_ended",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
       "reasons": [
         "post_rebound_complete"
       ]
     },
     {
-      "ticker": "8097",
-      "setup_id": "8097-20-2026-10-28-6878b5fdc6",
+      "ticker": "4249",
+      "setup_id": "4249-200-2026-10-29-2584ecdcd0",
       "event_type": "episode_ended",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
+      "reasons": [
+        "post_rebound_complete"
+      ]
+    },
+    {
+      "ticker": "9702",
+      "setup_id": "9702-20-2026-10-28-7f941072b6",
+      "event_type": "episode_ended",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
+      "reasons": [
+        "observation_expired"
+      ]
+    },
+    {
+      "ticker": "2267",
+      "setup_id": "2267-200-2026-10-28-4f3b97ee45",
+      "event_type": "episode_ended",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
+      "reasons": [
+        "post_rebound_complete"
+      ]
+    },
+    {
+      "ticker": "7239",
+      "setup_id": "7239-200-2026-10-23-92bdfc186c",
+      "event_type": "episode_ended",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
+      "reasons": [
+        "post_rebound_complete"
+      ]
+    },
+    {
+      "ticker": "8697",
+      "setup_id": "8697-200-2026-10-27-56d0514010",
+      "event_type": "episode_ended",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
+      "reasons": [
+        "post_rebound_complete"
+      ]
+    },
+    {
+      "ticker": "2170",
+      "setup_id": "2170-200-2026-10-14-5aa45791f8",
+      "event_type": "episode_ended",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
+      "reasons": [
+        "pattern_broken",
+        "post_rebound_complete"
+      ]
+    },
+    {
+      "ticker": "3191",
+      "setup_id": "3191-200-2026-11-04-c0c5862d7a",
+      "event_type": "episode_ended",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
+      "reasons": [
+        "post_rebound_complete"
+      ]
+    },
+    {
+      "ticker": "2674",
+      "setup_id": "2674-200-2026-10-29-38ff2a65d8",
+      "event_type": "episode_ended",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
+      "reasons": [
+        "post_rebound_complete"
+      ]
+    },
+    {
+      "ticker": "9039",
+      "setup_id": "9039-200-2026-10-29-9bef1706bd",
+      "event_type": "episode_ended",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
+      "reasons": [
+        "trend_ineligible",
+        "post_rebound_complete"
+      ]
+    },
+    {
+      "ticker": "9076",
+      "setup_id": "9076-200-2026-10-27-8707b4015d",
+      "event_type": "episode_ended",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
+      "reasons": [
+        "post_rebound_complete"
+      ]
+    },
+    {
+      "ticker": "8739",
+      "setup_id": "8739-200-2026-11-04-f4e509f601",
+      "event_type": "episode_ended",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
+      "reasons": [
+        "post_rebound_complete"
+      ]
+    },
+    {
+      "ticker": "8167",
+      "setup_id": "8167-200-2026-10-28-f7faf2ee60",
+      "event_type": "episode_ended",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
+      "reasons": [
+        "trend_ineligible",
+        "post_rebound_complete"
+      ]
+    },
+    {
+      "ticker": "4240",
+      "setup_id": "4240-20-2026-10-30-aeac3587ef",
+      "event_type": "episode_ended",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
       "reasons": [
         "pattern_broken"
       ]
     },
     {
-      "ticker": "2154",
-      "setup_id": "2154-20-2026-10-27-ecfd56344c",
+      "ticker": "3663",
+      "setup_id": "3663-200-2026-10-29-58a8dc2730",
       "event_type": "episode_ended",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
       "reasons": [
-        "pattern_broken",
+        "post_rebound_complete"
+      ]
+    },
+    {
+      "ticker": "5892",
+      "setup_id": "5892-200-2026-11-02-9af9f90e31",
+      "event_type": "episode_ended",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
+      "reasons": [
         "trend_ineligible"
       ]
     },
     {
-      "ticker": "6336",
-      "setup_id": "6336-200-2026-10-23-081b5036dc",
+      "ticker": "7513",
+      "setup_id": "7513-200-2026-10-27-aa2b7c25db",
       "event_type": "episode_ended",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": [
-        "pattern_broken"
-      ]
-    },
-    {
-      "ticker": "2354",
-      "setup_id": "2354-200-2026-10-19-30a4e48ee8",
-      "event_type": "episode_ended",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": [
-        "pattern_broken"
-      ]
-    },
-    {
-      "ticker": "8053",
-      "setup_id": "8053-200-2026-10-23-9779aa84bf",
-      "event_type": "episode_ended",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
       "reasons": [
         "post_rebound_complete"
       ]
     },
     {
-      "ticker": "4293",
-      "setup_id": "4293-200-2026-10-23-dccb8783dc",
+      "ticker": "8613",
+      "setup_id": "8613-200-2026-10-29-bd3f1c6dbc",
       "event_type": "episode_ended",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": [
-        "pattern_broken"
-      ]
-    },
-    {
-      "ticker": "4192",
-      "setup_id": "4192-20-2026-10-26-71d6bd62bc",
-      "event_type": "episode_ended",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": [
-        "pattern_broken"
-      ]
-    },
-    {
-      "ticker": "6517",
-      "setup_id": "6517-200-2026-10-20-271ca35644",
-      "event_type": "episode_ended",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": [
-        "pattern_broken"
-      ]
-    },
-    {
-      "ticker": "4633",
-      "setup_id": "4633-20-2026-10-20-2bdc7ecb53",
-      "event_type": "episode_ended",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": [
-        "observation_expired"
-      ]
-    },
-    {
-      "ticker": "6745",
-      "setup_id": "6745-200-2026-10-20-2a0083b735",
-      "event_type": "episode_ended",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
       "reasons": [
         "post_rebound_complete"
       ]
     },
     {
-      "ticker": "1980",
-      "setup_id": "1980-200-2026-10-23-46f6fa7de4",
+      "ticker": "5970",
+      "setup_id": "5970-200-2026-11-02-36c78cef20",
       "event_type": "episode_ended",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": [
-        "pattern_broken"
-      ]
-    },
-    {
-      "ticker": "5133",
-      "setup_id": "5133-20-2026-10-28-1bd07bb3e7",
-      "event_type": "episode_ended",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": [
-        "pattern_broken"
-      ]
-    },
-    {
-      "ticker": "8012",
-      "setup_id": "8012-200-2026-10-23-600029065d",
-      "event_type": "episode_ended",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
       "reasons": [
         "post_rebound_complete"
       ]
     },
     {
-      "ticker": "6238",
-      "setup_id": "6238-20-2026-10-26-31db6243b6",
+      "ticker": "9433",
+      "setup_id": "9433-200-2026-10-28-78449e8a55",
       "event_type": "episode_ended",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": [
-        "pattern_broken"
-      ]
-    },
-    {
-      "ticker": "4202",
-      "setup_id": "4202-200-2026-10-22-e20902edd1",
-      "event_type": "episode_ended",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
       "reasons": [
         "post_rebound_complete"
       ]
     },
     {
-      "ticker": "4613",
-      "setup_id": "4613-20-2026-10-20-d17ee76d60",
+      "ticker": "3964",
+      "setup_id": "3964-200-2026-11-04-e322cdde5c",
       "event_type": "episode_ended",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": [
-        "observation_expired"
-      ]
-    },
-    {
-      "ticker": "6807",
-      "setup_id": "6807-200-2026-10-23-a61f334396",
-      "event_type": "episode_ended",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": [
-        "pattern_broken"
-      ]
-    },
-    {
-      "ticker": "4188",
-      "setup_id": "4188-200-2026-10-23-cf5cef10ab",
-      "event_type": "episode_ended",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
       "reasons": [
         "post_rebound_complete"
       ]
     },
     {
-      "ticker": "2334",
-      "setup_id": "2334-200-2026-10-23-3c5b651ca2",
+      "ticker": "8622",
+      "setup_id": "8622-200-2026-10-23-67edf39e7b",
       "event_type": "episode_ended",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": [
-        "pattern_broken"
-      ]
-    },
-    {
-      "ticker": "8285",
-      "setup_id": "8285-200-2026-10-28-027f0652d2",
-      "event_type": "episode_ended",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": [
-        "pattern_broken"
-      ]
-    },
-    {
-      "ticker": "9880",
-      "setup_id": "9880-200-2026-10-23-151e949816",
-      "event_type": "episode_ended",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": [
-        "pattern_broken"
-      ]
-    },
-    {
-      "ticker": "9432",
-      "setup_id": "9432-20-2026-10-28-18fdd33008",
-      "event_type": "episode_ended",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": [
-        "pattern_broken"
-      ]
-    },
-    {
-      "ticker": "6809",
-      "setup_id": "6809-200-2026-10-15-c3759dd54e",
-      "event_type": "episode_ended",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": [
-        "pattern_broken"
-      ]
-    },
-    {
-      "ticker": "8566",
-      "setup_id": "8566-200-2026-10-07-b4ed5164aa",
-      "event_type": "episode_ended",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": [
-        "pattern_broken"
-      ]
-    },
-    {
-      "ticker": "3950",
-      "setup_id": "3950-20-2026-10-26-3c392d7f3a",
-      "event_type": "episode_ended",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
       "reasons": [
         "post_rebound_complete"
       ]
     },
     {
-      "ticker": "3569",
-      "setup_id": "3569-200-2026-10-27-cf27714b3e",
+      "ticker": "9726",
+      "setup_id": "9726-200-2026-10-27-f84deb22ec",
       "event_type": "episode_ended",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": [
-        "pattern_broken"
-      ]
-    },
-    {
-      "ticker": "4919",
-      "setup_id": "4919-20-2026-10-28-8336b9b8da",
-      "event_type": "episode_ended",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": [
-        "pattern_broken"
-      ]
-    },
-    {
-      "ticker": "6376",
-      "setup_id": "6376-200-2026-10-22-1f65c8d40a",
-      "event_type": "episode_ended",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": [
-        "pattern_broken"
-      ]
-    },
-    {
-      "ticker": "8061",
-      "setup_id": "8061-200-2026-10-20-6f37ed28f3",
-      "event_type": "episode_ended",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
       "reasons": [
         "post_rebound_complete"
       ]
     },
     {
-      "ticker": "6508",
-      "setup_id": "6508-200-2026-10-23-d92ac14f01",
+      "ticker": "9697",
+      "setup_id": "9697-200-2026-10-29-e9cb7d4bbf",
       "event_type": "episode_ended",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": [
-        "pattern_broken"
-      ]
-    },
-    {
-      "ticker": "6976",
-      "setup_id": "6976-200-2026-10-22-10b1a75f40",
-      "event_type": "episode_ended",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": [
-        "pattern_broken"
-      ]
-    },
-    {
-      "ticker": "1961",
-      "setup_id": "1961-200-2026-10-23-ea9d91cfae",
-      "event_type": "episode_ended",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
       "reasons": [
         "post_rebound_complete"
       ]
     },
     {
-      "ticker": "5020",
-      "setup_id": "5020-20-2026-10-28-8415c939f0",
+      "ticker": "3402",
+      "setup_id": "3402-200-2026-10-21-0399895e11",
       "event_type": "episode_ended",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": [
-        "pattern_broken"
-      ]
-    },
-    {
-      "ticker": "8624",
-      "setup_id": "8624-200-2026-10-23-d08ce7d0b8",
-      "event_type": "episode_ended",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": [
-        "pattern_broken"
-      ]
-    },
-    {
-      "ticker": "5246",
-      "setup_id": "5246-20-2026-10-23-20d5a5fb8e",
-      "event_type": "episode_ended",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": [
-        "pattern_broken"
-      ]
-    },
-    {
-      "ticker": "6470",
-      "setup_id": "6470-200-2026-10-27-38cd50b21c",
-      "event_type": "episode_ended",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": [
-        "pattern_broken"
-      ]
-    },
-    {
-      "ticker": "7970",
-      "setup_id": "7970-200-2026-10-22-ee1f4cd9c4",
-      "event_type": "episode_ended",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
       "reasons": [
         "post_rebound_complete"
       ]
     },
     {
-      "ticker": "7864",
-      "setup_id": "7864-20-2026-10-26-e8fe8216e1",
+      "ticker": "7936",
+      "setup_id": "7936-200-2026-10-28-ab15637249",
       "event_type": "episode_ended",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": [
-        "pattern_broken"
-      ]
-    },
-    {
-      "ticker": "6994",
-      "setup_id": "6994-200-2026-10-22-a74dd77b41",
-      "event_type": "episode_ended",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": [
-        "pattern_broken"
-      ]
-    },
-    {
-      "ticker": "9928",
-      "setup_id": "9928-20-2026-10-27-3cd0622d9c",
-      "event_type": "episode_ended",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": [
-        "pattern_broken"
-      ]
-    },
-    {
-      "ticker": "6440",
-      "setup_id": "6440-200-2026-10-23-1a9b7d4b07",
-      "event_type": "episode_ended",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
       "reasons": [
         "post_rebound_complete"
       ]
     },
     {
-      "ticker": "1982",
-      "setup_id": "1982-200-2026-10-23-495eabeb30",
+      "ticker": "6736",
+      "setup_id": "6736-20-2026-11-02-99b1e32904",
       "event_type": "episode_ended",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
+      "event_as_of": "2026-11-12",
+      "detected_at": "2026-11-13T11:44:02.917335+09:00",
       "reasons": [
         "post_rebound_complete"
-      ]
-    },
-    {
-      "ticker": "3843",
-      "setup_id": "3843-20-2026-10-20-5d02cbb6fd",
-      "event_type": "episode_ended",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": [
-        "post_rebound_complete"
-      ]
-    },
-    {
-      "ticker": "7199",
-      "setup_id": "7199-20-2026-10-15-9a84b9bf8a",
-      "event_type": "episode_ended",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": [
-        "post_rebound_complete"
-      ]
-    },
-    {
-      "ticker": "6768",
-      "setup_id": "6768-200-2026-10-20-c51cb317d5",
-      "event_type": "episode_ended",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": [
-        "pattern_broken"
-      ]
-    },
-    {
-      "ticker": "8524",
-      "setup_id": "8524-200-2026-10-22-ebcb5d8e29",
-      "event_type": "episode_ended",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": [
-        "post_rebound_complete"
-      ]
-    },
-    {
-      "ticker": "7128",
-      "setup_id": "7128-20-2026-10-28-0c70161b61",
-      "event_type": "episode_ended",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": [
-        "pattern_broken"
-      ]
-    },
-    {
-      "ticker": "5136",
-      "setup_id": "5136-20-2026-10-22-d782c6b153",
-      "event_type": "episode_ended",
-      "event_as_of": "2026-11-04",
-      "detected_at": "2026-11-04T21:45:52.239385+09:00",
-      "reasons": [
-        "pattern_broken"
       ]
     }
   ]
