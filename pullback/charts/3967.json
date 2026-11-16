@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "dataset": "pullback_chart",
-  "run_id": "2026-11-12-3866311cf08f",
-  "market_as_of": "2026-11-12",
-  "data_as_of": "2026-11-12",
-  "source_daily_run_id": "2026-11-13T114336-3eb07327098f",
-  "source_input_hash": "38f88895f915c22714029cd3d56345e72a2447a349e22601734878102240dae7",
+  "run_id": "2026-11-16-f5d4559b4252",
+  "market_as_of": "2026-11-16",
+  "data_as_of": "2026-11-13",
+  "source_daily_run_id": "2026-11-16T225713-f499030638dc",
+  "source_input_hash": "637d56ce3a766bd3596e998b270a2e52d7a71b8676bc956147c02a366ccea83c",
   "policy_version": "pullback-2026-09-22-v1",
   "algorithm_version": "pullback-monitor-1.0.5",
   "price_adjustment": "yahoo_split_adjusted_ohlc_no_dividends",
@@ -14,26 +14,11 @@
   "data_status": "current",
   "reason_codes": [],
   "current": {
-    "date": "2026-11-12",
-    "close": 624.0
+    "date": "2026-11-13",
+    "close": 626.0
   },
   "last_known": null,
   "bars": [
-    {
-      "date": "2025-10-17",
-      "open": 661.0,
-      "high": 668.0,
-      "low": 655.0,
-      "close": 663.0,
-      "volume": 12500,
-      "sma20": 668.85,
-      "sma75": 701.1733333333333,
-      "sma200": 711.055,
-      "band20_upper": 679.6195571873227,
-      "band20_lower": 658.0804428126773,
-      "band200_upper": 725.4144095830968,
-      "band200_lower": 696.6955904169031
-    },
     {
       "date": "2025-10-20",
       "open": 662.0,
@@ -3918,6 +3903,21 @@
       "band20_lower": 656.6,
       "band200_upper": 626.3739,
       "band200_lower": 589.8860999999999
+    },
+    {
+      "date": "2026-11-13",
+      "open": 624.0,
+      "high": 634.0,
+      "low": 624.0,
+      "close": 626.0,
+      "volume": 13000,
+      "sma20": 667.35,
+      "sma75": 626.28,
+      "sma200": 607.89,
+      "band20_upper": 680.697,
+      "band20_lower": 654.003,
+      "band200_upper": 626.1267,
+      "band200_lower": 589.6533
     }
   ],
   "markers": [
@@ -3930,6 +3930,12 @@
     {
       "date": "2026-11-10",
       "kind": "rebound",
+      "ma_period": 200,
+      "setup_id": "3967-200-2026-11-04-8b9fd1f8b5"
+    },
+    {
+      "date": "2026-11-16",
+      "kind": "ended",
       "ma_period": 200,
       "setup_id": "3967-200-2026-11-04-8b9fd1f8b5"
     }

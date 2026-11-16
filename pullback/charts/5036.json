@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "dataset": "pullback_chart",
-  "run_id": "2026-11-12-3866311cf08f",
-  "market_as_of": "2026-11-12",
-  "data_as_of": "2026-11-12",
-  "source_daily_run_id": "2026-11-13T114336-3eb07327098f",
-  "source_input_hash": "38f88895f915c22714029cd3d56345e72a2447a349e22601734878102240dae7",
+  "run_id": "2026-11-16-f5d4559b4252",
+  "market_as_of": "2026-11-16",
+  "data_as_of": "2026-11-13",
+  "source_daily_run_id": "2026-11-16T225713-f499030638dc",
+  "source_input_hash": "637d56ce3a766bd3596e998b270a2e52d7a71b8676bc956147c02a366ccea83c",
   "policy_version": "pullback-2026-09-22-v1",
   "algorithm_version": "pullback-monitor-1.0.5",
   "price_adjustment": "yahoo_split_adjusted_ohlc_no_dividends",
@@ -14,26 +14,11 @@
   "data_status": "current",
   "reason_codes": [],
   "current": {
-    "date": "2026-11-12",
-    "close": 1725.0
+    "date": "2026-11-13",
+    "close": 1566.0
   },
   "last_known": null,
   "bars": [
-    {
-      "date": "2025-10-17",
-      "open": 1469.0,
-      "high": 1495.0,
-      "low": 1450.0,
-      "close": 1459.0,
-      "volume": 118200,
-      "sma20": 1503.6,
-      "sma75": 1485.2266666666667,
-      "sma200": 1239.235,
-      "band20_upper": 1533.6719999999998,
-      "band20_lower": 1473.528,
-      "band200_upper": 1276.41205,
-      "band200_lower": 1202.05795
-    },
     {
       "date": "2025-10-20",
       "open": 1505.0,
@@ -3918,6 +3903,21 @@
       "band20_lower": 1773.555,
       "band200_upper": 1652.2024,
       "band200_lower": 1555.9576
+    },
+    {
+      "date": "2026-11-13",
+      "open": 1602.0,
+      "high": 1628.0,
+      "low": 1552.0,
+      "close": 1566.0,
+      "volume": 313300,
+      "sma20": 1800.55,
+      "sma75": 1645.1466666666668,
+      "sma200": 1602.825,
+      "band20_upper": 1836.561,
+      "band20_lower": 1764.539,
+      "band200_upper": 1650.90975,
+      "band200_lower": 1554.74025
     }
   ],
   "markers": [
@@ -3930,6 +3930,12 @@
     {
       "date": "2026-11-09",
       "kind": "stabilizing",
+      "ma_period": 200,
+      "setup_id": "5036-200-2026-11-06-fdfe07ce62"
+    },
+    {
+      "date": "2026-11-16",
+      "kind": "ended",
       "ma_period": 200,
       "setup_id": "5036-200-2026-11-06-fdfe07ce62"
     }
